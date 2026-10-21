@@ -1,0 +1,9 @@
+[project]
+name = "yasalma-educational-value"
+version = "0.1.0"
+description = "Streaming source-data exploration for educational value classification"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=4.0,<5",
+    "huggingface-hub>=0.34,<2",
+]
