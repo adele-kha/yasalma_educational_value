@@ -35,3 +35,10 @@ Llama 3.3 70B remains inaccessible to this Nebius key (confirmed by direct HTTP 
 - [Qwen document comparisons and reasons](runs/qwen38-27b-4096/comparisons.csv)
 
 Agreement measures consistency with the supplied human annotations, not independent correctness. Full exports were checked for identical source schema, metadata, document order, and preservation of every field other than model labels, annotator IDs and recomputed problematic-content fields.
+
+## Merged classes
+
+[Three-class report](merged_classes/report.md): Problematic Content, None–Minimal,
+and Basic–Good–Excellent. On all 1,557 documents, Qwen accuracy is **79.13%** and
+Gemma accuracy is **60.50%**. The original three human None/Minimal conflicts are
+resolved by this grouping. All metrics are recalculated from grouped predictions.

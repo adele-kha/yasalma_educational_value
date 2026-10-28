@@ -1,0 +1,159 @@
+{
+  "groups": {
+    "Problematic Content": [
+      "Problematic Content"
+    ],
+    "None–Minimal": [
+      "None",
+      "Minimal"
+    ],
+    "Basic–Good–Excellent": [
+      "Basic",
+      "Good",
+      "Excellent"
+    ]
+  },
+  "shared_successful_documents": 1557,
+  "scored_documents": 1557,
+  "excluded_after_merging": 0,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/qwen38-27b-4096",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.7912652536929994,
+        "micro_precision": 0.7912652536929994,
+        "macro_precision": 0.6744014512303377,
+        "macro_recall": 0.6668940932554794,
+        "macro_f1": 0.6611949279830011,
+        "weighted_f1": 0.792320291881928,
+        "cohens_kappa": 0.6043752682648804,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 34,
+            "tp": 14,
+            "fp": 20,
+            "fn": 25,
+            "tn": 1498,
+            "precision": 0.4117647058823529,
+            "recall": 0.358974358974359,
+            "f1": 0.3835616438356165,
+            "one_vs_rest_accuracy": 0.9710982658959537
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 722,
+            "tp": 665,
+            "fp": 57,
+            "fn": 247,
+            "tn": 588,
+            "precision": 0.9210526315789473,
+            "recall": 0.7291666666666666,
+            "f1": 0.8139534883720931,
+            "one_vs_rest_accuracy": 0.804752729608221
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 801,
+            "tp": 553,
+            "fp": 248,
+            "fn": 53,
+            "tn": 703,
+            "precision": 0.6903870162297129,
+            "recall": 0.9125412541254125,
+            "f1": 0.7860696517412935,
+            "one_vs_rest_accuracy": 0.8066795118818241
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 14,
+            "None–Minimal": 15,
+            "Basic–Good–Excellent": 10
+          },
+          "None–Minimal": {
+            "Problematic Content": 9,
+            "None–Minimal": 665,
+            "Basic–Good–Excellent": 238
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 11,
+            "None–Minimal": 42,
+            "Basic–Good–Excellent": 553
+          }
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-27b-it",
+      "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/gemma3-27b-it",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.605009633911368,
+        "micro_precision": 0.605009633911368,
+        "macro_precision": 0.8010148406809253,
+        "macro_recall": 0.46862765730014294,
+        "macro_f1": 0.4344346333555105,
+        "weighted_f1": 0.5784926739435005,
+        "cohens_kappa": 0.29641777818924864,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 2,
+            "tp": 2,
+            "fp": 0,
+            "fn": 37,
+            "tn": 1518,
+            "precision": 1.0,
+            "recall": 0.05128205128205128,
+            "f1": 0.09756097560975609,
+            "one_vs_rest_accuracy": 0.9762363519588954
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 395,
+            "tp": 355,
+            "fp": 40,
+            "fn": 557,
+            "tn": 605,
+            "precision": 0.8987341772151899,
+            "recall": 0.3892543859649123,
+            "f1": 0.5432287681713849,
+            "one_vs_rest_accuracy": 0.6165703275529865
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 1160,
+            "tp": 585,
+            "fp": 575,
+            "fn": 21,
+            "tn": 376,
+            "precision": 0.5043103448275862,
+            "recall": 0.9653465346534653,
+            "f1": 0.6625141562853907,
+            "one_vs_rest_accuracy": 0.6172125883108542
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 2,
+            "None–Minimal": 19,
+            "Basic–Good–Excellent": 18
+          },
+          "None–Minimal": {
+            "Problematic Content": 0,
+            "None–Minimal": 355,
+            "Basic–Good–Excellent": 557
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 0,
+            "None–Minimal": 21,
+            "Basic–Good–Excellent": 585
+          }
+        }
+      }
+    }
+  ]
+}

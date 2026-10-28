@@ -32,16 +32,17 @@ def parse_response(content):
     return match[2].strip(), match[1].strip()
 
 
-def metrics(pairs):
-    matrix = {a: {b: 0 for b in LABELS} for a in LABELS}
+def metrics(pairs, labels=None):
+    labels = LABELS if labels is None else labels
+    matrix = {a: {b: 0 for b in labels} for a in labels}
     for human, model in pairs:
         matrix[human][model] += 1
     n = len(pairs)
     per_class = {}
-    for label in LABELS:
+    for label in labels:
         tp = matrix[label][label]
         support = sum(matrix[label].values())
-        predicted = sum(matrix[h][label] for h in LABELS)
+        predicted = sum(matrix[h][label] for h in labels)
         fp, fn = predicted-tp, support-tp
         tn = n-tp-fp-fn
         precision = tp/predicted if predicted else 0.0
@@ -50,12 +51,12 @@ def metrics(pairs):
                                precision=precision, recall=recall,
                                f1=2*precision*recall/(precision+recall) if precision+recall else 0.0,
                                one_vs_rest_accuracy=(tp+tn)/n if n else None)
-    accuracy = sum(matrix[x][x] for x in LABELS)/n if n else None
-    expected = sum(sum(matrix[x].values()) * sum(matrix[y][x] for y in LABELS) for x in LABELS)/n**2 if n else None
+    accuracy = sum(matrix[x][x] for x in labels)/n if n else None
+    expected = sum(sum(matrix[x].values()) * sum(matrix[y][x] for y in labels) for x in labels)/n**2 if n else None
     return dict(n=n, accuracy=accuracy, micro_precision=accuracy,
-                macro_precision=sum(v['precision'] for v in per_class.values())/len(LABELS),
-                macro_recall=sum(v['recall'] for v in per_class.values())/len(LABELS),
-                macro_f1=sum(v['f1'] for v in per_class.values())/len(LABELS),
+                macro_precision=sum(v['precision'] for v in per_class.values())/len(labels),
+                macro_recall=sum(v['recall'] for v in per_class.values())/len(labels),
+                macro_f1=sum(v['f1'] for v in per_class.values())/len(labels),
                 weighted_f1=sum(v['f1']*v['support'] for v in per_class.values())/n if n else None,
                 cohens_kappa=(accuracy-expected)/(1-expected) if n and expected != 1 else None,
                 per_class=per_class, confusion_matrix=matrix)

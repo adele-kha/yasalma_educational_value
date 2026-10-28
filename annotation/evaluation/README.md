@@ -103,3 +103,19 @@ shared successful cohort is used for the comparison, with coverage stated.
 `--retry-max-tokens 512` can lower the response allowance on failed long Gemma
 documents without truncating inputs; requests still exceeding its context limit
 remain failures. Budget overrides are recorded per response and execution.
+
+## Merged-class reports
+
+```bash
+uv run python annotation/evaluation/merge_classes.py
+```
+
+Reuses the saved Qwen and Gemma predictions and recalculates metrics for
+Problematic Content, None–Minimal, and Basic–Good–Excellent. Outputs are in
+`merged_classes/`: `report.md`, `metrics.json`, and a grouped comparison CSV for
+each model. Optional run-directory arguments and `--output-dir` select other
+runs or a different output folder. No API calls occur.
+
+Human-label eligibility is recalculated after merging, so None/Minimal conflicts
+now count as agreement on the merged group; disagreements across groups remain
+excluded. Both models are compared on the same shared eligible documents.
