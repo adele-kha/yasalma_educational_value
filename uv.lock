@@ -2175,10 +2175,13 @@ source = { virtual = "." }
 dependencies = [
     { name = "datasets" },
     { name = "huggingface-hub" },
+    { name = "pyarrow", version = "25.0.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "pyarrow", version = "26.0.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "datasets", specifier = ">=4.0,<5" },
     { name = "huggingface-hub", specifier = ">=0.34,<2" },
+    { name = "pyarrow", specifier = ">=21" },
 ]

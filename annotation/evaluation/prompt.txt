@@ -1,0 +1,135 @@
+You are an expert annotator evaluating the educational value of Tatar-language web content.
+
+Below is an extract from a web page expected to be written in Tatar (татар теле), primarily in Cyrillic script.
+
+Evaluate the extract according to the following human annotation guidelines. Assign exactly ONE of these six labels:
+
+- None
+- Minimal
+- Basic
+- Good
+- Excellent
+- Problematic Content
+
+## 1. Problematic Content
+
+Assign **Problematic Content** if the extract:
+- Is clearly automatically translated, particularly unnatural machine-translated advertisements or product descriptions.
+- Is predominantly written in a language other than Tatar.
+- Contains visibly corrupted, broken, or incoherent text, including severe encoding errors, mixed characters within words, or damaged text extraction.
+
+Do not assign this label merely because the text contains Russian loanwords, proper names, occasional code-switching, or minor spelling errors.
+
+If the extract meets the Problematic Content criteria, assign this label rather than an educational-value label.
+
+Otherwise, evaluate its educational value using the categories below.
+
+## 2. None — No Educational Value
+
+Assign **None** if the extract:
+- Has no educational purpose.
+- Consists mainly of entertainment, advertising, personal content, or everyday conversation.
+- Provides no meaningful opportunity to learn.
+
+Examples:
+- Everyday social media conversations.
+- Online store product listings and advertisements.
+- Promotional pages and event announcements.
+- Personal blog posts describing someone's day.
+- Entertainment discussions and comment sections.
+- Sports match reports.
+- Simple news reports without additional educational explanations.
+
+## 3. Minimal — Minimal Educational Value
+
+Assign **Minimal** if the extract:
+- Contains a few facts or fragments of useful information.
+- Is primarily non-educational.
+- Includes information that is incidental rather than the main purpose of the text.
+
+Examples:
+- News articles mentioning historical facts.
+- Travel blogs with basic information about a place.
+- Product reviews containing some technical details.
+- Company websites with brief information about an industry.
+- Recipes that briefly explain a cooking technique.
+- Entertainment articles containing occasional factual information.
+
+## 4. Basic — Basic Educational Content
+
+Assign **Basic** if the extract:
+- Attempts to explain, describe, or teach something.
+- Contains information that may be fragmented, superficial, or poorly organized.
+- May mix educational information with non-educational content.
+
+Examples:
+- Basic tutorials containing advertisements.
+- Simple Wikipedia-style articles about a person's life or a place.
+- Blog posts explaining a concept without much depth.
+- Transcripts of amateur educational videos.
+- Short explanations of scientific concepts.
+- Brief overviews of historical events.
+- Informative stories or literary narratives.
+
+## 5. Good — Good Educational Content
+
+Assign **Good** if the extract:
+- Has a clear educational or instructional purpose.
+- Presents information in a well-organized manner.
+- Is useful for learning or applying knowledge.
+- May have minor limitations in depth, completeness, or presentation.
+
+Examples:
+- Detailed step-by-step tutorials.
+- Well-written educational blog articles.
+- Comprehensive guides to a topic.
+- Clear explanations of scientific processes.
+- Structured learning materials.
+- Educational articles with useful examples.
+- Detailed recipes or religious instructions explaining procedures.
+
+## 6. Excellent — Excellent Educational Content
+
+Assign **Excellent** if the extract:
+- Is an outstanding educational resource.
+- Provides clear structure and detailed explanations.
+- Includes useful examples or practical applications.
+- Contains little or no distracting or irrelevant content.
+- Demonstrates substantial depth, expertise, and completeness.
+
+Examples:
+- Professional educational resources.
+- Well-designed instructional modules.
+- In-depth guides with illustrative examples.
+- Comprehensive educational articles.
+- High-quality teaching materials.
+- Expert explanations with practical applications.
+
+Reserve this label for exceptionally strong educational content. It should be relatively rare.
+
+## 7. Additional Instructions
+
+- Evaluate the extract itself, not the website's reputation or the presumed content of the full document.
+- Judge educational usefulness rather than simply the number of facts.
+- Do not assume that every factual article has high educational value.
+- Do not require the content to follow a formal school curriculum. Practical knowledge, literature, history, religion, culture, and everyday skills can have educational value.
+- Recognize legitimate Tatar vocabulary, grammar, cultural references, and regional terminology.
+- Do not confuse Tatar with Turkish, Bashkir, or Russian.
+- Do not classify coherent Tatar literary or historical texts as problematic merely because they contain unfamiliar expressions.
+- If the extract falls between two educational categories, select the lower category unless the higher category's defining criteria are clearly satisfied.
+- Base your judgment only on the provided text.
+
+## Extract
+
+{example}
+
+## Output Instructions
+
+Briefly justify your classification in English, using no more than 100 words.
+
+Return exactly this format:
+
+Reason: <brief justification>
+Educational label: <None | Minimal | Basic | Good | Excellent | Problematic Content>
+
+Do not provide numerical scores, additional labels, or explanations outside this format.

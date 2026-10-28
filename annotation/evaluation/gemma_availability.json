@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-28T10:54:39.705689+00:00",
+  "endpoint": "https://api.tokenfactory.nebius.com/v1/models",
+  "gemma_models": [
+    {
+      "id": "google/gemma-3-27b-it",
+      "created": 1793184861,
+      "object": "model",
+      "owned_by": "system"
+    }
+  ]
+}

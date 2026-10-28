@@ -1,0 +1,32 @@
+{
+  "dataset": "yasalma/tt-structured-content",
+  "split": "train",
+  "seed": 42,
+  "diversity_count": 350,
+  "random_count": 100,
+  "edge_count": 50,
+  "year_minimum": 3,
+  "year_cap_fraction": 0.15,
+  "genre_minimum_population": 5,
+  "genre_minimum_sample": 5,
+  "missing_genre_floor": 0.15,
+  "length_quantiles": [0.33, 0.67],
+  "length_weights": [117, 116, 117],
+  "extreme_quantiles": [0.05, 0.95],
+  "markup_threshold": 0.15,
+  "repetition_threshold": 0.3,
+  "near_duplicate_similarity": 0.95,
+  "near_duplicate_min_chars": 200,
+  "near_duplicate_anchors": 8,
+  "near_duplicate_bucket_limit": 32,
+  "near_duplicate_sketch_size": 64,
+  "edge_weights": {
+    "extremely_short": 1,
+    "extremely_long": 1,
+    "markup_heavy": 1,
+    "repetitive": 1,
+    "missing_both": 1
+  },
+  "coverage_weights": {"year": 2, "genre": 2, "length": 2, "missing_genre": 2, "format": 1},
+  "output": "sample.json"
+}

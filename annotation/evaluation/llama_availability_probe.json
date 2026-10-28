@@ -1,0 +1,12 @@
+[
+  {
+    "requested_model": "meta-llama/Llama-3.3-70B-Instruct",
+    "http_status": 403,
+    "response": "{\"error\":{\"type\":\"error\",\"message\":\"You do not have access to model `meta-llama/Llama-3.3-70B-Instruct`.\",\"param\":null,\"code\":null},\"detail\":\"Invalid request. Please check the parameters and try again. Details: You do not have access to model `meta-llama/Llama-3.3-70B-Instruct`.\"}"
+  },
+  {
+    "requested_model": "Llama-3.3-70B-Instruct",
+    "http_status": 404,
+    "response": "{\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The model `Llama-3.3-70B-Instruct` does not exist.\",\"param\":\"model\",\"code\":\"model_not_found\"},\"detail\":\"Invalid request. Please check the parameters and try again. Details: The model `Llama-3.3-70B-Instruct` does not exist.\"}"
+  }
+]

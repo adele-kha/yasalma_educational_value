@@ -1,0 +1,287 @@
+{
+  "shared_primary_documents": 1554,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "annotation/evaluation/runs/qwen38-27b-4096",
+      "successful_documents": 1557,
+      "total_documents": 1557,
+      "primary_available": 1554,
+      "common_cohort": {
+        "n": 1554,
+        "accuracy": 0.4568854568854569,
+        "micro_precision": 0.4568854568854569,
+        "macro_precision": 0.39440865659481705,
+        "macro_recall": 0.41722156142464484,
+        "macro_f1": 0.3726134626556959,
+        "weighted_f1": 0.48448362741355483,
+        "cohens_kappa": 0.2770571122103298,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 330,
+            "tp": 250,
+            "fp": 80,
+            "fn": 319,
+            "tn": 905,
+            "precision": 0.7575757575757576,
+            "recall": 0.43936731107205623,
+            "f1": 0.5561735261401558,
+            "one_vs_rest_accuracy": 0.7432432432432432
+          },
+          "Minimal": {
+            "support": 340,
+            "predicted": 391,
+            "tp": 128,
+            "fp": 263,
+            "fn": 212,
+            "tn": 951,
+            "precision": 0.3273657289002558,
+            "recall": 0.3764705882352941,
+            "f1": 0.35020519835841313,
+            "one_vs_rest_accuracy": 0.6943371943371943
+          },
+          "Basic": {
+            "support": 526,
+            "predicted": 497,
+            "tp": 278,
+            "fp": 219,
+            "fn": 248,
+            "tn": 809,
+            "precision": 0.5593561368209256,
+            "recall": 0.5285171102661597,
+            "f1": 0.5434995112414467,
+            "one_vs_rest_accuracy": 0.6994851994851995
+          },
+          "Good": {
+            "support": 60,
+            "predicted": 280,
+            "tp": 36,
+            "fp": 244,
+            "fn": 24,
+            "tn": 1250,
+            "precision": 0.12857142857142856,
+            "recall": 0.6,
+            "f1": 0.21176470588235294,
+            "one_vs_rest_accuracy": 0.8275418275418276
+          },
+          "Excellent": {
+            "support": 20,
+            "predicted": 22,
+            "tp": 4,
+            "fp": 18,
+            "fn": 16,
+            "tn": 1516,
+            "precision": 0.18181818181818182,
+            "recall": 0.2,
+            "f1": 0.1904761904761905,
+            "one_vs_rest_accuracy": 0.9781209781209781
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 34,
+            "tp": 14,
+            "fp": 20,
+            "fn": 25,
+            "tn": 1495,
+            "precision": 0.4117647058823529,
+            "recall": 0.358974358974359,
+            "f1": 0.3835616438356165,
+            "one_vs_rest_accuracy": 0.971042471042471
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 250,
+            "Minimal": 224,
+            "Basic": 81,
+            "Good": 9,
+            "Excellent": 0,
+            "Problematic Content": 5
+          },
+          "Minimal": {
+            "None": 62,
+            "Minimal": 128,
+            "Basic": 114,
+            "Good": 29,
+            "Excellent": 3,
+            "Problematic Content": 4
+          },
+          "Basic": {
+            "None": 6,
+            "Minimal": 25,
+            "Basic": 278,
+            "Good": 193,
+            "Excellent": 14,
+            "Problematic Content": 10
+          },
+          "Good": {
+            "None": 1,
+            "Minimal": 6,
+            "Basic": 16,
+            "Good": 36,
+            "Excellent": 1,
+            "Problematic Content": 0
+          },
+          "Excellent": {
+            "None": 1,
+            "Minimal": 3,
+            "Basic": 1,
+            "Good": 10,
+            "Excellent": 4,
+            "Problematic Content": 1
+          },
+          "Problematic Content": {
+            "None": 10,
+            "Minimal": 5,
+            "Basic": 7,
+            "Good": 3,
+            "Excellent": 0,
+            "Problematic Content": 14
+          }
+        }
+      }
+    },
+    {
+      "model": "google/gemma-3-27b-it",
+      "run": "annotation/evaluation/runs/gemma3-27b-it",
+      "successful_documents": 1557,
+      "total_documents": 1557,
+      "primary_available": 1554,
+      "common_cohort": {
+        "n": 1554,
+        "accuracy": 0.22522522522522523,
+        "micro_precision": 0.22522522522522523,
+        "macro_precision": 0.36080057525073017,
+        "macro_recall": 0.24653386725078774,
+        "macro_f1": 0.1468436348814339,
+        "weighted_f1": 0.19137782125326322,
+        "cohens_kappa": 0.01715473193137687,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 17,
+            "tp": 9,
+            "fp": 8,
+            "fn": 560,
+            "tn": 977,
+            "precision": 0.5294117647058824,
+            "recall": 0.015817223198594025,
+            "f1": 0.030716723549488054,
+            "one_vs_rest_accuracy": 0.6344916344916345
+          },
+          "Minimal": {
+            "support": 340,
+            "predicted": 377,
+            "tp": 85,
+            "fp": 292,
+            "fn": 255,
+            "tn": 922,
+            "precision": 0.22546419098143236,
+            "recall": 0.25,
+            "f1": 0.23709902370990238,
+            "one_vs_rest_accuracy": 0.648005148005148
+          },
+          "Basic": {
+            "support": 526,
+            "predicted": 652,
+            "tp": 208,
+            "fp": 444,
+            "fn": 318,
+            "tn": 584,
+            "precision": 0.31901840490797545,
+            "recall": 0.39543726235741444,
+            "f1": 0.3531409168081494,
+            "one_vs_rest_accuracy": 0.5096525096525096
+          },
+          "Good": {
+            "support": 60,
+            "predicted": 506,
+            "tp": 46,
+            "fp": 460,
+            "fn": 14,
+            "tn": 1034,
+            "precision": 0.09090909090909091,
+            "recall": 0.7666666666666667,
+            "f1": 0.1625441696113074,
+            "one_vs_rest_accuracy": 0.694980694980695
+          },
+          "Excellent": {
+            "support": 20,
+            "predicted": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 20,
+            "tn": 1534,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "one_vs_rest_accuracy": 0.9871299871299871
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 2,
+            "tp": 2,
+            "fp": 0,
+            "fn": 37,
+            "tn": 1515,
+            "precision": 1.0,
+            "recall": 0.05128205128205128,
+            "f1": 0.09756097560975609,
+            "one_vs_rest_accuracy": 0.9761904761904762
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 9,
+            "Minimal": 258,
+            "Basic": 252,
+            "Good": 50,
+            "Excellent": 0,
+            "Problematic Content": 0
+          },
+          "Minimal": {
+            "None": 2,
+            "Minimal": 85,
+            "Basic": 169,
+            "Good": 84,
+            "Excellent": 0,
+            "Problematic Content": 0
+          },
+          "Basic": {
+            "None": 0,
+            "Minimal": 15,
+            "Basic": 208,
+            "Good": 303,
+            "Excellent": 0,
+            "Problematic Content": 0
+          },
+          "Good": {
+            "None": 0,
+            "Minimal": 5,
+            "Basic": 9,
+            "Good": 46,
+            "Excellent": 0,
+            "Problematic Content": 0
+          },
+          "Excellent": {
+            "None": 1,
+            "Minimal": 0,
+            "Basic": 3,
+            "Good": 16,
+            "Excellent": 0,
+            "Problematic Content": 0
+          },
+          "Problematic Content": {
+            "None": 5,
+            "Minimal": 14,
+            "Basic": 11,
+            "Good": 7,
+            "Excellent": 0,
+            "Problematic Content": 2
+          }
+        }
+      }
+    }
+  ]
+}

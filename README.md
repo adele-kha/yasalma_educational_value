@@ -10,7 +10,7 @@ Requires Python 3.10+.
 ```bash
 uv sync
 uv run hf auth login
-uv run python preview_datasets.py
+uv run python sampling/preview_datasets.py
 ```
 
 The script prints three examples from each source:
@@ -24,10 +24,10 @@ environment variable can be used instead of `uv run hf auth login`; do not commi
 
 ```bash
 # Preview just one source.
-uv run python preview_datasets.py --dataset crawl-res --num-examples 5
+uv run python sampling/preview_datasets.py --dataset crawl-res --num-examples 5
 
 # Print complete document text (potentially very long).
-uv run python preview_datasets.py --dataset tt-structured-content --num-examples 1 --max-chars 0
+uv run python sampling/preview_datasets.py --dataset tt-structured-content --num-examples 1 --max-chars 0
 ```
 
 All fields are printed as readable JSON with Unicode preserved. Strings are
@@ -43,14 +43,14 @@ source fails, the script still attempts the other and exits with a nonzero statu
 
 ## Annotation sampling
 
-Edit `sampling_policy.json` to choose component sizes, seed, year/genre quotas,
+Edit `sampling/sampling_policy.json` to choose component sizes, seed, year/genre quotas,
 length quantiles and weights, edge-category weights, detection thresholds, and
 coverage-score weights. Then run:
 
 ```bash
-uv run --env-file .env python sample_dataset.py
+uv run --env-file .env python sampling/sample_dataset.py
 # Optional overrides:
-uv run --env-file .env python sample_dataset.py --policy sampling_policy.json --seed 123 --output sample.json
+uv run --env-file .env python sampling/sample_dataset.py --policy sampling/sampling_policy.json --seed 123 --output sampling/sample.json
 ```
 
 The default policy requests 350 diversity + 100 random + 50 edge documents from
@@ -88,5 +88,37 @@ cannot be filled by any edge candidate are explicitly marked as fallback draws.
 Run the synthetic checks without accessing the Hub:
 
 ```bash
-uv run python -m unittest test_sampling
+uv run python -m unittest discover -s sampling -p 'test_*.py'
 ```
+
+## Hugging Face export
+
+Prepare the agreed flat Parquet schema, dataset card, and sampling report locally:
+
+```bash
+uv run python sampling/export_hf_dataset.py
+```
+
+The generated `hf_dataset/` directory is ignored by Git. The exporter validates a
+Parquet round trip, preserves full original texts, and gives the initially empty
+annotation columns explicit nullable integer/string types.
+
+Upload to `yasalma/tt-educational-value-sample` (created private by default):
+
+```bash
+uv run --env-file .env python sampling/export_hf_dataset.py --upload
+```
+
+Use `--repo-id`, `--source`, or `--output-dir` to override the defaults.
+
+## FineWeb-C annotation exploration
+
+See [annotation/README.md](annotation/README.md) for the full Tatar split label distribution and reproducible analysis. Previous sampling scripts and generated files are in `sampling/`.
+
+## LLM annotation evaluation
+
+The [Nebius evaluation framework](annotation/evaluation/README.md) uses the supplied
+prompt to relabel the Tatar split and report agreement with humans, overall and
+per class. Completed models are Qwen3.8-27B and Gemma-3-27b-it; see
+[their comparison](annotation/evaluation/comparison.md). Llama 3.3 70B requires
+additional Nebius access.
