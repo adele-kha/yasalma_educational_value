@@ -1,8 +1,0 @@
-{
-  "model": "Qwen/Qwen3.8-27B",
-  "base_url": "https://api.tokenfactory.nebius.com/v1",
-  "temperature": 0,
-  "max_tokens": 512,
-  "source_sha256": "0b801f6b86cd468ef49f085257a2cff5329d354c43c6ead38f93a6807e17be14",
-  "prompt_sha256": "563158c19bbd8aa4360e782820582354a088f4c76cfd652357be7d03e46de5af"
-}
