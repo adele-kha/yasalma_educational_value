@@ -4,3 +4,7 @@ __pycache__/
 .env
 sample.json
 .mypy_cache/
+hf_dataset/
+.vscode
+
+annotation/data/
