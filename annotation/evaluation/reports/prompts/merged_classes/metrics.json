@@ -1,0 +1,162 @@
+{
+  "groups": {
+    "Problematic Content": [
+      "Problematic Content"
+    ],
+    "None–Minimal": [
+      "None",
+      "Minimal"
+    ],
+    "Basic–Good–Excellent": [
+      "Basic",
+      "Good",
+      "Excellent"
+    ]
+  },
+  "allow_different_prompts": true,
+  "shared_successful_documents": 1557,
+  "scored_documents": 1557,
+  "excluded_after_merging": 0,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "annotation/evaluation/runs/qwen38-27b-4096",
+      "prompt_sha256": "563158c19bbd8aa4360e782820582354a088f4c76cfd652357be7d03e46de5af",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.7912652536929994,
+        "micro_precision": 0.7912652536929994,
+        "macro_precision": 0.6744014512303377,
+        "macro_recall": 0.6668940932554794,
+        "macro_f1": 0.6611949279830011,
+        "weighted_f1": 0.792320291881928,
+        "cohens_kappa": 0.6043752682648804,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 34,
+            "tp": 14,
+            "fp": 20,
+            "fn": 25,
+            "tn": 1498,
+            "precision": 0.4117647058823529,
+            "recall": 0.358974358974359,
+            "f1": 0.3835616438356165,
+            "one_vs_rest_accuracy": 0.9710982658959537
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 722,
+            "tp": 665,
+            "fp": 57,
+            "fn": 247,
+            "tn": 588,
+            "precision": 0.9210526315789473,
+            "recall": 0.7291666666666666,
+            "f1": 0.8139534883720931,
+            "one_vs_rest_accuracy": 0.804752729608221
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 801,
+            "tp": 553,
+            "fp": 248,
+            "fn": 53,
+            "tn": 703,
+            "precision": 0.6903870162297129,
+            "recall": 0.9125412541254125,
+            "f1": 0.7860696517412935,
+            "one_vs_rest_accuracy": 0.8066795118818241
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 14,
+            "None–Minimal": 15,
+            "Basic–Good–Excellent": 10
+          },
+          "None–Minimal": {
+            "Problematic Content": 9,
+            "None–Minimal": 665,
+            "Basic–Good–Excellent": 238
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 11,
+            "None–Minimal": 42,
+            "Basic–Good–Excellent": 553
+          }
+        }
+      }
+    },
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "annotation/evaluation/runs/qwen38-27b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.8606294155427103,
+        "micro_precision": 0.8606294155427103,
+        "macro_precision": 0.7837992570746208,
+        "macro_recall": 0.7048913140301885,
+        "macro_f1": 0.7302498611919682,
+        "weighted_f1": 0.8591381544066699,
+        "cohens_kappa": 0.7255875150762032,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 22,
+            "tp": 14,
+            "fp": 8,
+            "fn": 25,
+            "tn": 1510,
+            "precision": 0.6363636363636364,
+            "recall": 0.358974358974359,
+            "f1": 0.459016393442623,
+            "one_vs_rest_accuracy": 0.9788053949903661
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 856,
+            "tp": 781,
+            "fp": 75,
+            "fn": 131,
+            "tn": 570,
+            "precision": 0.9123831775700935,
+            "recall": 0.856359649122807,
+            "f1": 0.8834841628959277,
+            "one_vs_rest_accuracy": 0.867694283879255
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 679,
+            "tp": 545,
+            "fp": 134,
+            "fn": 61,
+            "tn": 817,
+            "precision": 0.8026509572901326,
+            "recall": 0.8993399339933993,
+            "f1": 0.8482490272373542,
+            "one_vs_rest_accuracy": 0.8747591522157996
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 14,
+            "None–Minimal": 16,
+            "Basic–Good–Excellent": 9
+          },
+          "None–Minimal": {
+            "Problematic Content": 6,
+            "None–Minimal": 781,
+            "Basic–Good–Excellent": 125
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 2,
+            "None–Minimal": 59,
+            "Basic–Good–Excellent": 545
+          }
+        }
+      }
+    }
+  ]
+}

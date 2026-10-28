@@ -25,8 +25,8 @@ Llama 3.3 70B remains inaccessible to this Nebius key (confirmed by direct HTTP 
 
 ## Artifacts
 
-- [Side-by-side comparison, including per-class precision, recall, F1 and accuracy](comparison.md)
-- [Machine-readable comparison](comparison.json)
+- [Side-by-side comparison, including per-class precision, recall, F1 and accuracy](reports/models/comparison.md)
+- [Machine-readable comparison](reports/models/comparison.json)
 - [Gemma relabeled dataset (original schema)](runs/gemma3-27b-it/llm_annotations.parquet)
 - [Gemma report and confusion matrix](runs/gemma3-27b-it/report.md)
 - [Gemma document comparisons and reasons](runs/gemma3-27b-it/comparisons.csv)
@@ -38,7 +38,33 @@ Agreement measures consistency with the supplied human annotations, not independ
 
 ## Merged classes
 
-[Three-class report](merged_classes/report.md): Problematic Content, None–Minimal,
+[Three-class report](reports/merged_classes/report.md): Problematic Content, None–Minimal,
 and Basic–Good–Excellent. On all 1,557 documents, Qwen accuracy is **79.13%** and
 Gemma accuracy is **60.50%**. The original three human None/Minimal conflicts are
 resolved by this grouping. All metrics are recalculated from grouped predictions.
+
+## Qwen retest: human-annotation-inspired prompt
+
+The new `prompt_human_annotation_inspired.txt` run completed **1,557/1,557**
+documents. The original source, model, temperature and initial response budget
+were retained. One truncated response succeeded with a recorded 16,384-token
+retry budget. No reason-length violations or failed labels remain.
+
+| Metric | Original prompt | Human-inspired prompt |
+|---|---:|---:|
+| Six-class accuracy (1,554 documents) | 45.69% | 57.53% |
+| Six-class macro precision | 39.44% | 53.19% |
+| Six-class macro F1 | 37.26% | 43.17% |
+| Merged-class accuracy (1,557 documents) | 79.13% | 86.06% |
+| Merged-class macro F1 | 66.12% | 73.02% |
+
+Basic recall improves from 52.85% to 73.00%, and merged None–Minimal recall
+from 72.92% to 85.64%. Problematic Content recall stays at 14/39, with precision
+improving from 41.18% to 63.64%. Excellent recall falls from 20.00% to 5.00%.
+These are comparisons on the existing annotated dataset.
+
+- [Six-class prompt comparison](reports/prompts/comparison.md)
+- [Merged-class prompt comparison](reports/prompts/merged_classes/report.md)
+- [New relabeled dataset](runs/qwen38-27b-human-inspired/llm_annotations.parquet)
+- [New per-document comparisons](runs/qwen38-27b-human-inspired/comparisons.csv)
+- [Exact new prompt snapshot](runs/qwen38-27b-human-inspired/prompt_snapshot.txt)

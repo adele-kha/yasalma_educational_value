@@ -1,5 +1,18 @@
 # Nebius human–LLM evaluation
 
+Start with [results](RESULTS.md), the [model comparison](reports/models/comparison.md),
+or the [prompt comparison](reports/prompts/comparison.md).
+
+```text
+evaluation/
+  prompts/       Original and human-inspired prompt templates
+  runs/          Predictions, labeled datasets, and reports for each run
+  reports/       Model, prompt, and merged-class comparisons
+  diagnostics/   Model availability checks and execution status
+  RESULTS.md     Results overview
+  *.py           Evaluation/report scripts and their tests
+```
+
 Evaluate **Qwen3.8-27B** and **Gemma-3-27b-it** with the unchanged prompt.
 Llama 3.3 70B requires Nebius account access; GPT OSS remains deferred.
 The exact serving IDs must be verified against the account's live Nebius catalog;
@@ -39,7 +52,7 @@ record, including retries returning usage; it is not a billing total.
 
 ## Protocol
 
-- Use the attached prompt verbatim from `prompt.txt`, replacing `{example}` with
+- Use the attached prompt verbatim from `prompts/prompt.txt`, replacing `{example}` with
   the entire original document. Human labels are never sent to the model.
 - Temperature is zero. Use a 4,096-token response budget for Qwen3.8 to leave
   room for reasoning before the answer; the generic default is 512 tokens. Validate the required two-field output and six-label vocabulary. A reason
@@ -97,7 +110,7 @@ uv run python annotation/evaluation/compare_models.py \
   annotation/evaluation/runs/gemma3-27b-it
 ```
 
-`comparison.md` and `comparison.json` compare the same documents across models,
+`reports/models/comparison.md` and `comparison.json` compare the same documents across models,
 verifying identical source/prompt hashes. If either run has failures, only the
 shared successful cohort is used for the comparison, with coverage stated.
 `--retry-max-tokens 512` can lower the response allowance on failed long Gemma
@@ -112,10 +125,34 @@ uv run python annotation/evaluation/merge_classes.py
 
 Reuses the saved Qwen and Gemma predictions and recalculates metrics for
 Problematic Content, None–Minimal, and Basic–Good–Excellent. Outputs are in
-`merged_classes/`: `report.md`, `metrics.json`, and a grouped comparison CSV for
+`reports/merged_classes/`: `report.md`, `metrics.json`, and a grouped comparison CSV for
 each model. Optional run-directory arguments and `--output-dir` select other
 runs or a different output folder. No API calls occur.
 
 Human-label eligibility is recalculated after merging, so None/Minimal conflicts
 now count as agreement on the merged group; disagreements across groups remain
 excluded. Both models are compared on the same shared eligible documents.
+
+## Retest with the human-annotation-inspired prompt
+
+```bash
+uv run --env-file .env python annotation/evaluation/evaluate.py \
+  --model Qwen/Qwen3.8-27B \
+  --prompt annotation/evaluation/prompts/prompt_human_annotation_inspired.txt \
+  --output-dir annotation/evaluation/runs/qwen38-27b-human-inspired \
+  --max-tokens 4096 --workers 16
+
+uv run python annotation/evaluation/compare_models.py \
+  annotation/evaluation/runs/qwen38-27b-4096 \
+  annotation/evaluation/runs/qwen38-27b-human-inspired \
+  --allow-different-prompts --output-dir annotation/evaluation/reports/prompts
+
+uv run python annotation/evaluation/merge_classes.py \
+  annotation/evaluation/runs/qwen38-27b-4096 \
+  annotation/evaluation/runs/qwen38-27b-human-inspired \
+  --allow-different-prompts --output-dir annotation/evaluation/reports/prompts/merged_classes
+```
+
+Prompt comparisons explicitly allow different prompt hashes while still requiring
+identical source hashes and human labels. Existing original-prompt reports are
+preserved. Each run in a comparison is identified by both its model and folder.

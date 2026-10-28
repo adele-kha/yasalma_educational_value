@@ -20,9 +20,9 @@ def merged_human(labels):
     return next(iter(groups)) if len(groups) == 1 else None
 
 
-def generate(runs, output):
+def generate(runs, output, allow_different_prompts=False):
     manifests = [json.loads((run/'manifest.json').read_text()) for run in runs]
-    for key in ['source_sha256', 'prompt_sha256']:
+    for key in ['source_sha256'] + ([] if allow_different_prompts else ['prompt_sha256']):
         if len({m[key] for m in manifests}) != 1:
             raise ValueError(f'Runs differ in {key}')
     records = []
@@ -40,12 +40,12 @@ def generate(runs, output):
     if not eligible:
         raise ValueError('No shared unambiguous merged-label documents')
     output.mkdir(parents=True, exist_ok=True)
-    summary = dict(groups=GROUPS, shared_successful_documents=len(shared),
+    summary = dict(groups=GROUPS, allow_different_prompts=allow_different_prompts, shared_successful_documents=len(shared),
                    scored_documents=len(eligible), excluded_after_merging=len(shared)-len(eligible), models=[])
     for run, manifest, rows in zip(runs, manifests, records):
         pairs = [(merged_human(json.loads(rows[id_]['human_labels'])), MAPPING[normalize(rows[id_]['llm_label'])]) for id_ in eligible]
         result = metrics(pairs, list(GROUPS))
-        summary['models'].append(dict(model=manifest['model'], run=str(run), metrics=result))
+        summary['models'].append(dict(model=manifest['model'], run=str(run), prompt_sha256=manifest['prompt_sha256'], metrics=result))
         with (output/(run.name+'_comparisons.csv')).open('w', encoding='utf-8-sig', newline='') as handle:
             writer = csv.DictWriter(handle, fieldnames=['id', 'human_labels', 'human_group', 'llm_label', 'llm_group', 'match'])
             writer.writeheader()
@@ -53,7 +53,9 @@ def generate(runs, output):
                 writer.writerow(dict(id=id_, human_labels=rows[id_]['human_labels'], human_group=human,
                                      llm_label=rows[id_]['llm_label'], llm_group=predicted, match=human==predicted))
     lines = ['# Agreement with merged classes', '',
-             f'Both human and model labels are mapped into {len(GROUPS)} groups before metrics are recalculated. Existing predictions are reused; no inference or prompt changes.', '']
+             f'Both human and model labels are mapped into {len(GROUPS)} groups before metrics are recalculated. Existing predictions are reused; no additional inference is performed. Each run retains its own recorded prompt.', '']
+    if allow_different_prompts:
+        lines += ['Source hashes match; this comparison explicitly allows different prompt versions, identified by run folder below.', '']
     lines += [f'- **{group}**: '+', '.join(labels) for group, labels in GROUPS.items()]
     lines += ['', f'Comparison cohort: **{len(eligible):,} documents**, shared across all models, with one distinct human group after merging. The three original None/Minimal human disagreements now fall within the same group and are included. Documents with human labels spanning different groups would remain excluded.', '',
               '| Model | Accuracy / micro precision | Macro precision | Macro recall | Macro F1 | Weighted F1 | Kappa |',
@@ -61,10 +63,10 @@ def generate(runs, output):
     for model in summary['models']:
         m=model['metrics']
         kappa=f'{m["cohens_kappa"]:.4f}' if m['cohens_kappa'] is not None else 'N/A'
-        lines.append(f'| {model["model"]} | {m["accuracy"]:.2%} | {m["macro_precision"]:.2%} | {m["macro_recall"]:.2%} | {m["macro_f1"]:.2%} | {m["weighted_f1"]:.2%} | {kappa} |')
+        lines.append(f'| {model["model"]} ({Path(model["run"]).name}) | {m["accuracy"]:.2%} | {m["macro_precision"]:.2%} | {m["macro_recall"]:.2%} | {m["macro_f1"]:.2%} | {m["weighted_f1"]:.2%} | {kappa} |')
     for model in summary['models']:
         m=model['metrics']
-        lines += ['', '## '+model['model'], '',
+        lines += ['', '## '+model['model']+' ('+Path(model['run']).name+')', '',
                   '| Human group | Support | Predicted | Precision | Recall / within-class accuracy | F1 | One-vs-rest accuracy |',
                   '|---|---:|---:|---:|---:|---:|---:|']
         for group, v in m['per_class'].items():
@@ -83,6 +85,7 @@ def generate(runs, output):
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('runs', type=Path, nargs='*', default=[BASE/'runs/qwen38-27b-4096', BASE/'runs/gemma3-27b-it'])
-    parser.add_argument('--output-dir', type=Path, default=BASE/'merged_classes')
+    parser.add_argument('--output-dir', type=Path, default=BASE/'reports/merged_classes')
+    parser.add_argument('--allow-different-prompts', action='store_true')
     args=parser.parse_args()
-    generate(args.runs, args.output_dir)
+    generate(args.runs, args.output_dir, args.allow_different_prompts)

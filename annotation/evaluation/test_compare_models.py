@@ -7,6 +7,7 @@ import tempfile
 import unittest
 
 from compare_models import compare
+from merge_classes import generate
 
 
 class ComparisonTests(unittest.TestCase):
@@ -36,6 +37,18 @@ class ComparisonTests(unittest.TestCase):
             (runs[1]/'manifest.json').write_text(json.dumps(manifest))
             with self.assertRaises(ValueError):
                 compare(runs, base/'out')
+            with contextlib.redirect_stdout(io.StringIO()):
+                changed_prompt = compare(runs, base/'prompt-out', allow_different_prompts=True)
+                grouped = generate(runs, base/'grouped', allow_different_prompts=True)
+            self.assertTrue(changed_prompt['allow_different_prompts'])
+            self.assertEqual(grouped['scored_documents'], 1)
+            self.assertIn('different prompt hashes', (base/'prompt-out/comparison.md').read_text())
+            manifest['source_sha256'] = 'different-source'
+            (runs[1]/'manifest.json').write_text(json.dumps(manifest))
+            with self.assertRaises(ValueError):
+                compare(runs, base/'out', allow_different_prompts=True)
+            with self.assertRaises(ValueError):
+                generate(runs, base/'grouped', allow_different_prompts=True)
 
 
 if __name__ == '__main__':

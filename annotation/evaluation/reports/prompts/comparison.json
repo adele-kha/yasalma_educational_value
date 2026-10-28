@@ -1,0 +1,290 @@
+{
+  "shared_primary_documents": 1554,
+  "allow_different_prompts": true,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "annotation/evaluation/runs/qwen38-27b-4096",
+      "prompt_sha256": "563158c19bbd8aa4360e782820582354a088f4c76cfd652357be7d03e46de5af",
+      "successful_documents": 1557,
+      "total_documents": 1557,
+      "primary_available": 1554,
+      "common_cohort": {
+        "n": 1554,
+        "accuracy": 0.4568854568854569,
+        "micro_precision": 0.4568854568854569,
+        "macro_precision": 0.39440865659481705,
+        "macro_recall": 0.41722156142464484,
+        "macro_f1": 0.3726134626556959,
+        "weighted_f1": 0.48448362741355483,
+        "cohens_kappa": 0.2770571122103298,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 330,
+            "tp": 250,
+            "fp": 80,
+            "fn": 319,
+            "tn": 905,
+            "precision": 0.7575757575757576,
+            "recall": 0.43936731107205623,
+            "f1": 0.5561735261401558,
+            "one_vs_rest_accuracy": 0.7432432432432432
+          },
+          "Minimal": {
+            "support": 340,
+            "predicted": 391,
+            "tp": 128,
+            "fp": 263,
+            "fn": 212,
+            "tn": 951,
+            "precision": 0.3273657289002558,
+            "recall": 0.3764705882352941,
+            "f1": 0.35020519835841313,
+            "one_vs_rest_accuracy": 0.6943371943371943
+          },
+          "Basic": {
+            "support": 526,
+            "predicted": 497,
+            "tp": 278,
+            "fp": 219,
+            "fn": 248,
+            "tn": 809,
+            "precision": 0.5593561368209256,
+            "recall": 0.5285171102661597,
+            "f1": 0.5434995112414467,
+            "one_vs_rest_accuracy": 0.6994851994851995
+          },
+          "Good": {
+            "support": 60,
+            "predicted": 280,
+            "tp": 36,
+            "fp": 244,
+            "fn": 24,
+            "tn": 1250,
+            "precision": 0.12857142857142856,
+            "recall": 0.6,
+            "f1": 0.21176470588235294,
+            "one_vs_rest_accuracy": 0.8275418275418276
+          },
+          "Excellent": {
+            "support": 20,
+            "predicted": 22,
+            "tp": 4,
+            "fp": 18,
+            "fn": 16,
+            "tn": 1516,
+            "precision": 0.18181818181818182,
+            "recall": 0.2,
+            "f1": 0.1904761904761905,
+            "one_vs_rest_accuracy": 0.9781209781209781
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 34,
+            "tp": 14,
+            "fp": 20,
+            "fn": 25,
+            "tn": 1495,
+            "precision": 0.4117647058823529,
+            "recall": 0.358974358974359,
+            "f1": 0.3835616438356165,
+            "one_vs_rest_accuracy": 0.971042471042471
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 250,
+            "Minimal": 224,
+            "Basic": 81,
+            "Good": 9,
+            "Excellent": 0,
+            "Problematic Content": 5
+          },
+          "Minimal": {
+            "None": 62,
+            "Minimal": 128,
+            "Basic": 114,
+            "Good": 29,
+            "Excellent": 3,
+            "Problematic Content": 4
+          },
+          "Basic": {
+            "None": 6,
+            "Minimal": 25,
+            "Basic": 278,
+            "Good": 193,
+            "Excellent": 14,
+            "Problematic Content": 10
+          },
+          "Good": {
+            "None": 1,
+            "Minimal": 6,
+            "Basic": 16,
+            "Good": 36,
+            "Excellent": 1,
+            "Problematic Content": 0
+          },
+          "Excellent": {
+            "None": 1,
+            "Minimal": 3,
+            "Basic": 1,
+            "Good": 10,
+            "Excellent": 4,
+            "Problematic Content": 1
+          },
+          "Problematic Content": {
+            "None": 10,
+            "Minimal": 5,
+            "Basic": 7,
+            "Good": 3,
+            "Excellent": 0,
+            "Problematic Content": 14
+          }
+        }
+      }
+    },
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "annotation/evaluation/runs/qwen38-27b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "successful_documents": 1557,
+      "total_documents": 1557,
+      "primary_available": 1554,
+      "common_cohort": {
+        "n": 1554,
+        "accuracy": 0.5752895752895753,
+        "micro_precision": 0.5752895752895753,
+        "macro_precision": 0.5318580810543304,
+        "macro_recall": 0.44141252459369923,
+        "macro_f1": 0.4317149492173051,
+        "weighted_f1": 0.5913092447811819,
+        "cohens_kappa": 0.4162077982398122,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 386,
+            "tp": 291,
+            "fp": 95,
+            "fn": 278,
+            "tn": 890,
+            "precision": 0.7538860103626943,
+            "recall": 0.5114235500878734,
+            "f1": 0.6094240837696335,
+            "one_vs_rest_accuracy": 0.7599742599742599
+          },
+          "Minimal": {
+            "support": 340,
+            "predicted": 467,
+            "tp": 175,
+            "fp": 292,
+            "fn": 165,
+            "tn": 922,
+            "precision": 0.3747323340471092,
+            "recall": 0.5147058823529411,
+            "f1": 0.43370508054522927,
+            "one_vs_rest_accuracy": 0.7059202059202059
+          },
+          "Basic": {
+            "support": 526,
+            "predicted": 511,
+            "tp": 384,
+            "fp": 127,
+            "fn": 142,
+            "tn": 901,
+            "precision": 0.7514677103718199,
+            "recall": 0.7300380228136882,
+            "f1": 0.7405978784956606,
+            "one_vs_rest_accuracy": 0.8268983268983269
+          },
+          "Good": {
+            "support": 60,
+            "predicted": 166,
+            "tp": 29,
+            "fp": 137,
+            "fn": 31,
+            "tn": 1357,
+            "precision": 0.1746987951807229,
+            "recall": 0.48333333333333334,
+            "f1": 0.25663716814159293,
+            "one_vs_rest_accuracy": 0.8918918918918919
+          },
+          "Excellent": {
+            "support": 20,
+            "predicted": 2,
+            "tp": 1,
+            "fp": 1,
+            "fn": 19,
+            "tn": 1533,
+            "precision": 0.5,
+            "recall": 0.05,
+            "f1": 0.09090909090909091,
+            "one_vs_rest_accuracy": 0.9871299871299871
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 22,
+            "tp": 14,
+            "fp": 8,
+            "fn": 25,
+            "tn": 1507,
+            "precision": 0.6363636363636364,
+            "recall": 0.358974358974359,
+            "f1": 0.459016393442623,
+            "one_vs_rest_accuracy": 0.9787644787644788
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 291,
+            "Minimal": 239,
+            "Basic": 30,
+            "Good": 6,
+            "Excellent": 0,
+            "Problematic Content": 3
+          },
+          "Minimal": {
+            "None": 73,
+            "Minimal": 175,
+            "Basic": 66,
+            "Good": 23,
+            "Excellent": 0,
+            "Problematic Content": 3
+          },
+          "Basic": {
+            "None": 7,
+            "Minimal": 37,
+            "Basic": 384,
+            "Good": 95,
+            "Excellent": 1,
+            "Problematic Content": 2
+          },
+          "Good": {
+            "None": 3,
+            "Minimal": 8,
+            "Basic": 20,
+            "Good": 29,
+            "Excellent": 0,
+            "Problematic Content": 0
+          },
+          "Excellent": {
+            "None": 2,
+            "Minimal": 2,
+            "Basic": 5,
+            "Good": 10,
+            "Excellent": 1,
+            "Problematic Content": 0
+          },
+          "Problematic Content": {
+            "None": 10,
+            "Minimal": 6,
+            "Basic": 6,
+            "Good": 3,
+            "Excellent": 0,
+            "Problematic Content": 14
+          }
+        }
+      }
+    }
+  ]
+}

@@ -20,7 +20,7 @@ the full run directory.
 Full Qwen evaluation completed: **1,557/1,557** labeled, zero failures.
 Two truncated records succeeded with a recorded 16,384-token retry budget.
 One reason exceeds 100 words; its valid explicit label is retained and flagged.
-See [RESULTS.md](RESULTS.md) for final metrics.
+See [RESULTS.md](../RESULTS.md) for final metrics.
 
 ## Direct Llama inference check
 
@@ -37,4 +37,13 @@ access to the qualified model ID or a Nebius endpoint/key that serves it.
 `google/gemma-3-27b-it` labeled **1,557/1,557** documents with the unchanged prompt.
 One context-limit failure succeeded using a recorded 512-token response allowance
 with the full original text. Both models are compared on the same 1,554 primary
-documents in [comparison.md](comparison.md). No Gemma format violations remain.
+documents in [comparison.md](../reports/models/comparison.md). No Gemma format violations remain.
+
+## Qwen human-inspired prompt retest completed
+
+Qwen labeled all **1,557** documents using `prompt_human_annotation_inspired.txt`.
+Original-prompt results are preserved. One truncated response was retried at
+16,384 tokens; no failures remain. Six-class accuracy is **57.53%** and merged
+three-class accuracy is **86.06%**. The exact evaluated prompt is saved as
+`runs/qwen38-27b-human-inspired/prompt_snapshot.txt`. See
+[prompt comparison](../reports/prompts/comparison.md) and its merged-class report.

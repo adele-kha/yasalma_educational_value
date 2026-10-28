@@ -180,7 +180,7 @@ def sum_usage(predictions):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, default=BASE.parent/'data/tat_Cyrl-train.parquet')
-    parser.add_argument('--prompt', type=Path, default=BASE/'prompt.txt')
+    parser.add_argument('--prompt', type=Path, default=BASE/'prompts/prompt.txt')
     parser.add_argument('--output-dir', type=Path)
     parser.add_argument('--model')
     parser.add_argument('--base-url', default='https://api.tokenfactory.nebius.com/v1')

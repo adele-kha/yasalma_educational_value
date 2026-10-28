@@ -120,5 +120,5 @@ See [annotation/README.md](annotation/README.md) for the full Tatar split label 
 The [Nebius evaluation framework](annotation/evaluation/README.md) uses the supplied
 prompt to relabel the Tatar split and report agreement with humans, overall and
 per class. Completed models are Qwen3.8-27B and Gemma-3-27b-it; see
-[their comparison](annotation/evaluation/comparison.md). Llama 3.3 70B requires
+[their comparison](annotation/evaluation/reports/models/comparison.md). Llama 3.3 70B requires
 additional Nebius access.
