@@ -1,0 +1,263 @@
+{
+  "reference_rows": 1557,
+  "reference_sha256": "0b801f6b86cd468ef49f085257a2cff5329d354c43c6ead38f93a6807e17be14",
+  "upstream_join_status": {
+    "unmatched": 60,
+    "matched": 1497
+  },
+  "upstream_full_fineweb_status": {
+    "unresolved": 60,
+    "retained": 515,
+    "removed": 982
+  },
+  "historical_source_datasets": [
+    "HuggingFaceFW/fineweb-2",
+    "data-is-better-together/fineweb2-sample"
+  ],
+  "known_source_text_changes": 0,
+  "known_full_corpus_text_changes": 13,
+  "repositories": {
+    "reference": {
+      "repo": "data-is-better-together/fineweb-c",
+      "revision": "913fc6250ca94f032bce31a6e5fa9363ea27ba73",
+      "files": [
+        {
+          "path": "metadata/README.md",
+          "bytes": 7216
+        },
+        {
+          "path": "metadata/source-manifest.json",
+          "bytes": 35857
+        },
+        {
+          "path": "with_metadata/train-00000-of-00001.parquet",
+          "bytes": 170341889
+        }
+      ]
+    },
+    "fineweb": {
+      "repo": "HuggingFaceFW/fineweb-2",
+      "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "files": [
+        {
+          "path": "data/tat_Cyrl/test/000_00000.parquet",
+          "bytes": 6380107
+        },
+        {
+          "path": "data/tat_Cyrl/train/000_00000.parquet",
+          "bytes": 513155438
+        },
+        {
+          "path": "data/tat_Cyrl_removed/train/000_00000.parquet",
+          "bytes": 1917806723
+        }
+      ]
+    },
+    "crawl": {
+      "repo": "yasalma/crawl-res",
+      "revision": "dc8f0d22c2287e5f8214b26992d87a176aa454a4",
+      "files": [
+        {
+          "path": "data/000_00000.parquet",
+          "bytes": 29143097
+        },
+        {
+          "path": "data/000_00001.parquet",
+          "bytes": 27510754
+        },
+        {
+          "path": "data/000_00002.parquet",
+          "bytes": 30651618
+        },
+        {
+          "path": "data/000_00003.parquet",
+          "bytes": 28419619
+        },
+        {
+          "path": "data/000_00004.parquet",
+          "bytes": 28621416
+        },
+        {
+          "path": "data/000_00005.parquet",
+          "bytes": 27142570
+        },
+        {
+          "path": "data/000_00006.parquet",
+          "bytes": 20874643
+        },
+        {
+          "path": "data/000_00007.parquet",
+          "bytes": 20580659
+        },
+        {
+          "path": "data/000_00008.parquet",
+          "bytes": 20479241
+        },
+        {
+          "path": "data/000_00009.parquet",
+          "bytes": 20066296
+        },
+        {
+          "path": "data/000_00010.parquet",
+          "bytes": 21747721
+        },
+        {
+          "path": "data/000_00011.parquet",
+          "bytes": 23551229
+        },
+        {
+          "path": "data/000_00012.parquet",
+          "bytes": 22718525
+        },
+        {
+          "path": "data/000_00013.parquet",
+          "bytes": 22978001
+        },
+        {
+          "path": "data/000_00014.parquet",
+          "bytes": 23608718
+        },
+        {
+          "path": "data/000_00015.parquet",
+          "bytes": 23380690
+        },
+        {
+          "path": "data/000_00016.parquet",
+          "bytes": 20860313
+        },
+        {
+          "path": "data/000_00017.parquet",
+          "bytes": 22468401
+        },
+        {
+          "path": "data/000_00018.parquet",
+          "bytes": 22353098
+        },
+        {
+          "path": "data/000_00019.parquet",
+          "bytes": 24386689
+        },
+        {
+          "path": "data/000_00020.parquet",
+          "bytes": 18830913
+        },
+        {
+          "path": "data/000_00021.parquet",
+          "bytes": 19540322
+        },
+        {
+          "path": "data/000_00022.parquet",
+          "bytes": 17954493
+        },
+        {
+          "path": "data/000_00023.parquet",
+          "bytes": 18151864
+        },
+        {
+          "path": "data/000_00024.parquet",
+          "bytes": 182287217
+        },
+        {
+          "path": "data/000_00025.parquet",
+          "bytes": 274290957
+        },
+        {
+          "path": "data/000_00026.parquet",
+          "bytes": 191253607
+        },
+        {
+          "path": "data/000_00027.parquet",
+          "bytes": 189255609
+        },
+        {
+          "path": "data/000_00028.parquet",
+          "bytes": 328343617
+        },
+        {
+          "path": "data/000_00029.parquet",
+          "bytes": 439672593
+        },
+        {
+          "path": "data/000_00030.parquet",
+          "bytes": 172737246
+        },
+        {
+          "path": "data/000_00031.parquet",
+          "bytes": 323674586
+        },
+        {
+          "path": "data/000_00032.parquet",
+          "bytes": 339886821
+        },
+        {
+          "path": "data/000_00033.parquet",
+          "bytes": 190304325
+        },
+        {
+          "path": "data/000_00034.parquet",
+          "bytes": 134715608
+        },
+        {
+          "path": "data/000_00035.parquet",
+          "bytes": 39712142
+        },
+        {
+          "path": "data/000_00036.parquet",
+          "bytes": 38620563
+        },
+        {
+          "path": "data/000_00037.parquet",
+          "bytes": 39424805
+        },
+        {
+          "path": "data/000_00038.parquet",
+          "bytes": 3932157
+        },
+        {
+          "path": "data/000_00039.parquet",
+          "bytes": 4052655
+        },
+        {
+          "path": "data/000_00040.parquet",
+          "bytes": 4516421
+        },
+        {
+          "path": "data/000_00041.parquet",
+          "bytes": 4599861
+        },
+        {
+          "path": "data/000_00042.parquet",
+          "bytes": 4277152
+        },
+        {
+          "path": "data/000_00043.parquet",
+          "bytes": 4937120
+        },
+        {
+          "path": "data/000_00044.parquet",
+          "bytes": 4158759
+        },
+        {
+          "path": "data/000_00045.parquet",
+          "bytes": 3967332
+        },
+        {
+          "path": "data/000_00046.parquet",
+          "bytes": 39667249
+        },
+        {
+          "path": "data/000_00047.parquet",
+          "bytes": 37090241
+        },
+        {
+          "path": "data/000_00048.parquet",
+          "bytes": 7168981
+        },
+        {
+          "path": "data/000_00049.parquet",
+          "bytes": 7097262
+        }
+      ]
+    }
+  }
+}

@@ -3,6 +3,10 @@
 Start with [results](RESULTS.md), the [model comparison](reports/models/comparison.md),
 or the [prompt comparison](reports/prompts/comparison.md).
 
+Latest expanded comparison: [human-inspired prompt, merged classes](reports/human_inspired_merged_classes/report.md).
+
+Four-group comparison: [None / Minimal–Basic / Good–Excellent / Problematic Content](reports/human_inspired_four_classes/report.md).
+
 ```text
 evaluation/
   prompts/       Original and human-inspired prompt templates
@@ -156,3 +160,55 @@ uv run python annotation/evaluation/merge_classes.py \
 Prompt comparisons explicitly allow different prompt hashes while still requiring
 identical source hashes and human labels. Existing original-prompt reports are
 preserved. Each run in a comparison is identified by both its model and folder.
+
+## Additional models: human-inspired prompt and merged classes only
+
+The live Nebius catalog resolves the requested models to:
+
+- Muse Spark Open: `meta-models/muse-spark-open`
+- Qwen3.5-397B-A17B: `Qwen/Qwen3.5-397B-A17B`
+- Nemotron-3-Ultra-550b-a55b: `nvidia/Nemotron-3-Ultra-550b-a55b`
+
+```bash
+# Optional smoke test; successful predictions are reused by the full run.
+uv run --env-file .env python annotation/evaluation/run_human_inspired_models.py --limit 3
+uv run --env-file .env python annotation/evaluation/run_human_inspired_models.py
+```
+
+The runner uses only `prompts/prompt_human_annotation_inspired.txt`. Its six-label
+answers are merged for scoring without changing the prompt. Three models run
+concurrently with eight requests per model by default (`--workers` overrides
+this). Retryable failed rows receive a second pass with a 16,384-token output allowance;
+source texts are never truncated. Run logs and resumable predictions are under
+`runs/<model>-human-inspired/`.
+
+The combined three-class report is `reports/human_inspired_merged_classes/report.md`.
+It includes the existing Qwen3.8 human-inspired baseline and requires matching
+source and prompt hashes. Original-prompt reports are preserved. Model-specific
+six-label artifacts remain available as intermediate provenance; the combined
+comparison uses only merged classes. Only complete runs enter the main ranking.
+Incomplete runs have separate merged reports under `partial/`, with coverage and
+API errors recorded in `coverage.json`. Permanent authorization/model-not-found
+errors do not trigger a larger-budget retry. No other model is substituted.
+
+Rebuild these reports without API calls:
+
+```bash
+uv run python annotation/evaluation/run_human_inspired_models.py --report-only
+```
+
+## Four-group recount with the human-inspired prompt
+
+```bash
+uv run python annotation/evaluation/merge_classes.py \
+  annotation/evaluation/runs/qwen38-27b-human-inspired \
+  annotation/evaluation/runs/nemotron3-ultra-550b-a55b-human-inspired \
+  annotation/evaluation/runs/muse-spark-open-human-inspired \
+  --grouping four --output-dir annotation/evaluation/reports/human_inspired_four_classes
+```
+
+This maps both human and model labels to None, Minimal–Basic, Good–Excellent,
+and Problematic Content. The same source and prompt hashes are required; no API
+calls occur. All three runs have complete prediction coverage, but the three
+human None/Minimal conflicts now span different groups and are excluded from
+scoring, leaving 1,554 shared documents. Prior three-group reports are preserved.

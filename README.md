@@ -111,6 +111,12 @@ uv run --env-file .env python sampling/export_hf_dataset.py --upload
 
 Use `--repo-id`, `--source`, or `--output-dir` to override the defaults.
 
+## Plain-text / Markdown mapping
+
+See [mapping/README.md](mapping/README.md) for the pinned reference recovery,
+FineWeb URL/content matching, leakage exclusions, and full candidate inventories.
+Annotation-set selection is deferred until a sampling policy is agreed.
+
 ## FineWeb-C annotation exploration
 
 See [annotation/README.md](annotation/README.md) for the full Tatar split label distribution and reproducible analysis. Previous sampling scripts and generated files are in `sampling/`.

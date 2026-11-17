@@ -1,0 +1,3857 @@
+[
+  {
+    "reference_id": "02d1d45b-b214-4eb6-b559-51245232128d",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tnv.ru/tat/main1/novosti/kul_tura/kazan_tormysh_syjfaty_buencha_rossiyane_i_yahshy_shrlre_isemlegend/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:119160",
+        "url": "https://tatar-inform.tatar/news/kazan-tormysh-syyfaty-buencha-rossiyane-i-yahshy-sh-rl-re-isemlegend-5350047",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7945521698984302,
+        "compact_similarity": 0.794701986754967,
+        "token_dice": 0.8050089445438283,
+        "reference_token_coverage": 0.7053291536050157,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "04c990b2-47fc-4961-9273-3d955a15448c",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D1%8C%D0%B5%D1%82%D0%BD%D0%B0%D0%BC_%D0%A1%D2%96_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82_%D2%BB%D0%B8%D0%BC%D0%BD%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:8617",
+        "url": "https://tt.wikipedia.org/wiki/%D0%92%D1%8C%D0%B5%D1%82%D0%BD%D0%B0%D0%BC_%D0%B3%D0%B8%D0%BC%D0%BD%D1%8B",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.7994011976047904,
+        "compact_similarity": 0.8028368794326242,
+        "token_dice": 0.7733674775928298,
+        "reference_token_coverage": 0.9526813880126183,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "0566a787-fb93-4e08-b410-3a2c08bd2059",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.cnkqs.com/news/aseptic-cold-filling-production-line-reached-a-new-cooperation/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "0804a0dd-f1a6-44f7-ba50-a1b9d49a141f",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.burcharry.com/news/the-2022-dalang-sweater-festival-came-to-a-successful-conclusion/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "097d5ef1-16ca-48fa-b971-c46e47b666e1",
+    "category": "weak_only",
+    "original_urls": [
+      "https://belem.ru/node/2049"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00008.parquet:5366",
+        "url": "https://belem.ru/print/1987",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6529051987767585,
+        "compact_similarity": 0.6393013100436682,
+        "token_dice": 0.4484848484848485,
+        "reference_token_coverage": 0.42528735632183906,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00034.parquet:48515",
+        "url": "https://belem.ru/node/2048",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6098149637972647,
+        "compact_similarity": 0.5957446808510638,
+        "token_dice": 0.5853658536585366,
+        "reference_token_coverage": 0.5517241379310345,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "0ae3fe1e-244e-46ec-bf16-07b6b836824d",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9A%D0%B0%D0%B9%D0%B1%D1%8B%D1%87_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:84289",
+        "url": "https://tt.wikipedia.org/wiki/%D0%AF%D2%A3%D0%B0_%D0%A7%D3%99%D1%87%D0%BA%D0%B0%D0%BF",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.07651851087965356,
+        "compact_similarity": 0.07583282858873408,
+        "token_dice": 0.07894736842105263,
+        "reference_token_coverage": 0.9661016949152542,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00037.parquet:29145",
+        "url": "",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.015772402535456087,
+        "compact_similarity": 0.0155881549879614,
+        "token_dice": 0.016555329654371186,
+        "reference_token_coverage": 0.9661016949152542,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00033.parquet:212107",
+        "url": "http://myblogsajfutdinouv.blogspot.com",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.010355194299075832,
+        "compact_similarity": 0.010187032621214342,
+        "token_dice": 0.0111731843575419,
+        "reference_token_coverage": 0.9661016949152542,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "0cbd89d6-ac2e-4cc3-afc3-2031849cce86",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB_%D1%80%D0%B0%D1%81%D0%B0%D1%81%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:21318",
+        "url": "https://tt.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D0%BE%D0%B8%D0%B4_%D1%80%D0%B0%D1%81%D0%B0",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8648585182576024,
+        "compact_similarity": 0.8649605227334604,
+        "token_dice": 0.8337595907928389,
+        "reference_token_coverage": 0.8939670932358318,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "0cecdcaf-09b3-4315-9917-9db28882cdc4",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B5%D1%88%D0%B5_%D1%85%D0%BE%D0%BA%D1%83%D0%BA%D0%BB%D0%B0%D1%80%D1%8B_%D0%B1%D1%83%D0%B5%D0%BD%D1%87%D0%B0_%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0_%D0%A1%D1%83%D0%B4%D1%8B_%D2%BB%D3%99%D0%BC_%D0%A0%D1%83%D1%81%D0%B8%D1%8F"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:151590",
+        "url": "https://tt.wikipedia.org/wiki/%D0%9A%D0%B5%D1%88%D0%B5_%D1%85%D0%BE%D0%BA%D1%83%D0%BA%D0%BB%D0%B0%D1%80%D1%8B_%D0%B1%D1%83%D0%B5%D0%BD%D1%87%D0%B0_%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B0_%D0%A1%D1%83%D0%B4%D1%8B_%D2%BB%D3%99%D0%BC_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.9670932358318098,
+        "compact_similarity": 0.9621848739495799,
+        "token_dice": 0.8741258741258742,
+        "reference_token_coverage": 0.8741258741258742,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "11a822ff-361b-4e25-8476-bcf6019575a2",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D0%B8%D1%8F%D0%B4%D3%99_%D0%B8%D1%81%D0%BB%D0%B0%D0%BC"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:3019",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%B4%D3%99_%D0%B8%D1%81%D0%BB%D0%B0%D0%BC",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.886193623356816,
+        "compact_similarity": 0.8869874618773297,
+        "token_dice": 0.8805287239450941,
+        "reference_token_coverage": 0.7872727272727272,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "126e2c81-029e-4872-8c92-d1d07d590835",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%BB%D0%B0%D0%BD%D1%83%D1%87%D1%8B_%D0%B1%D3%99%D1%85%D3%99%D1%81%D0%B5:%D0%9A%D3%99%D1%80%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0_%D0%A0%D1%83%D0%B7%D0%B8%D1%8F"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "153934a8-9a97-4630-8504-b253b58e66af",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://idel-tat.ru/kazanda-halykara-sammit-start-aldy/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "15ab184e-1168-427a-bc62-93b1946c1725",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://saby-rt.ru/news/novosti/anna-popova-kovidka-karshy-krsht-tatarstanda-ber-minutka-da-khafalanu-bulmady"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00027.parquet:27167",
+        "url": "https://bugulma-tat.ru/news/news/anna-popova-kovidka-karshy-krsht-tatarstanda-ber-minutka-da-khafalanu-bulmady",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8488095238095238,
+        "compact_similarity": 0.85,
+        "token_dice": 0.8429752066115702,
+        "reference_token_coverage": 0.7285714285714285,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "1632211f-92e2-4954-b11a-f4b86bea556f",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/Википедия_бәхәсе:Тавыш_бирү:Бәйге_кысаларында_булдырылган_мәкаләләрне_викиләштерү#Русский_перевод_текста_правила_Конкурсы@татВП"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "16e1cbac-c03e-47fa-8a3e-22b003cd4906",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%91%D3%99%D0%B9%D0%B3%D0%B5%D0%BB%D3%99%D1%80/%D0%A4%D0%93%D0%9E%D0%A1.wiki/2022"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "1853a473-5dfc-4a7e-863f-050fcccace04",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:%D0%91%D0%B0%D1%88_%D0%B1%D0%B8%D1%82/%D0%92%D0%B0%D0%BA%D1%8B%D0%B9%D0%B3%D0%B0%D0%BB%D0%B0%D1%80/2_%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "18f62b63-73ff-44f9-a627-fb639160d996",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:%D0%91%D0%B0%D1%88%D0%B1%D0%B8%D1%82/%D0%AF%D1%85%D1%88%D1%8B_%D0%BC%D3%99%D0%BA%D0%B0%D0%BB%D3%99"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:123015",
+        "url": "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%B8_%D2%BB%D0%B8%D0%BD%D0%B4_%D0%B4%D0%B8%D0%BD%D0%B5",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.10648319661286054,
+        "compact_similarity": 0.10695844602901407,
+        "token_dice": 0.10422213769494104,
+        "reference_token_coverage": 0.9647887323943662,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "1b3fe653-b143-4fef-b98a-87f30f3376ab",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://darelfonyn.kpfu.ru/kazan-marafony-chydamlyka-tiksher/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:1001",
+        "url": "https://yalkyn.ru/news/shahes/15831-2",
+        "method": "reordered_lexical_review",
+        "character_similarity": 0.549498002806866,
+        "compact_similarity": 0.5486881937436933,
+        "token_dice": 0.9723261032161555,
+        "reference_token_coverage": 0.9863429438543247,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "1fcc910e-0697-4c27-a6fa-9f6dfb9fefd1",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%90%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0_%D0%94%D3%99%D2%AF%D0%BB%D3%99%D1%82%D1%88%D0%B8%D0%BD"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:87026",
+        "url": "https://tt.wikipedia.org/wiki/%D0%93%D0%B0%D0%B1%D0%B4%D1%83%D0%BB%D0%BB%D0%B0_%D0%94%D3%99%D2%AF%D0%BB%D3%99%D1%82%D1%88%D0%B8%D0%BD",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8904172397982577,
+        "compact_similarity": 0.8912523265089072,
+        "token_dice": 0.8855721393034826,
+        "reference_token_coverage": 0.7946428571428571,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "20067d70-dc0a-4c38-a396-37894530c38a",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tatar-inform.tatar/news/society/05-05-2020/r-st-m-mi-nehanov-berenche-ukytuchysyn-75-yashlek-yubilee-bel-n-kotlady-5740589"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:69622",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/1741526.htm",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8541862652869238,
+        "compact_similarity": 0.8552774755168662,
+        "token_dice": 0.8082191780821918,
+        "reference_token_coverage": 0.7195121951219512,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:247408",
+        "url": "https://tatar-inform.tatar/news/r-st-m-mi-nehanov-berenche-ukytuchysyn-75-yashlek-yubilee-bel-n-kotlady-5740589",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.782608695652174,
+        "compact_similarity": 0.7783132530120482,
+        "token_dice": 0.8115942028985508,
+        "reference_token_coverage": 0.6829268292682927,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00029.parquet:91207",
+        "url": "https://saby-rt.ru/news/novosti/rstm-minekhanov-berenche-ukytuchysyn-75-yashlek-yubilee-beln-kotlady",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.658203125,
+        "compact_similarity": 0.6583990980834273,
+        "token_dice": 0.6906474820143885,
+        "reference_token_coverage": 0.5853658536585366,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2194c318-6bc2-4bf2-97dd-61cc5db2862d",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.ndcarbide.com/tungsten-carbide-bearing-bush-product/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "240d36ec-0f12-420d-bbe4-921cbcd3f53f",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tnv.ru/tat/main1/novosti/kul_tura/kazanga_krsh_m_bilbauly_krsh_buencha_dnya_chempionatynda_400_dn_artyk_sportchy_kilchk/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:32634",
+        "url": "https://tatar-inform.tatar/news/kazanga-k-r-sh-m-bilbauly-k-r-sh-buencha-d-nya-chempionatynda-400-d-n-artyk-sportchy-kil-ch-k-5139258",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7803430079155673,
+        "compact_similarity": 0.7805438529299118,
+        "token_dice": 0.789598108747045,
+        "reference_token_coverage": 0.6844262295081968,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:32945",
+        "url": "https://tatar-inform.tatar/news/kazanga-b-ten-d-nyadan-bilbauly-k-r-sh-v-kill-re-yela-5141526",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6231647634584013,
+        "compact_similarity": 0.6101481248030256,
+        "token_dice": 0.47337278106508873,
+        "reference_token_coverage": 0.4918032786885246,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "27f65464-8c6b-4cce-b1a4-c0ba52d10773",
+    "category": "weak_only",
+    "original_urls": [
+      "https://belem.ru/node/7995"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00025.parquet:39792",
+        "url": "https://muslumirc.ru/news/statit/vkontakte-tatar-telendge-proektlarga-yarty-million-sumlyk-grantlar-birchk",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8008415147265078,
+        "compact_similarity": 0.7969379532634971,
+        "token_dice": 0.7580645161290323,
+        "reference_token_coverage": 0.8294117647058824,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:171588",
+        "url": "https://yashel-uzan.ru/news/yashәesh/vkontakte-tatar-telendge-proektlarga-yarty-million-sumlyk-grant-yardme-krst",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7236842105263157,
+        "compact_similarity": 0.7165056698866024,
+        "token_dice": 0.6890756302521008,
+        "reference_token_coverage": 0.7235294117647059,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "288f9df9-3ad2-4640-9d22-018033e0d459",
+    "category": "weak_only",
+    "original_urls": [
+      "https://belem.ru/node/6577"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00031.parquet:177695",
+        "url": "https://maydan.tatar/news/articles/nejip-nekkash-tukaj-belen-ilhamlana",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8001245330012453,
+        "compact_similarity": 0.7963768115942029,
+        "token_dice": 0.7929515418502202,
+        "reference_token_coverage": 0.7792207792207793,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00034.parquet:55313",
+        "url": "https://medrese1000-letie.ru/about_the_university/news/detail.php?ID=84",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5599157229391625,
+        "compact_similarity": 0.5480622520598109,
+        "token_dice": 0.5363984674329502,
+        "reference_token_coverage": 0.6060606060606061,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2ba6227a-fc9f-457a-9f85-3c1fbaa99bd9",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%BB%D0%B0%D0%BD%D1%83%D1%87%D1%8B_%D0%B1%D3%99%D1%85%D3%99%D1%81%D0%B5:Kuramsha"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "2c317bea-3b69-44e8-bb60-96a3c241b9bf",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/8327"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:253372",
+        "url": "https://tatar-inform.tatar/news/rosobrnadzor-bdidan-bash-tartu-belem-bir-syyfaty-nacharlanuga-kitererg-m-mkin-5838787",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8541666666666665,
+        "compact_similarity": 0.8548707753479126,
+        "token_dice": 0.832579185520362,
+        "reference_token_coverage": 0.9019607843137255,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00031.parquet:249540",
+        "url": "https://magarif-uku.ru/news/headlines/bdidan-bash-tartu-belem-biru-syyfatyn-n",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6598101265822784,
+        "compact_similarity": 0.6582048957388938,
+        "token_dice": 0.6012269938650306,
+        "reference_token_coverage": 0.4803921568627451,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2d290f7a-da5a-4eec-8cce-493c1618bf0a",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D2%96%D3%99%D0%BB%D0%B8%D0%BB_%D1%87%D0%B0%D1%82%D0%BA%D1%8B%D0%BB%D0%B0%D1%80%D1%8B"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "2e1743f7-2e1c-4422-9528-a3baaec409e3",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.videochat.date/%D0%B1%D0%B5%D0%BB%D3%99%D0%BD-%D1%82%D0%B0%D0%BD%D1%8B%D1%88%D1%83-%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82-%D0%BD%D0%B5%D0%BC%D0%B5%D1%86-%D0%B1%D1%83%D1%88%D0%BB%D0%B0%D0%B9-%D0%BF%D0%BE%D0%B4"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "2e662427-af64-48d4-87fd-87e24a4847ff",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82_%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D0%B5%D1%81%D0%B5_(1755%E2%80%941756)"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:67859",
+        "url": "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D1%82%D1%8B%D1%80%D1%88%D0%B0_%D1%85%D3%99%D1%80%D3%99%D0%BA%D3%99%D1%82%D0%B5",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8446437637502116,
+        "compact_similarity": 0.8477406679764243,
+        "token_dice": 0.8146341463414634,
+        "reference_token_coverage": 0.711395101171459,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:26397",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%91%D0%B0%D1%82%D1%8B%D1%80%D1%88%D0%B0_%D1%85%D3%99%D1%80%D3%99%D0%BA%D3%99%D1%82%D0%B5",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5493195074530136,
+        "compact_similarity": 0.5383056952052225,
+        "token_dice": 0.4712589073634204,
+        "reference_token_coverage": 0.5282215122470714,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2e902e84-2f90-43e2-8d24-98dd1dcbd206",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%A1%D0%BE%D0%BB%D0%BE%D0%B2%D1%8C%D1%91%D0%B2"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:96498",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%A1%D0%BE%D0%BB%D0%BE%D0%B2%D1%8C%D1%91%D0%B2_(1930)",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8574280485776078,
+        "compact_similarity": 0.8586266589728794,
+        "token_dice": 0.828009828009828,
+        "reference_token_coverage": 0.723175965665236,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2eaf8753-8a5b-448e-8c05-2d268a7ac380",
+    "category": "weak_only",
+    "original_urls": [
+      "https://www.azatliq.org/z/574/2019/6/12"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00044.parquet:872",
+        "url": "https://www.azatliq.org/z/574/2019/6/14",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5125563425627817,
+        "compact_similarity": 0.5105751391465677,
+        "token_dice": 0.5569007263922519,
+        "reference_token_coverage": 0.5299539170506913,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2ee14ffe-bac4-45b7-8ced-570849b35ccd",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://pestrecy-rt.ru/news/jemgiyat/tashkabak-m-solydan-koymak"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00026.parquet:71238",
+        "url": "https://bavly-tat.ru/news/ash-su/tashkabak-m-solydan-koymak",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8986332574031891,
+        "compact_similarity": 0.8959575878064944,
+        "token_dice": 0.8594377510040161,
+        "reference_token_coverage": 0.8045112781954887,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:74270",
+        "url": "https://baltaci.ru/news/ash-su-blmse/tashkabak-m-solydan-koymak-yasau-ysuly",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8803317535545022,
+        "compact_similarity": 0.8778467908902692,
+        "token_dice": 0.8713692946058091,
+        "reference_token_coverage": 0.7894736842105263,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "2f1d9e4f-edeb-497a-b740-060aa4dabc1d",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://belem.ru/node/5363"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:85863",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/316322.htm",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8538398018166804,
+        "compact_similarity": 0.8563327032136105,
+        "token_dice": 0.8,
+        "reference_token_coverage": 0.7380952380952381,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:277382",
+        "url": "https://tatar-inform.tatar/news/tatarstan-dagstan-bel-n-m-garif-lk-send-hezm-tt-shlek-turynda-kilesh-t-zede-5595416",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.82,
+        "compact_similarity": 0.8226600985221676,
+        "token_dice": 0.7608695652173914,
+        "reference_token_coverage": 0.8333333333333334,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "3151675c-556c-486a-b48a-1f324bd97349",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://arskmedia.ru/news/faydaly-kishlr/buynnar-avyrtkannan-borych-mae-bulysha"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00026.parquet:21153",
+        "url": "https://tatvestnik-t.ru/articles/s-lam-tlek/2019-07-12/buynnarga-ashygych-yard-m-239299",
+        "method": "near_lexical_review",
+        "character_similarity": 0.86512370311253,
+        "compact_similarity": 0.8646125116713352,
+        "token_dice": 0.8478260869565217,
+        "reference_token_coverage": 0.7647058823529411,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00025.parquet:62590",
+        "url": "https://shahrikazan.ru/news/kish-tabyish/shri-kazannan-faydalyi-kishlr",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.533203125,
+        "compact_similarity": 0.5349369988545246,
+        "token_dice": 0.5263157894736842,
+        "reference_token_coverage": 0.7843137254901961,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "3204c414-c69a-4798-9fb9-b7cd7c61444a",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/862"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "36133a42-f2fa-4472-a4e8-87f6274050f5",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BB%D0%B0%D1%88%D1%83"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:53225",
+        "url": "https://tt.wikipedia.org/wiki/%D0%94%D1%83%D0%BB%D0%BA%D1%8B%D0%BD%D0%BD%D0%B0%D1%80_%D0%BF%D0%BE%D0%BB%D1%8F%D1%80%D0%BB%D0%B0%D1%88%D1%83",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8656020096895748,
+        "compact_similarity": 0.868507831821929,
+        "token_dice": 0.8354080221300139,
+        "reference_token_coverage": 0.8096514745308311,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "366df05c-0fdc-44b4-9e32-9643617cbaa8",
+    "category": "page_identity_review",
+    "original_urls": [
+      "http://tt.wikipedia.org/wiki/%D0%9A%D1%8B%D1%80%D1%8B%D0%BC_%D1%82%D0%B0%D1%82%D0%B0%D1%80%D0%BB%D0%B0%D1%80%D1%8B_%D0%B4%D0%B5%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D1%86%D0%B8%D1%8F%D1%81%D0%B5"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:88669",
+        "url": "https://tt.wikipedia.org/wiki/%D0%9A%D1%8B%D1%80%D1%8B%D0%BC_%D1%82%D0%B0%D1%82%D0%B0%D1%80%D0%BB%D0%B0%D1%80%D1%8B_%D1%81%D3%A9%D1%80%D0%B3%D0%B5%D0%BD%D0%B5",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.40721262208865516,
+        "compact_similarity": 0.4086393088552916,
+        "token_dice": 0.36103151862464183,
+        "reference_token_coverage": 0.9,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:132668",
+        "url": "https://tatar-inform.tatar/news/kyrym-tatarlary-s-rgene-bashlangan-k-n-5272544",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5104281009879253,
+        "compact_similarity": 0.5088607594936709,
+        "token_dice": 0.4344262295081967,
+        "reference_token_coverage": 0.7571428571428571,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "375ece21-fd2b-42e2-b172-05896a869196",
+    "category": "weak_only",
+    "original_urls": [
+      "https://belem.ru/node/8386"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00034.parquet:493",
+        "url": "https://tat-i.net/tt/node/219",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8317460317460317,
+        "compact_similarity": 0.8273674671499773,
+        "token_dice": 0.7238095238095238,
+        "reference_token_coverage": 0.6951219512195121,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:363104",
+        "url": "https://chelny-rt.ru/news/il-yaalyklary/xii-dnyaklm-belem-rlre-tatar-internet-proektlary-bygese-ichelren-blkl-tantanasy-tte",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7677349657904213,
+        "compact_similarity": 0.7608874281018899,
+        "token_dice": 0.672463768115942,
+        "reference_token_coverage": 0.7073170731707317,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00026.parquet:225762",
+        "url": "https://tatcultresurs.ru/tat/news/beznen-sayt-belem-zhuhrlre-bygesend-zhinu-yaulady",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7045619116582187,
+        "compact_similarity": 0.6971947194719472,
+        "token_dice": 0.6058823529411764,
+        "reference_token_coverage": 0.6280487804878049,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "383ec89e-b1ec-4219-96f4-ca587cd0be4f",
+    "category": "weak_only",
+    "original_urls": [
+      "https://obrnadzor.tatarstan.ru/index.htm/news/1997447.htm"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00032.parquet:329467",
+        "url": "https://obrnadzor.tatar.ru/tat/index.htm/news/1997447.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.604152249134948,
+        "compact_similarity": 0.6040848389630793,
+        "token_dice": 0.6069364161849711,
+        "reference_token_coverage": 0.43568464730290457,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "3b090173-4707-4522-99f1-f007053030ec",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tat.e-islam.ru/news/?id=119"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00037.parquet:31629",
+        "url": "",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7937388547652071,
+        "compact_similarity": 0.7936,
+        "token_dice": 0.7299703264094956,
+        "reference_token_coverage": 0.8754448398576512,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "3c02b8ac-cb68-4b6a-a7a3-69d5503d8263",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tat.e-nkama.ru/news/746/78685/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "3c9ad6f8-3904-458e-80dd-586e20375b53",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tatar-inform.tatar/news/tatar_world/10-10-2019/tubyl-sh-rend-tatar-balalar-lider-m-kt-be-uzachak-5613074"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:303210",
+        "url": "https://tatar-inform.tatar/news/tubyl-sh-rend-tatar-balalar-lider-m-kt-be-uzachak-5613074",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8690890990542559,
+        "compact_similarity": 0.8699654775604142,
+        "token_dice": 0.9377289377289377,
+        "reference_token_coverage": 0.927536231884058,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "3d7a50a8-538a-44e0-a230-afc5cb3309a8",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://belem.ru/node/6447"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00025.parquet:304594",
+        "url": "http://belem.ru/node/6600",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8945812807881773,
+        "compact_similarity": 0.892354507417269,
+        "token_dice": 0.84688995215311,
+        "reference_token_coverage": 0.8009049773755657,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00014.parquet:7574",
+        "url": "https://belem.ru/print/6447",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8854551561975142,
+        "compact_similarity": 0.8847352024922118,
+        "token_dice": 0.8856447688564477,
+        "reference_token_coverage": 0.8235294117647058,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00030.parquet:47746",
+        "url": "https://syuyumbike.ru/news/yanalyklar/antuan-de-sent-ekzyuperi-sre-tatar-skhnsend",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8145878026356114,
+        "compact_similarity": 0.8097941802696949,
+        "token_dice": 0.7606263982102909,
+        "reference_token_coverage": 0.7692307692307693,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:92562",
+        "url": "https://tatar-inform.tatar/news/nur-tatar-balalar-teatr-studiyase-n-ni-prints-premierasyn-t-k-dim-it-5235498",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.668302476020522,
+        "compact_similarity": 0.6616735537190083,
+        "token_dice": 0.6133768352365416,
+        "reference_token_coverage": 0.8506787330316742,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:39370",
+        "url": "https://tatar-inform.tatar/news/nur-tatar-balalar-teatr-studiyase-n-ni-prints-spektakl-lirik-kiyate-premierasyna-chakyra-5262277",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6540499621498865,
+        "compact_similarity": 0.6460099386144402,
+        "token_dice": 0.6139705882352942,
+        "reference_token_coverage": 0.755656108597285,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00034.parquet:49874",
+        "url": "https://belem.ru/node/6600",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6252072968490878,
+        "compact_similarity": 0.6198267564966313,
+        "token_dice": 0.5833333333333334,
+        "reference_token_coverage": 0.4434389140271493,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00016.parquet:1814",
+        "url": "http://belem.ru/node/6549",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6191848497324002,
+        "compact_similarity": 0.6137667304015296,
+        "token_dice": 0.6017699115044248,
+        "reference_token_coverage": 0.46153846153846156,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:3931",
+        "url": "https://yalkyn.ru/news/yalkyn/ajga-ochasy-kils",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6090192644483363,
+        "compact_similarity": 0.6040981533012901,
+        "token_dice": 0.5769854132901134,
+        "reference_token_coverage": 0.8054298642533937,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00014.parquet:7574",
+        "url": "https://belem.ru/print/6447",
+        "method": "belem_print_page_identity",
+        "character_similarity": 0.8854551561975142,
+        "compact_similarity": null,
+        "token_dice": null,
+        "reference_token_coverage": null,
+        "wikipedia_page_id_match": null,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "3dc9034f-0387-4786-9b57-0c75914a4ec1",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B5%D0%BD%D1%87%D0%B5_%D0%A0%D3%99%D1%81%D3%99%D0%B9_%D0%B8%D0%BD%D0%BA%D1%8B%D0%B9%D0%BB%D0%B0%D0%B1%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:119222",
+        "url": "https://tt.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B5%D0%BD%D1%87%D0%B5_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_%D0%B8%D0%BD%D0%BA%D1%8B%D0%B9%D0%BB%D0%B0%D0%B1%D1%8B",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.5952732644017725,
+        "compact_similarity": 0.5982978723404255,
+        "token_dice": 0.5833333333333334,
+        "reference_token_coverage": 0.49528301886792453,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "40346bff-af64-498a-a2ee-6f2628e90db1",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://darelfonyn.kpfu.ru/galim-hatyjp-mi-negulovny-kazanyshlar-isemlegen-tagyn-ber-medal-st-lde/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:192497",
+        "url": "https://tatar-inform.tatar/news/hatyyp-mi-negulov-fidakyar-hezm-te-chen-medal-bel-n-b-l-kl-nde-5575985",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8573667711598746,
+        "compact_similarity": 0.8563685636856369,
+        "token_dice": 0.8538011695906432,
+        "reference_token_coverage": 0.9864864864864865,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00031.parquet:171307",
+        "url": "https://maydan.tatar/news/articles/xatyjp-minnegulov-fidakyar-xezmete-ochen-medal-belen-buleklende",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6113789778206364,
+        "compact_similarity": 0.5933333333333333,
+        "token_dice": 0.5323741007194245,
+        "reference_token_coverage": 0.5,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "4332d3da-c184-450f-9916-3c9c718c8bf3",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tatar-inform.tatar/news/culture/15-10-2019/tel-nche-tamak-halyk-teatry-yazuchylar-berlege-r-isene-piesasyn-s-hn-l-shterde-5613802"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:296944",
+        "url": "https://tatar-inform.tatar/news/tel-nche-tamak-halyk-teatry-yazuchylar-berlege-r-isene-piesasyn-s-hn-l-shterde-5613802",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8552515445719329,
+        "compact_similarity": 0.8507157464212679,
+        "token_dice": 0.8333333333333334,
+        "reference_token_coverage": 0.8387096774193549,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "4390bea2-998e-4c55-ae83-6649e0e10c64",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D1%83%D3%99%D1%82_(%D0%B9%D0%BE%D0%BB%D0%B4%D1%8B%D0%B7_%D1%81%D1%83%D0%B3%D1%8B%D1%88%D0%BB%D0%B0%D1%80%D1%8B)"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:133683",
+        "url": "https://tt.wikipedia.org/wiki/%D0%9A%D1%83%D3%99%D1%82_(%D0%99%D0%BE%D0%BB%D0%B4%D1%8B%D0%B7_%D1%81%D1%83%D0%B3%D1%8B%D1%88%D0%BB%D0%B0%D1%80%D1%8B)",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8590604026845639,
+        "compact_similarity": 0.8597081930415265,
+        "token_dice": 0.8386491557223265,
+        "reference_token_coverage": 0.9530916844349681,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "44d6fb78-a927-4440-b4a2-073ba27f57da",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82%D1%87%D0%B5%D0%BB%D0%B5%D0%B3%D0%B5"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:47208",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82%D0%BB%D3%99%D1%80%D0%B5",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8812531581606874,
+        "compact_similarity": 0.8796595245083652,
+        "token_dice": 0.8586956521739131,
+        "reference_token_coverage": 0.9461077844311377,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00038.parquet:687",
+        "url": "http://nigez.ucoz.ru/index/tatarlar/0-130",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.666858072542827,
+        "compact_similarity": 0.6680008894818767,
+        "token_dice": 0.6561427590940289,
+        "reference_token_coverage": 0.9540918163672655,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:88642",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82%D0%BB%D3%99%D1%80%D0%B5",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8914708886618999,
+        "compact_similarity": 0.8896797153024911,
+        "token_dice": 0.8697247706422019,
+        "reference_token_coverage": 0.9461077844311377,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00025.parquet:309628",
+        "url": "http://nigez.ucoz.ru/index/tatarlar/0-130",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5935788320552793,
+        "compact_similarity": 0.5940865478754651,
+        "token_dice": 0.5776435045317221,
+        "reference_token_coverage": 0.9540918163672655,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "47f89a3c-593d-492e-beec-a666be626781",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tokaevo.ucoz.ru/news/14_08_15_m_dr_s_d_lagerny_ikenche_smenasy_t_mamlandy/2015-08-14-1583"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00011.parquet:2967",
+        "url": "http://aznislam.ru/ak-mechette-kyzlar-lagere-temam/",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7728107777097367,
+        "compact_similarity": 0.7616361071932299,
+        "token_dice": 0.6451612903225806,
+        "reference_token_coverage": 0.603448275862069,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00037.parquet:25952",
+        "url": "",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6427161468614291,
+        "compact_similarity": 0.6405466970387244,
+        "token_dice": 0.5941176470588235,
+        "reference_token_coverage": 0.8706896551724138,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00035.parquet:34170",
+        "url": "https://dumrt.ru/news/news_5177.html",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5898807075277663,
+        "compact_similarity": 0.5883467550923733,
+        "token_dice": 0.515527950310559,
+        "reference_token_coverage": 0.7155172413793104,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00021.parquet:15379",
+        "url": "http://aznislam.ru/category/yanalyklar/waqygalar/",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.565121412803532,
+        "compact_similarity": 0.5502049180327868,
+        "token_dice": 0.3492063492063492,
+        "reference_token_coverage": 0.47413793103448276,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "4823b4c8-5a27-4544-9da7-2d3db8889594",
+    "category": "weak_only",
+    "original_urls": [
+      "https://agryz-rt.ru/news/yashaesh/sinoptiklar-yagyr-yashenle-yagyr-m-kchle-il-turynda-kist"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:21331",
+        "url": "https://tetyushy.ru/news/mgyyat/sinoptiklar-yagyr-yashenle-yagyr-m-kchle-il-turynda-kist",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.819047619047619,
+        "compact_similarity": 0.8205533596837945,
+        "token_dice": 0.8115942028985508,
+        "reference_token_coverage": 0.711864406779661,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "49495275-0df2-45a1-b7ff-d4cabab6c36f",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%97%D0%BE%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00037.parquet:25816",
+        "url": "",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5853457172342622,
+        "compact_similarity": 0.5814009084389195,
+        "token_dice": 0.5632530120481928,
+        "reference_token_coverage": 0.9121951219512195,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "49f12e4d-5ea0-49fc-9412-9fc7c545c40c",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7_(%D0%BC%D3%99%D0%B3%D1%8A%D0%BD%D3%99%D0%BB%D3%99%D1%80)"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "4a894391-bd93-4f56-9d61-a958c5c74f8c",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/comment/1169"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00034.parquet:48512",
+        "url": "https://belem.ru/node/2080",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.6061533231344551,
+        "compact_similarity": 0.6082494572725479,
+        "token_dice": 0.5941320293398533,
+        "reference_token_coverage": 0.9604743083003953,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "4d7cfbba-10f9-410c-aa38-c734ff5007db",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BA%D0%B0%D1%80%D0%B8%D0%BE%D1%82%D0%BB%D0%B0%D1%80"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:58890",
+        "url": "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%B8%D1%8F%D0%BB%D3%99%D1%80",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.502983502983503,
+        "compact_similarity": 0.4928147924831675,
+        "token_dice": 0.42709053213545267,
+        "reference_token_coverage": 0.4204081632653061,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "4da678f2-4e7a-4fda-8e30-e16a2901d72e",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:%D0%91%D0%B0%D1%88%D0%B1%D0%B8%D1%82/%D0%A1%D0%B0%D0%B9%D0%BB%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD_%D0%BC%D3%99%D0%BA%D0%B0%D0%BB%D3%99"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "4e4f8fb7-a65a-4077-8922-2952dafee66c",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/746"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "4e98723c-e605-4daf-ad4a-57caf03918fe",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/2380"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "4fba619e-4c26-41e7-a461-c0b53111c82d",
+    "category": "weak_only",
+    "original_urls": [
+      "https://bugulma-tatarstan.ru/news/madaniat/respublikada-etnografik-m-mdni-tanyip-bel-turizmyi"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00027.parquet:32846",
+        "url": "https://bugulma-tat.ru/news/madaniat/respublikada-etnografik-m-mdni-tanyip-bel-turizmyi",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8429658866647871,
+        "compact_similarity": 0.8427184466019417,
+        "token_dice": 0.8453159041394336,
+        "reference_token_coverage": 0.7320754716981132,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:119829",
+        "url": "https://tatar-inform.tatar/news/r-st-m-mi-nehanov-turistlarga-kazanny-bieklekt-n-k-rs-terg-t-k-dim-itte-5309518",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6346613545816733,
+        "compact_similarity": 0.6344036697247706,
+        "token_dice": 0.5981873111782477,
+        "reference_token_coverage": 0.7471698113207547,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00026.parquet:215905",
+        "url": "https://spas-rt.ru/news/obschestvo-politika/tatarstan-tyinyichlyik-m-kilesh-yaklyi",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5111763377737638,
+        "compact_similarity": 0.5009065009065009,
+        "token_dice": 0.37543859649122807,
+        "reference_token_coverage": 0.4037735849056604,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "514a5af5-4985-4d3f-b4d2-6ffcdd0bab7a",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D1%85%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D0%B7"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00010.parquet:15717",
+        "url": "http://watan.su/badraf/273-venerik",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.1451580349574133,
+        "compact_similarity": 0.14484993659292655,
+        "token_dice": 0.14293915040183697,
+        "reference_token_coverage": 0.9688715953307393,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "51bd7535-1f58-40ff-9238-95a9b51e066a",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://100tatarstan.100tatarstan.ru/news/yaalyklar/tatarstan-tzchelre-tassrny-100-ellygy-elynda-100-knd-khastakhan-tzep-tapshyrdylar"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "53592d61-3a3b-450f-a11d-a74091296f16",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A0%D1%83%D1%81_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BB%D0%B0%D1%80%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:19313",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A0%D1%83%D1%81_%D1%82%D0%B5%D0%BB%D0%BB%D0%B5_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BB%D0%B0%D1%80",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8891122278056952,
+        "compact_similarity": 0.8887171561051005,
+        "token_dice": 0.8822055137844611,
+        "reference_token_coverage": 0.8543689320388349,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "595b12cd-83f5-461b-a460-42636f98844b",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://belem.ru/node/7107"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:87674",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/816679.htm",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8987485779294653,
+        "compact_similarity": 0.9022164276401564,
+        "token_dice": 0.8771929824561403,
+        "reference_token_coverage": 0.78125,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00033.parquet:87563",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/771753.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8373626373626374,
+        "compact_similarity": 0.8287153652392947,
+        "token_dice": 0.6949152542372882,
+        "reference_token_coverage": 0.640625,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00033.parquet:87617",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/794422.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8067226890756303,
+        "compact_similarity": 0.7985524728588661,
+        "token_dice": 0.624,
+        "reference_token_coverage": 0.609375,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "59877a4d-f455-4611-9e8f-05dfe9cf2cd8",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BB%D0%B8%D0%B2%D1%91%D1%80%D1%81%D1%82_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%B5%D0%B2%D0%B8%D1%87_%D0%94%D0%B0%D0%B2%D1%8B%D0%B4%D0%BE%D0%B2_%D0%B8%D1%81%D0%B5%D0%BC%D0%B5%D0%BD_%D0%BC%D3%99%D2%A3%D0%B3%D0%B5%D0%BB%D3%99%D1%88%D1%82%D0%B5%D1%80%D2%AF"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "59da2696-a4a5-494a-94fe-a84974fa774d",
+    "category": "weak_only",
+    "original_urls": [
+      "http://belem.ru/node/7236"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:177666",
+        "url": "https://tatar-inform.tatar/news/challyny-26-nchy-gimnaziyase-shahmat-uennaryny-b-tenrossiya-turniry-finalynda-katnashachak-5536823",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8331402085747392,
+        "compact_similarity": 0.8307692307692307,
+        "token_dice": 0.8240343347639485,
+        "reference_token_coverage": 0.897196261682243,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "5b6fbac0-12df-4c81-b289-288b16aec409",
+    "category": "weak_only",
+    "original_urls": [
+      "https://syuyumbike.ru/news/yanalyklar/tatarstanda-ava-toryshy-nacharlanu-sbple-balalarny-massaklm-kayadyr-alyp-baru-tyela"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:35798",
+        "url": "https://tatar-inform.tatar/news/tatarstanda-ava-toryshy-nacharlanu-s-b-ple-balalarny-massak-l-m-kayadyr-alyp-baru-tyela-5184968",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7294308065821419,
+        "compact_similarity": 0.7322540473225405,
+        "token_dice": 0.7002012072434608,
+        "reference_token_coverage": 0.6718146718146718,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "5e9ce248-f4d9-4431-9366-64491949eafe",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/4593"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:81916",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/239899.htm",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8503937007874016,
+        "compact_similarity": 0.8506849315068493,
+        "token_dice": 0.8186528497409327,
+        "reference_token_coverage": 0.8586956521739131,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "60a5a801-8daa-4ef8-bee6-c53b829e27f3",
+    "category": "weak_only",
+    "original_urls": [
+      "https://giylem.tatar/archives/tag/%D0%BE%D0%BF%D1%82%D0%B8%D0%BA%D0%B0"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00034.parquet:43361",
+        "url": "http://giylem.tatar/archives/tag/%d1%8f%d0%ba%d1%82%d1%8b%d0%bb%d1%8b%d0%ba",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6987060998151571,
+        "compact_similarity": 0.6992399565689468,
+        "token_dice": 0.6993865030674846,
+        "reference_token_coverage": 0.5377358490566038,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00037.parquet:1548",
+        "url": "https://giylem.tatar/archives/tag/%D0%BE%D1%84%D1%82%D0%B0%D0%BB%D1%8C%D0%BC%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6118029236599891,
+        "compact_similarity": 0.597452229299363,
+        "token_dice": 0.4444444444444444,
+        "reference_token_coverage": 0.5849056603773585,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00048.parquet:2066",
+        "url": "http://giylem.tatar/archives/1998",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5230263157894737,
+        "compact_similarity": 0.5201535508637236,
+        "token_dice": 0.5568181818181818,
+        "reference_token_coverage": 0.46226415094339623,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "60ced986-5812-4f3a-b9f6-55ec7332c884",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.hzbxgas.com/news/moroccan-customer-visited-the-factory/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "623ccec9-5979-4bd7-a0d4-db888fd3b7e8",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D1%83%D0%BB%D0%BB%D0%B0%D0%BD%D1%83%D1%87%D1%8B_%D0%B1%D3%99%D1%85%D3%99%D1%81%D0%B5:IlnarSelimcan"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "62467238-4dc9-48c9-b1ee-8a587fe85df3",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D0%A0_%D0%B0%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD_%D0%BC%D3%99%D0%B4%D3%99%D0%BD%D0%B8%D1%8F%D1%82_%D1%85%D0%B5%D0%B7%D0%BC%D3%99%D1%82%D0%BA%D3%99%D1%80%D0%B5"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:85304",
+        "url": "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82%D1%81%D1%82%D0%B0%D0%BD_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%81%D1%8B%D0%BD%D1%8B%D2%A3_%D0%B0%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD_%D0%BC%D3%99%D0%B4%D3%99%D0%BD%D0%B8%D1%8F%D1%82_%D1%85%D0%B5%D0%B7%D0%BC%D3%99%D1%82%D0%BA%D3%99%D1%80%D0%B5",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.5653379549393414,
+        "compact_similarity": 0.5712570856952317,
+        "token_dice": 0.44885627967198966,
+        "reference_token_coverage": 0.7558139534883721,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:26269",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82%D1%81%D1%82%D0%B0%D0%BD_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%81%D1%8B%D0%BD%D1%8B%D2%A3_%D0%B0%D1%82%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD_%D0%BC%D3%99%D0%B4%D3%99%D0%BD%D0%B8%D1%8F%D1%82_%D1%85%D0%B5%D0%B7%D0%BC%D3%99%D1%82%D0%BA%D3%99%D1%80%D0%B5",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8465728085499948,
+        "compact_similarity": 0.8491646220352845,
+        "token_dice": 0.82793867120954,
+        "reference_token_coverage": 0.7063953488372093,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "65db5aea-f5f4-4dc0-ad91-7afdc874999e",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://belem.ru/node/1326"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "6766a2e9-d1b0-45a8-9b31-6c51296751ad",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A0%D3%99%D1%81%D3%99%D0%B9_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%81%D0%B5%D0%BD%D0%B5%D2%A3_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82_%D0%B3%D0%B5%D1%80%D0%B1%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:30676",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%81%D0%B5%D0%BD%D0%B5%D2%A3_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82_%D0%B3%D0%B5%D1%80%D0%B1%D1%8B",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.5118712273641851,
+        "compact_similarity": 0.5138986218173325,
+        "token_dice": 0.5065123010130246,
+        "reference_token_coverage": 0.34930139720558884,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:7652",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%81%D0%B5%D0%BD%D0%B5%D2%A3_%D0%B4%D3%99%D2%AF%D0%BB%D3%99%D1%82_%D0%B3%D0%B5%D1%80%D0%B1%D1%8B",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8040834709503077,
+        "compact_similarity": 0.8046057222609909,
+        "token_dice": 0.7862513426423201,
+        "reference_token_coverage": 0.7305389221556886,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00046.parquet:7217",
+        "url": "https://tt.wikipedia.org/wiki/%D0%98%D0%BA%D0%B5_%D0%B1%D0%B0%D1%88%D0%BB%D1%8B_%D0%B1%D3%A9%D1%80%D0%BA%D0%B5%D1%82",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6129084178335747,
+        "compact_similarity": 0.5984635563050402,
+        "token_dice": 0.510250569476082,
+        "reference_token_coverage": 0.4471057884231537,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "6e65cf83-3768-4f5e-88cd-cacc370bfb46",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/949"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "6f403f07-bbb8-47ce-b94b-9e5b15e047a0",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A2%D3%A9%D0%BD%D1%8C%D1%8F%D0%BA_%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB%D1%8B_(%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D1%81%D0%B5)"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:63248",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A2%D3%A9%D0%BD%D1%8C%D1%8F%D0%BA_%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB_(%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D1%81%D0%B5)",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.7802690582959642,
+        "compact_similarity": 0.7822685788787482,
+        "token_dice": 0.7086614173228346,
+        "reference_token_coverage": 0.6716417910447762,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:52370",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%A2%D3%A9%D0%BD%D1%8C%D1%8F%D0%BA_%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB_(%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D1%81%D0%B5)",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7987012987012987,
+        "compact_similarity": 0.7989886219974716,
+        "token_dice": 0.7407407407407407,
+        "reference_token_coverage": 0.746268656716418,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00046.parquet:61971",
+        "url": "https://tt.wikipedia.org/wiki/%D0%90%D0%B2%D0%B8%D0%B0%D1%82%D3%A9%D0%B7%D0%B5%D0%BB%D0%B5%D1%88_(%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D1%81%D0%B5)",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7090694935217903,
+        "compact_similarity": 0.7029972752043596,
+        "token_dice": 0.5641025641025641,
+        "reference_token_coverage": 0.4925373134328358,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:197930",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%90%D0%B2%D0%B8%D0%B0%D1%82%D3%A9%D0%B7%D0%B5%D0%BB%D0%B5%D1%88_(%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D1%81%D0%B5)",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.69221260815822,
+        "compact_similarity": 0.6866952789699571,
+        "token_dice": 0.5535714285714286,
+        "reference_token_coverage": 0.4626865671641791,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00047.parquet:48183",
+        "url": "https://tt.wikipedia.org/wiki/%D0%AF%D1%88%D1%8C%D0%BB%D0%B5%D0%BA_(%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%D1%81%D0%B5)",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6501182033096926,
+        "compact_similarity": 0.6456043956043955,
+        "token_dice": 0.5166666666666667,
+        "reference_token_coverage": 0.4626865671641791,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "710f75d8-ec96-4ae9-8e2e-aaeb0b58d16f",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.newlights.com/led-smd-bulb-gu10-mr16-series-product/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "734ecb5a-0b14-478b-a7ee-222bf80f80d4",
+    "category": "page_identity_review",
+    "original_urls": [
+      "http://belem.ru/node/5446"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:306010",
+        "url": "https://tatar-inform.tatar/news/ukuchylarny-transportta-y-rt-kararyna-zg-reshl-r-kertelde-5600438",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8859602881743104,
+        "compact_similarity": 0.8851791530944627,
+        "token_dice": 0.8911651728553137,
+        "reference_token_coverage": 0.8365384615384616,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00022.parquet:3416",
+        "url": "https://belem.ru/print/5446",
+        "method": "belem_print_page_identity",
+        "character_similarity": 0.036952998379254476,
+        "compact_similarity": null,
+        "token_dice": null,
+        "reference_token_coverage": null,
+        "wikipedia_page_id_match": null,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "7384f899-a6c4-4915-a073-26abe9cca6b2",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tatar-inform.tatar/news/incident/16-05-2021/kazanda-175nche-gimnaziyad-ge-fa-igag-b-yle-r-vesht-moshenniklyk-ochraklary-eshaygan-5823393"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:205159",
+        "url": "https://tatar-inform.tatar/news/kazanda-175nche-gimnaziyad-ge-fa-igag-b-yle-r-vesht-moshenniklyk-ochraklary-eshaygan-5823393",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7959060806742926,
+        "compact_similarity": 0.7936726272352133,
+        "token_dice": 0.9186602870813397,
+        "reference_token_coverage": 0.9230769230769231,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "74edd1db-ed4a-4cb5-bab2-11a793da2cea",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://nashcheremshan.ru/news/belep-toryigyiz/ktelmgn-boryilyish-ilsya-bdretdinovaga-kiyag-chyig"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00037.parquet:1748",
+        "url": "http://tulachi.ru/news/tatar-shou-biznes/ktelmgn-boryilyish-ilsya-bdretdinovaga-kiyag-chyig",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8704156479217605,
+        "compact_similarity": 0.8688046647230321,
+        "token_dice": 0.8844221105527639,
+        "reference_token_coverage": 0.9361702127659575,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00024.parquet:29650",
+        "url": "https://mamadysh-rt.ru/news/respublikanskie-novosti/ilsya-bdretdinovaga-kiyag-chygarga-tkdim-yasagannar-video",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7197358767424799,
+        "compact_similarity": 0.7144112478031635,
+        "token_dice": 0.672566371681416,
+        "reference_token_coverage": 0.8085106382978723,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00006.parquet:16712",
+        "url": "http://tulachi.ru/news/tatar-shou-biznes/ktelmgn-boryilyish-ilsya-bdretdinovaga-kiyag-chyig",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5839080459770115,
+        "compact_similarity": 0.5871934604904632,
+        "token_dice": 0.5693430656934306,
+        "reference_token_coverage": 0.4148936170212766,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "7752f2b1-f3dc-4c8a-b66f-5e5d042335eb",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/2"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "77d6e260-b8a0-46e5-88ae-4ba087f1bc88",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://specpromsnab-u.ru/viewtopic.php?f=10&t=63886"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "7a276369-c454-43a1-9650-7b832648f204",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D3%99%D1%85%D3%99%D1%81:%D0%A3%D1%82%D0%B5%D1%85%D1%82"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "7ea01008-7a35-4ea7-8517-3204f31d7de9",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.videochat.life/%D1%82%D0%B0%D0%BD%D1%8B%D1%88%D1%83-%D2%BB%D3%99%D0%BC-%D1%87%D0%B0%D1%82-1-%D0%BA%D0%B0%D1%80%D1%82%D0%B0-%D0%BA%D0%B5%D1%80%D2%AF-%D0%B1%D1%83%D1%88%D0%BB%D0%B0%D0%B9-%D2%BB%D3%99%D0%BC-%D1%82%D0%B5%D1%80%D0%BA%D3%99%D0%BB%D0%BC%D0%B8%D1%87%D3%99"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "7f9edbb5-8844-4959-8c31-2b7cc8914524",
+    "category": "weak_only",
+    "original_urls": [
+      "http://idel-tat.ru/news/novosti-tt/musa-barlyk-krshchelrne-yaavyl-saban-tuena-chakyra"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00029.parquet:89016",
+        "url": "https://saby-rt.ru/news/novosti/musa-barlyk-krshchelrne-yaavyl-saban-tuena-chakyra",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7929936305732483,
+        "compact_similarity": 0.7907982090473985,
+        "token_dice": 0.8067860508953817,
+        "reference_token_coverage": 0.6761453396524486,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "83ad1485-02e6-40b6-bdf6-22958f301e4c",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D3%99%D1%85%D3%99%D1%81:%D2%96%D3%99%D0%BD%D0%B3%D0%B0%D0%BD_(%D0%A1%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD)"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "85657093-bc91-46f2-9d52-a17997600356",
+    "category": "weak_only",
+    "original_urls": [
+      "http://belem.ru/node/3752"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:27624",
+        "url": "https://tatar-inform.tatar/news/tatarstanda-bdiny-st-m-etaby-bashlana-5418585",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7309110057925223,
+        "compact_similarity": 0.7288449660284126,
+        "token_dice": 0.7304964539007093,
+        "reference_token_coverage": 0.8956521739130435,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "858a8be4-e464-4153-87c9-bd066c82f352",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/Vasiliy_Molodtsov"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:126811",
+        "url": "https://tt.wikipedia.org/wiki/%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%9C%D0%BE%D0%BB%D0%BE%D0%B4%D1%86%D0%BE%D0%B2",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8178752107925802,
+        "compact_similarity": 0.8201861832435081,
+        "token_dice": 0.8108108108108109,
+        "reference_token_coverage": 0.7336956521739131,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "86e6e32c-bd20-494f-be9a-fe30a2e7540a",
+    "category": "weak_only",
+    "original_urls": [
+      "http://belem.ru/node/6430"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00026.parquet:165349",
+        "url": "https://zamansulyshy.ru/news/jemgyiyat/tatarstan-mktplrend-munitsipal-politsiya-eshli-bas",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7234782608695653,
+        "compact_similarity": 0.7281746031746033,
+        "token_dice": 0.6944444444444444,
+        "reference_token_coverage": 0.5319148936170213,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "881fbfa5-ff4f-4e9c-a0a4-f3affb401fe5",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.wikipedia.org/wiki/%D0%9E%D0%BB%D0%B5%D0%B3_%D0%9A%D2%AF%D1%80%D3%99%D0%B7%D3%99"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "8a3bbdd4-0fd1-4916-89f1-536e12dfc78e",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://belem.ru/node/2053"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "8ae7a4e1-110d-451f-8d71-4cc45cb19a95",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A5%D3%99%D0%B4%D0%B8%D1%87%D3%99"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00034.parquet:36580",
+        "url": "https://www.tatar-islam.com/publ/40_tartma/m_slim_l_r_s_khif_se/5-1-0-10088",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8896482412060301,
+        "compact_similarity": 0.8893277510071885,
+        "token_dice": 0.8518518518518519,
+        "reference_token_coverage": 0.7834549878345499,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "8d5500b9-f7b0-459e-b091-3b024e6ca936",
+    "category": "page_identity_review",
+    "original_urls": [
+      "http://belem.ru/node/6500"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00023.parquet:3381",
+        "url": "https://belem.ru/print/6500",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8753412192902639,
+        "compact_similarity": 0.876451953537487,
+        "token_dice": 0.8311688311688312,
+        "reference_token_coverage": 0.8533333333333334,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:381466",
+        "url": "https://kukmor-rt.ru/news/khbrlr/mktplrd-gail-tormyishyi-nigezlre-buencha-belem-bir",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5990922844175492,
+        "compact_similarity": 0.600174978127734,
+        "token_dice": 0.6850828729281768,
+        "reference_token_coverage": 0.8266666666666667,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:249846",
+        "url": "http://qushlawich.ru/taxonomy/term/5?page=8",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5060362173038229,
+        "compact_similarity": 0.49941792782305006,
+        "token_dice": 0.47058823529411764,
+        "reference_token_coverage": 0.8533333333333334,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00023.parquet:3381",
+        "url": "https://belem.ru/print/6500",
+        "method": "belem_print_page_identity",
+        "character_similarity": 0.8753412192902639,
+        "compact_similarity": null,
+        "token_dice": null,
+        "reference_token_coverage": null,
+        "wikipedia_page_id_match": null,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "8e0ef36d-7450-4000-b44d-4e2f55039040",
+    "category": "weak_only",
+    "original_urls": [
+      "http://yashel-uzan.ru/news/yash%D3%99esh/rossiya-gidrometeorologiya-zgend-yne-i-esse-knnre-turynda-syldelr"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00014.parquet:4484",
+        "url": "http://almet-rt.ru/news/mgyyat/yne-i-esse-knnre-kaychan",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8384710234278668,
+        "compact_similarity": 0.8368382886149384,
+        "token_dice": 0.8163265306122449,
+        "reference_token_coverage": 0.847457627118644,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:3783",
+        "url": "https://magarif-uku.ru/news/headlines/rossiya-gidrometeorologiya-uzagenda",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8109651627641348,
+        "compact_similarity": 0.8042895442359249,
+        "token_dice": 0.7816091954022989,
+        "reference_token_coverage": 0.864406779661017,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00026.parquet:126141",
+        "url": "https://buzdyak-t.ru/articles/obshchestvo/2019-06-26/meteorologlar-yne-i-esse-k-nn-ren-farazlady-128604",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6251851851851852,
+        "compact_similarity": 0.598781549173194,
+        "token_dice": 0.5517241379310345,
+        "reference_token_coverage": 0.4745762711864407,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "911df417-1900-4949-8c91-e190742775e9",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/2911"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:205704",
+        "url": "https://rania.ucoz.com/blog/quot_sabantuj_quot_ly_balachak/2010-11-19-68",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8971659919028341,
+        "compact_similarity": 0.8981042654028435,
+        "token_dice": 0.8836565096952909,
+        "reference_token_coverage": 0.7975,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "934a5851-c61a-44e7-b508-b751fe2c01a0",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:%D0%91%D0%B0%D1%88_%D0%B1%D0%B8%D1%82/%D0%92%D0%B0%D0%BA%D1%8B%D0%B9%D0%B3%D0%B0%D0%BB%D0%B0%D1%80/4_%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "96f15e59-5c0b-4722-bb1f-5bdd13bb6dfb",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://syuyumbike.ru/yanalyklar/?id=8646"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00030.parquet:52493",
+        "url": "https://syuyumbike.ru/news/yanalyklar/mandarinnar-chen-rkhmt-landysh",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8742393509127789,
+        "compact_similarity": 0.8710557070510323,
+        "token_dice": 0.8244274809160306,
+        "reference_token_coverage": 0.7751196172248804,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "98890eae-ece1-40df-8ff2-8d032c2a7b02",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://yashel-uzan.ru/news/yash%D3%99esh/tatarstanda-pandemiya-arkasynda-darular-falsifikatlary-ylneshe-artkan"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00027.parquet:32397",
+        "url": "https://bugulma-tat.ru/news/news/tatarstanda-pandemiya-arkasynda-darular-falsifikatlary-ylneshe-artkan",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8917241379310344,
+        "compact_similarity": 0.8905630452022204,
+        "token_dice": 0.9,
+        "reference_token_coverage": 0.8181818181818182,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00025.parquet:36937",
+        "url": "https://muslumirc.ru/news/statit/tatarstanda-pandemiya-arkasynda-yalgan-darular-ylneshe-artty",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8271716260895701,
+        "compact_similarity": 0.8172711571675302,
+        "token_dice": 0.728110599078341,
+        "reference_token_coverage": 0.7559808612440191,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00025.parquet:305207",
+        "url": "https://baltaci.ru/news/keshe-%D2%BB%D3%99m-zakon/tatarstanda-pandemiya-arkasynda-yalgan-darular-ylneshe-artty",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8097560975609757,
+        "compact_similarity": 0.7994023160254016,
+        "token_dice": 0.715,
+        "reference_token_coverage": 0.6842105263157895,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:81495",
+        "url": "https://baltaci.ru/news/kese-ham-zakon/tatarstanda-pandemiya-arkasynda-yalgan-darular-ylneshe-artty",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6847905951506246,
+        "compact_similarity": 0.6737019839594766,
+        "token_dice": 0.6028169014084507,
+        "reference_token_coverage": 0.5119617224880383,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:348",
+        "url": "https://alabuganury.ru/news/heberler/tatarstanda-pandemiya-sbple-yalgan-darular-ylneshe-artkan",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6701680672268908,
+        "compact_similarity": 0.6554081222356253,
+        "token_dice": 0.5606469002695418,
+        "reference_token_coverage": 0.49760765550239233,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "99651953-7a24-44c4-9424-d69fe199ba47",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D2%96%D3%99%D0%B1%D3%99%D0%BB%D0%B8%D1%8F"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "9984aaf6-78a6-4dde-8c09-2c3d43bd6ea6",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%90%D0%BC%D0%B0%D0%BD%D0%B0%D1%82"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:148285",
+        "url": "https://tt.wikipedia.org/wiki/%D3%98%D0%BC%D0%B0%D0%BD%D3%99%D1%82",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.729589804858622,
+        "compact_similarity": 0.7316849816849818,
+        "token_dice": 0.6869300911854104,
+        "reference_token_coverage": 0.9338842975206612,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "9c3b58b6-268b-4d1a-afba-d68235cf3617",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://darelfonyn.kpfu.ru/rossiya-m-garif-ministry-olga-vasileva-tatarstanda-yash-p-telne-belm-bik-k-d-res-t-gel/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00025.parquet:64331",
+        "url": "https://shahrikazan.ru/news/kyiskacha-yaңalyiklar/rossiya-mgarif-ministryi-olga-vasileva-tatarstanda",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8823712948517941,
+        "compact_similarity": 0.8790731354091238,
+        "token_dice": 0.8674157303370786,
+        "reference_token_coverage": 0.9601990049751243,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00031.parquet:123404",
+        "url": "https://matbugat.ru/news/?id=19828",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6739415102575295,
+        "compact_similarity": 0.6788062721294892,
+        "token_dice": 0.7278481012658228,
+        "reference_token_coverage": 0.572139303482587,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "9ce2f9b3-2786-4902-8013-12ce20a8d3ab",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:Ifempty"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "9dc9f7ca-abc0-41bc-a456-f2bb21746bb3",
+    "category": "weak_only",
+    "original_urls": [
+      "https://belem.ru/node/4905"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00032.parquet:77083",
+        "url": "https://kitaphane.tatarstan.ru/tat/index.htm/news/262205.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7001067235859124,
+        "compact_similarity": 0.696078431372549,
+        "token_dice": 0.6065573770491803,
+        "reference_token_coverage": 0.6434782608695652,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00030.parquet:122654",
+        "url": "https://intertat.ru/tt/milli-tt/item/23381-milli-kitaphan%D3%99d%D3%99-tatar-galimn%D3%99re-hezm%D3%99tl%D3%99re.html",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6642642642642642,
+        "compact_similarity": 0.6575154426904599,
+        "token_dice": 0.9047619047619048,
+        "reference_token_coverage": 0.8260869565217391,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "9ed56cfb-af0f-4a9b-82f0-c4b728797e64",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://dores.tatar/page/nokta"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "9fb54635-2e76-425d-9ca5-e112d9387d94",
+    "category": "weak_only",
+    "original_urls": [
+      "http://yashel-uzan.ru/news/yash%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BDesh/olyi-yake-sentelre-yashel-zn-bazaryin-yaulyiy"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00032.parquet:12684",
+        "url": "https://zelenodolsk.tatar.ru/tat/index.htm/news/418018.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8373904576436222,
+        "compact_similarity": 0.8357760240511086,
+        "token_dice": 0.8246445497630331,
+        "reference_token_coverage": 0.7160493827160493,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "a075e4aa-23d6-427f-a85e-25e160ac0746",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.decorzoneco.com/news/guide-to-choose-metal-garden-furniture/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "a47faa4c-c165-4405-8b3d-3e1dce299ad5",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%A2%D3%A9%D1%80%D0%BA%D0%B8_%D0%BC%D0%B0%D1%80%D0%B0%D1%84%D0%BE%D0%BD/2020"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00026.parquet:223174",
+        "url": "https://ru.wikimedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D1%8B/%D0%92%D0%B8%D0%BA%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D0%B0_%E2%80%94_2018/tt",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6206600942991856,
+        "compact_similarity": 0.6160670280926565,
+        "token_dice": 0.5901639344262295,
+        "reference_token_coverage": 0.6122448979591837,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "a5d374d0-02fe-402a-bdb2-f239dea69e72",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://magarif-uku.ru/tt/tatar-tele-olimpiadasynda-katnashuchy/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00032.parquet:1234",
+        "url": "https://magarif-uku.ru/news/headlines/tatar-tele-olimpiadasynda-katnashuchy",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8889657557938428,
+        "compact_similarity": 0.8893344025661588,
+        "token_dice": 0.8922305764411027,
+        "reference_token_coverage": 0.9834254143646409,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:209303",
+        "url": "https://aktanysh-rt.ru/news/obrazovanie/tatar-tele-olimpiadasynda-katnashuchylar-zerlgn-chen-gimnaziya-ukytuchysy-chulpan-shripova-115-sumlyk-grantka-laek-buldy",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5672797676669894,
+        "compact_similarity": 0.5571694599627561,
+        "token_dice": 0.5961538461538461,
+        "reference_token_coverage": 0.6850828729281768,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "a666e761-9180-4293-825c-adc16fb3faa7",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D0%B5_%D0%A2%D3%99%D1%80%D0%B1%D0%B8%D1%82_%D0%BC%D3%99%D0%BA%D1%82%D3%99%D0%B1%D0%B5_%D1%82%D0%B0%D1%80%D0%B8%D1%85%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:76453",
+        "url": "https://tt.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D0%B5_%D0%A2%D3%99%D1%80%D0%B1%D0%B8%D1%82_%D1%83%D1%80%D1%82%D0%B0_%D0%BC%D3%99%D0%BA%D1%82%D3%99%D0%B1%D0%B5",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.2331545814875262,
+        "compact_similarity": 0.23084331779481448,
+        "token_dice": 0.24532940019665683,
+        "reference_token_coverage": 0.8910714285714286,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "a6d99dba-3318-4926-8e79-7cd77691be72",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://educontest.net/ru/1686753/%D0%BC%D0%B8%D0%BD%D0%B5%D0%BC-%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D0%BA-%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8B%D0%B3%D1%8B%D0%BC-2016/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "a96f04cc-969b-4043-a680-a9f087c866b7",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.vdbbq.com/grill-brush-scraper-extra-strong-bbq-cleaner-safe-wire-bristles-18-stainless-steel-triple-scrubber-cleaning-brush-product/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "aa61bf17-0bbb-48fe-af1d-dc35557dfef4",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://belem.ru/node/429"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "ad50b04c-5a1e-4ad4-a10c-2a849087c2f0",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:Terk%C3%A4l%C3%BC"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "adfca3c8-aa98-41c4-aa12-ea66899e534e",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://xn----7sbcaucqbthgyg0d8d5c.xn--p1ai/tt/nashi-meropriyatiya/igrovaya-programma-soyuz-dushi-s-dushoy-rodnoy-0"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "b1e6233b-f7fe-40a8-ae0b-e11fefe73d75",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82_%D0%B1%D0%B0%D1%88_%D0%BA%D2%AF%D1%82%D3%99%D1%80%D2%AF%D0%BB%D3%99%D1%80%D0%B5_(1735-1740)"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:58936",
+        "url": "https://tt.wikipedia.org/wiki/%D0%91%D0%B0%D1%88%D0%BA%D0%BE%D1%80%D1%82_%D0%BA%D2%AF%D1%82%D3%99%D1%80%D0%B5%D0%BB%D0%B5%D1%88%D0%BB%D3%99%D1%80%D0%B5_(1735_-_1740)",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.30039175105329297,
+        "compact_similarity": 0.2862007321018132,
+        "token_dice": 0.17600896860986548,
+        "reference_token_coverage": 0.36768149882903983,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "b270650a-dacc-4da9-8369-06b291de0526",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%81%D0%B0"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:50313",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8687139697617926,
+        "compact_similarity": 0.871245911388641,
+        "token_dice": 0.8431469569520039,
+        "reference_token_coverage": 0.744429882044561,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "b2fd9cdb-f12c-4a76-8234-8c15986470c5",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.videochat.world/%D0%B1%D0%B5%D0%BB%D3%99%D0%BD-%D0%BE%D1%87%D1%80%D0%B0%D1%88%D1%83-%D2%BB%D3%99%D0%BC-%D2%97%D0%B8%D1%82%D0%B4%D0%B8-%D0%BC%D3%A9%D0%BD%D3%99%D1%81%D3%99%D0%B1%D3%99%D1%82%D0%BB%D3%99%D1%80-%D3%A9%D1%87%D0%B5%D0%BD-%D0%BA%D1%8B%D0%B7%D0%BB%D0%B0%D1%80-%D1%82%D0%B0%D0%B1%D0%B0%D1%81%D0%BA%D0%BE"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "b3a55cee-3c93-47e9-b81c-38e600b80db4",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%91%D0%BE%D0%B5%D1%80%D0%B3%D0%B0%D0%BD_%D1%82%D0%B8%D0%BC%D0%B5%D1%80_%D1%8E%D0%BB_%D1%80%D0%B0%D0%B7%D1%8A%D0%B5%D0%B7%D0%B4%D1%8B_%D0%BF%D0%BE%D1%81%D0%B5%D0%BB%D0%BE%D0%B3%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00036.parquet:36609",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D0%9F%D0%BE%D0%BB%D1%8F%D0%BD%D1%8B_(%D0%9B%D0%B0%D0%B5%D1%88_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%8B)",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6295336787564767,
+        "compact_similarity": 0.6126126126126126,
+        "token_dice": 0.5185185185185185,
+        "reference_token_coverage": 0.4117647058823529,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:21",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%97%D0%B0%D1%80%D1%8F_(%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD)",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5062801932367149,
+        "compact_similarity": 0.5226480836236933,
+        "token_dice": 0.375,
+        "reference_token_coverage": 0.4852941176470588,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "b4ce8f77-ed75-47e7-81d3-8f89fe9b547d",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://arskmedia.ru/news/yaalyklar/mikroavtobus-belan-kilep-cykkan-kotockyc-iul-halakatenda-16-kese-ulgan"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00027.parquet:79738",
+        "url": "https://baltaci.ru/news/iuxidi-xabar-ita/mikroavtobus-belan-kilep-cykkan-kotockyc-iul-halakatenda-16-kese-ulgan",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8809523809523809,
+        "compact_similarity": 0.8824034334763948,
+        "token_dice": 0.8729281767955801,
+        "reference_token_coverage": 0.7745098039215687,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00024.parquet:8400",
+        "url": "https://emet73.ru/2022/8/25/2022-08-25-%D0%BA%D0%BE%D1%82%D0%BE%D1%87%D0%BA%D1%8B%D1%87-%D1%8E%D0%BB-%D2%BB%D3%99%D0%BB%D0%B0%D0%BA%D3%99%D1%82%D0%B5/",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8024691358024691,
+        "compact_similarity": 0.800711743772242,
+        "token_dice": 0.7471264367816092,
+        "reference_token_coverage": 0.6372549019607843,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "b6770bf9-749b-42a3-b019-f68b09d301c4",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80_%D1%85%D0%B0%D0%BB%D0%BA%D1%8B"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:84875",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D0%BB%D0%B0%D1%80",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8187496135056582,
+        "compact_similarity": 0.8172695112266263,
+        "token_dice": 0.8044788975021533,
+        "reference_token_coverage": 0.6959761549925484,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:79414",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D0%BB%D0%B0%D1%80",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7922475773679275,
+        "compact_similarity": 0.78901628569342,
+        "token_dice": 0.7682291666666666,
+        "reference_token_coverage": 0.6594634873323398,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "b716962d-79b2-4aab-bb7a-8e5bfd93e785",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://belem.ru/node/7224"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "b8e2ee43-7092-481b-a354-7665d3a7f51b",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tnv.ru/tat/main1/novosti/kul_tura/frit_mhmmtshin_kazanda_balalar_tehnik_iaty_respublikaklm_festivalen_achty/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:64260",
+        "url": "https://pestreci.tatar.ru/tat/index.htm/news/437282.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7851696029450435,
+        "compact_similarity": 0.7841835194687594,
+        "token_dice": 0.7926829268292683,
+        "reference_token_coverage": 0.6565656565656566,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "b948521b-56fa-49c0-8dc5-84d64e5219d0",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A4%D0%B0%D1%82%D0%B8%D1%85_%D0%9A%D1%83%D1%82%D0%BB%D1%83"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:73576",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A4%D0%B0%D1%82%D1%8B%D0%B9%D1%85_%D0%9A%D0%BE%D1%82%D0%BB%D1%8B",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6051313192652193,
+        "compact_similarity": 0.593667079426853,
+        "token_dice": 0.48717948717948717,
+        "reference_token_coverage": 0.40353982300884955,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "bb41378e-7522-4193-994d-cc353ce126f3",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.yzrindustry.com/about-us/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "bd45a7e2-c2d4-452f-a58a-40365626afc9",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://simpleoffline.website/kazino-bushlay-chip.html"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "be70cd71-ad87-4c5f-a5b6-523ea1af7852",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%AF%D0%BC%D0%BD%D0%BE%D0%B5"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "bf045855-bbe2-4467-a4f8-89ef3da9f358",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/1378"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "c1276f33-1054-43a4-ab60-9ed6bbaeb83c",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://tt.yingnuode.com/about-us/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "c272781b-29f0-4cbb-ace7-d75fb29ff9b4",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://belem.ru/node/4512"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00021.parquet:499",
+        "url": "http://belem.ru/print/4512",
+        "method": "near_lexical_review",
+        "character_similarity": 0.883587786259542,
+        "compact_similarity": 0.8854961832061069,
+        "token_dice": 0.8421052631578947,
+        "reference_token_coverage": 0.835820895522388,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00033.parquet:80687",
+        "url": "https://mon.tatar.ru/tat/index.htm/news/234308.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8471074380165288,
+        "compact_similarity": 0.8457008244994111,
+        "token_dice": 0.7933884297520661,
+        "reference_token_coverage": 0.7164179104477612,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00021.parquet:499",
+        "url": "http://belem.ru/print/4512",
+        "method": "belem_print_page_identity",
+        "character_similarity": 0.883587786259542,
+        "compact_similarity": null,
+        "token_dice": null,
+        "reference_token_coverage": null,
+        "wikipedia_page_id_match": null,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "c27adb10-7306-4920-b55f-f2a24b6aaed4",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/1141"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "c342d2a4-741a-4aba-b2c1-87e0819707ee",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9A%D1%8B%D0%B7%D1%8B%D0%BA%D0%BB%D1%8B_%D1%84%D0%B0%D0%BA%D1%82%D0%BA%D0%B0_%D0%BA%D0%B0%D0%BD%D0%B4%D0%B8%D0%B4%D0%B0%D1%82%D0%BB%D0%B0%D1%80"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "c38dc80f-8d63-400d-b4e4-46d334719fab",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/603"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:389179",
+        "url": "https://infourok.ru/esse-na-tatarskom-yazike-dltt-rishvtchelek-kbrk-bulgan-saen-zakonnar-da-kbya-bara-831076.html",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.12076727343902915,
+        "compact_similarity": 0.12043692342520795,
+        "token_dice": 0.11484290357529794,
+        "reference_token_coverage": 0.9298245614035088,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "c43d23c9-5249-41f9-b5cd-f99f103c65bd",
+    "category": "url_alias_only_review",
+    "original_urls": [
+      "https://vatantat.ru/2022/11/97781/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00024.parquet:156067",
+        "url": "https://vatantat.ru/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvatantat.ru%2F2022%2F11%2F97781%2F&format=xml",
+        "method": "url_alias_content_review",
+        "character_similarity": 0.040331873703618355,
+        "compact_similarity": 0.03728398421553958,
+        "token_dice": 0.012021036814425245,
+        "reference_token_coverage": 0.006196746707978312,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00024.parquet:98299",
+        "url": "https://vatantat.ru/news/kaefena-kura-kesase-iana-elny-tyinak-kyna-utkarerga-tury-kilmagae-81803",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.814448991110484,
+        "compact_similarity": 0.812885995660157,
+        "token_dice": 0.8231540565177757,
+        "reference_token_coverage": 0.6994577846630519,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "c6420137-764d-4021-862a-91b0371df4c1",
+    "category": "page_identity_review",
+    "original_urls": [
+      "http://belem.ru/node/6182"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00027.parquet:164659",
+        "url": "https://yashel-uzan.ru/news/yashәesh/innopolista-sltle-balalar-chen-litsey-internat-ach",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8338308457711443,
+        "compact_similarity": 0.8344827586206897,
+        "token_dice": 0.8321167883211679,
+        "reference_token_coverage": 0.7125,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00012.parquet:17157",
+        "url": "https://belem.ru/print/6182",
+        "method": "belem_print_page_identity",
+        "character_similarity": 0.3360433604336044,
+        "compact_similarity": null,
+        "token_dice": null,
+        "reference_token_coverage": null,
+        "wikipedia_page_id_match": null,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "c76824f7-2cb4-4fcb-bdce-5d0f869a5328",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/7966"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:165992",
+        "url": "https://tatar-inform.tatar/news/balalarga-tatar-tele-yr-t-chen-multfilm-zerl-n-5771562",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8659003831417624,
+        "compact_similarity": 0.8676599474145487,
+        "token_dice": 0.8313253012048193,
+        "reference_token_coverage": 0.8734177215189873,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "ca223d84-1f23-47bd-b688-53cafe267293",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/3557"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "ccb5fef6-98a6-4c4b-846a-e380999fed0a",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://belem.ru/node/167"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "ced8a528-ed62-4c92-83c9-70a06c4674d5",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://darelfonyn.kpfu.ru/kfu-galimen-orbeli-isemend-ge-premiya-tapshyryldy/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:215504",
+        "url": "https://tatar-inform.tatar/news/kfu-galime-r-st-m-ha-ipovka-orbeli-isemend-ge-premiya-tapshyryldy-5609002",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8797169811320755,
+        "compact_similarity": 0.8817204301075269,
+        "token_dice": 0.8571428571428571,
+        "reference_token_coverage": 0.989010989010989,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "cf3e508e-cf89-4d17-86a9-88c6fe9490d1",
+    "category": "weak_only",
+    "original_urls": [
+      "https://saba-rt.ru/news/radio-ham-tv-yanalilari/tatarstanda-tlek-echend-100dn-artyk-keshe-covid-19-beln-zararlangan"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00029.parquet:95058",
+        "url": "https://saby-rt.ru/news/novosti/tatarstanda-tlek-echend-100dn-artyk-keshe-covid-19-beln-zararlangan",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8242210464432687,
+        "compact_similarity": 0.8230874316939891,
+        "token_dice": 0.8319327731092437,
+        "reference_token_coverage": 0.7122302158273381,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:2906",
+        "url": "https://alabuganury.ru/news/heberler/tatarstanda-tagyn-ber-keshe-covid-19dan-vafat-buldy",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6219839142091153,
+        "compact_similarity": 0.6075773375043447,
+        "token_dice": 0.5477178423236515,
+        "reference_token_coverage": 0.4748201438848921,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00012.parquet:20685",
+        "url": "http://alabuganury.ru/news/h%D3%99b%D3%99rl%D3%99r/tatarstanda-tagyn-ber-keshe-covid-19dan-vafat-buldy",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6168224299065421,
+        "compact_similarity": 0.6104868913857677,
+        "token_dice": 0.5563218390804597,
+        "reference_token_coverage": 0.4352517985611511,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:28204",
+        "url": "https://bugulma-tat.ru/news/aktual-tema/bgenge-knd-bgelmlelr-arasynda-koronavirus-infektsiyase-yoktyruny-yaa-ochraklary-yuk",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5966759002770083,
+        "compact_similarity": 0.583386992916935,
+        "token_dice": 0.549407114624506,
+        "reference_token_coverage": 0.5,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00029.parquet:95120",
+        "url": "https://saby-rt.ru/news/novosti/tatarstanda-uzgan-tlek-echend-koronavirusny-83-yaa-ochragy-achyklangan",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5643133462282399,
+        "compact_similarity": 0.5483057966956035,
+        "token_dice": 0.5114638447971781,
+        "reference_token_coverage": 0.5215827338129496,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d01313c0-3335-4d3b-a583-aba9210232cf",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:%D0%91%D0%B0%D1%88_%D0%B1%D0%B8%D1%82/%D0%A1%D0%B0%D0%B9%D0%BB%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD_%D0%BC%D3%99%D0%BA%D0%B0%D0%BB%D3%99"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00014.parquet:12328",
+        "url": "https://www.duhoctrunghoa.com/wiki/tt/%D0%91%D0%B0%D1%88_%D0%B1%D0%B8%D1%82",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.38069924350848494,
+        "compact_similarity": 0.37879149749223784,
+        "token_dice": 0.38526912181303113,
+        "reference_token_coverage": 0.9784172661870504,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00047.parquet:24752",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A2%D0%B0%D1%82%D0%B0%D1%80_%D0%B0%D1%82%D1%8B",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.22432230788361107,
+        "compact_similarity": 0.22306348281887012,
+        "token_dice": 0.22959183673469388,
+        "reference_token_coverage": 0.9712230215827338,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d1d3ea37-0e18-4305-8f70-f52b97961497",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tinchurinteatr.ru/?p=11432"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00031.parquet:122957",
+        "url": "https://matbugat.ru/news/?id=19198",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8217967599410898,
+        "compact_similarity": 0.8209209778283114,
+        "token_dice": 0.8387096774193549,
+        "reference_token_coverage": 0.7358490566037735,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00025.parquet:96887",
+        "url": "https://shahrikazan.ru/news/kyiskacha-yaңalyiklar/artistlar-teatral-sabantuyga-ktep-kala",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7918025151374011,
+        "compact_similarity": 0.7892183288409703,
+        "token_dice": 0.78839590443686,
+        "reference_token_coverage": 0.7264150943396226,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:97344",
+        "url": "https://tatar-inform.tatar/news/respublika-teatrlary-saban-tue-byel-tn-d-bula-5167244",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7171449240414758,
+        "compact_similarity": 0.7119686800894854,
+        "token_dice": 0.680628272251309,
+        "reference_token_coverage": 0.6132075471698113,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00029.parquet:79307",
+        "url": "https://saby-rt.ru/news/kino-teatr/teatrlar-saban-tue-tnd-bulachak",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6777717094483888,
+        "compact_similarity": 0.6742567994939912,
+        "token_dice": 0.649402390438247,
+        "reference_token_coverage": 0.5125786163522013,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00013.parquet:18346",
+        "url": "https://darelfonyn.kpfu.ru/teatral-sabantuj-2017/",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6444814198557958,
+        "compact_similarity": 0.6420308483290489,
+        "token_dice": 0.6854838709677419,
+        "reference_token_coverage": 0.5345911949685535,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:28357",
+        "url": "https://tatar-inform.tatar/news/tn-ne-m-h-bb-t-alanynda-teatr-sabantue-bara-5194627",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6140273489192766,
+        "compact_similarity": 0.6069246435845214,
+        "token_dice": 0.5756578947368421,
+        "reference_token_coverage": 0.550314465408805,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00019.parquet:1493",
+        "url": "http://sahne.ru/news/theater/tn-rajonynda-xi-respublikak-l-m-teatrlar-saban-tue-uzdyryldy-6457",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5353553809610816,
+        "compact_similarity": 0.5207674467636517,
+        "token_dice": 0.45901639344262296,
+        "reference_token_coverage": 0.5283018867924528,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:148510",
+        "url": "https://mincult.tatar.ru/tat/index.htm/news/1984353.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5218658892128281,
+        "compact_similarity": 0.5064643057897695,
+        "token_dice": 0.5071428571428571,
+        "reference_token_coverage": 0.44654088050314467,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d26cac40-fd36-4431-b4c4-6fdcdaed74eb",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tat.e-nkama.ru/news/746/76617/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00032.parquet:57807",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1394924.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.801595214356929,
+        "compact_similarity": 0.8018648018648018,
+        "token_dice": 0.7210884353741497,
+        "reference_token_coverage": 0.6235294117647059,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:58339",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1696834.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7833001988071571,
+        "compact_similarity": 0.7819025522041764,
+        "token_dice": 0.684931506849315,
+        "reference_token_coverage": 0.5882352941176471,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:58073",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1565648.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7768762677484787,
+        "compact_similarity": 0.7786982248520711,
+        "token_dice": 0.6713286713286714,
+        "reference_token_coverage": 0.5647058823529412,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:58216",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1628647.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7647058823529411,
+        "compact_similarity": 0.7683215130023641,
+        "token_dice": 0.647887323943662,
+        "reference_token_coverage": 0.5411764705882353,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:58010",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1529113.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7410562180579217,
+        "compact_similarity": 0.7337986041874377,
+        "token_dice": 0.5549132947976878,
+        "reference_token_coverage": 0.5647058823529412,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:58240",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1642507.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7303482587064676,
+        "compact_similarity": 0.7296037296037297,
+        "token_dice": 0.5906040268456376,
+        "reference_token_coverage": 0.5176470588235295,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:57930",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1478322.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7028613352898019,
+        "compact_similarity": 0.6965517241379311,
+        "token_dice": 0.5463414634146342,
+        "reference_token_coverage": 0.6588235294117647,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00032.parquet:58011",
+        "url": "https://mzio.tatar.ru/tat/index.htm/news/1529357.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6765799256505577,
+        "compact_similarity": 0.676056338028169,
+        "token_dice": 0.5213270142180095,
+        "reference_token_coverage": 0.6470588235294118,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d39ce16f-050c-4b71-a1c0-a5148278554d",
+    "category": "weak_only",
+    "original_urls": [
+      "https://belem.ru/node/8630"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:275657",
+        "url": "https://tatar-inform.tatar/news/tatar-kitaby-iortynyn-baxet-jl-spektaklena-biletlar-satyla-baslady-5865732",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.61003861003861,
+        "compact_similarity": 0.6020539152759949,
+        "token_dice": 0.5291828793774319,
+        "reference_token_coverage": 0.591304347826087,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d4103f19-bbd3-4e33-be0a-a3875185f207",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/1841"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:167984",
+        "url": "https://tatar-inform.tatar/news/bashkortstanda-milli-m-garifne-yaklauchy-chara-bara-5608191",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8991383679675622,
+        "compact_similarity": 0.9,
+        "token_dice": 0.88,
+        "reference_token_coverage": 0.9097744360902256,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d4e77ce5-a9e4-49e9-8d8c-58d43a10f04d",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.lawyers.cafe/%D2%97%D0%B0%D0%B2%D0%B0%D0%BF%D0%BB%D0%B0%D1%80-%D1%8E%D1%80%D0%B8%D1%81%D1%82%D0%BB%D0%B0%D1%80-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%B1%D1%83%D1%88%D0%BB%D0%B0%D0%B9"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00037.parquet:30705",
+        "url": "",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8769128409846972,
+        "compact_similarity": 0.8792380952380953,
+        "token_dice": 0.8616187989556136,
+        "reference_token_coverage": 0.7568807339449541,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d5e7297a-bd81-464b-85ee-6d35062125b7",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tatar-inform.tatar/news/official/05-05-2016/tr-h-k-m-te-yortynda-kazanda-rossiya-studentlar-yazy-finalyn-tk-r-turynda-s-z-buldy-5263098"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:122780",
+        "url": "https://tatar-inform.tatar/news/tr-h-k-m-te-yortynda-kazanda-rossiya-studentlar-yazy-finalyn-tk-r-turynda-s-z-buldy-5263098",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8918032786885246,
+        "compact_similarity": 0.8888888888888888,
+        "token_dice": 0.8450704225352113,
+        "reference_token_coverage": 0.9183673469387755,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00034.parquet:29879",
+        "url": "https://tatarstan.ru/tat/index.htm/news/636973.htm",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7696969696969697,
+        "compact_similarity": 0.7655838454784899,
+        "token_dice": 0.6885245901639344,
+        "reference_token_coverage": 0.6428571428571429,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:93353",
+        "url": "https://tatar-inform.tatar/news/agymdagy-elny-dekabrend-kazan-professionallar-arasynda-bal-biyul-re-buencha-d-nya-chempionatyn-kabul-it-ch-k-5216946",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5866050808314087,
+        "compact_similarity": 0.5727029438001784,
+        "token_dice": 0.4777777777777778,
+        "reference_token_coverage": 0.4387755102040816,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:34154",
+        "url": "https://tatar-inform.tatar/news/tr-prezidenty-evropa-dzyudo-berlege-prezidenty-bel-n-lege-k-r-sh-buencha-evropa-chempionatyn-tk-r-turynda-s-yl-shte-5251280",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5805168986083499,
+        "compact_similarity": 0.5587106676899463,
+        "token_dice": 0.4230769230769231,
+        "reference_token_coverage": 0.4489795918367347,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:127081",
+        "url": "https://tatar-inform.tatar/news/r-st-m-mi-nehanov-bel-n-rf-d-l-t-dumasy-deputaty-vasiliy-shestakov-trda-sambo-perspektivalary-hakynda-s-yl-shte-4961233",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5461756373937677,
+        "compact_similarity": 0.5276872964169381,
+        "token_dice": 0.39655172413793105,
+        "reference_token_coverage": 0.46938775510204084,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:139953",
+        "url": "https://tatar-inform.tatar/news/tr-prezidenty-rossiya-snoubord-federatsiyase-prezidenty-bel-n-ochrashty-5121912",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5442260442260443,
+        "compact_similarity": 0.5222929936305732,
+        "token_dice": 0.423963133640553,
+        "reference_token_coverage": 0.46938775510204084,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:136267",
+        "url": "https://tatar-inform.tatar/news/ildar-halikov-valentin-yudashkin-bel-n-ochrashty-5135269",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5304878048780488,
+        "compact_similarity": 0.5095271700776287,
+        "token_dice": 0.36444444444444446,
+        "reference_token_coverage": 0.41836734693877553,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:73797",
+        "url": "https://tatar-inform.tatar/news/r-st-m-mi-nehanov-nochnye-volki-b-tenrossiya-i-timagyy-oeshmasy-r-ise-aleksandr-hirurg-zaldostanov-bel-n-ochrashty-4933753",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5040091638029782,
+        "compact_similarity": 0.4878048780487805,
+        "token_dice": 0.36363636363636365,
+        "reference_token_coverage": 0.42857142857142855,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d6013f85-c486-4a1d-abcb-87df643b64dc",
+    "category": "weak_only",
+    "original_urls": [
+      "http://belem.ru/node/5843"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:207413",
+        "url": "https://abishevaalena.ru/?page_id=4184",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6448376023237391,
+        "compact_similarity": 0.6390790292470442,
+        "token_dice": 0.5808695652173913,
+        "reference_token_coverage": 0.4417989417989418,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d770876e-0306-4996-aeea-ac8b3f5c05d9",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A7%D1%83%D0%BB%D0%BF%D0%B0%D0%BD_%D0%A1%D0%B0%D0%B4%D1%8B%D0%B9%D0%BA%D0%BE%D0%B2%D0%B0"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:69691",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A7%D1%83%D0%BB%D0%BF%D0%B0%D0%BD_%D3%98%D1%81%D0%BA%D3%99%D1%80%D0%BE%D0%B2%D0%B0",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.41317445441156786,
+        "compact_similarity": 0.39306358381502887,
+        "token_dice": 0.30093457943925234,
+        "reference_token_coverage": 0.33402489626556015,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00025.parquet:193663",
+        "url": "https://shahrichalli.ru/news/ni-khllrd/culpan-sadyikova-askarova-callyga-kilganema-ukenmim",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5027245206861756,
+        "compact_similarity": 0.48985370457763094,
+        "token_dice": 0.435933147632312,
+        "reference_token_coverage": 0.6493775933609959,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d77ff89c-e630-43b9-a31b-e193af4079d6",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB_(%D0%BC%D3%99%D0%B3%D1%8A%D0%BD%D3%99%D0%BB%D3%99%D1%80)"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "d7ec9905-00a5-451d-91ad-f3150a285280",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/8498"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00032.parquet:1870",
+        "url": "https://magarif-uku.ru/news/headlines/altyn-kalam-festivalena-garizalar",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.8396600566572238,
+        "compact_similarity": 0.8403908794788273,
+        "token_dice": 0.8103448275862069,
+        "reference_token_coverage": 0.9038461538461539,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00017.parquet:9550",
+        "url": "http://chelny-rt.ru/news/achyk-ishek/altyn-kalm-festivalen-garizalar-kabul-itel-bashlady",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8540462427745665,
+        "compact_similarity": 0.8535773710482529,
+        "token_dice": 0.8478260869565217,
+        "reference_token_coverage": 0.75,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:158607",
+        "url": "https://tatar-inform.tatar/news/altyn-kalam-xxvii-festivalena-garizalar-kabul-itela-baslandy-5854009",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.684451219512195,
+        "compact_similarity": 0.6842105263157895,
+        "token_dice": 0.6436781609195402,
+        "reference_token_coverage": 0.5384615384615384,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:356104",
+        "url": "https://chelny-rt.ru/news/achyk-ishek/altyn-kalm-festivalen-garizalar-kabul-itel-bashlady",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5855855855855856,
+        "compact_similarity": 0.5835929387331256,
+        "token_dice": 0.5771812080536913,
+        "reference_token_coverage": 0.41346153846153844,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d953f595-fc50-47f6-843d-bbdea6f6002c",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%AF%D2%A3%D0%B0_%D0%AE%D0%BB"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00036.parquet:60243",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%AF%D2%A3%D0%B0_%D0%AE%D0%BB",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8189233278955954,
+        "compact_similarity": 0.8140417457305503,
+        "token_dice": 0.7931034482758621,
+        "reference_token_coverage": 0.7040816326530612,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d97ee40b-50cb-4a10-81f8-14a222769ecf",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://belem.ru/node/6844"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00033.parquet:207942",
+        "url": "http://tugan-tel.blogspot.com/2016/09/",
+        "method": "near_lexical_review",
+        "character_similarity": 0.867761452031115,
+        "compact_similarity": 0.8684210526315791,
+        "token_dice": 0.8654970760233918,
+        "reference_token_coverage": 0.7628865979381443,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "d9f5198b-a273-42d6-9267-8ba3c3fe61a1",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/777"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "da67f910-f439-4cf3-852b-ed1c13067ef6",
+    "category": "weak_only",
+    "original_urls": [
+      "https://magarif-uku.ru/tt/yakynlashyp-kil%D2%AFche-yana-el-bayrame-belan/"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00031.parquet:253977",
+        "url": "https://magarif-uku.ru/news/headlines/yakynlashyp-kiluche-yana-el-bayrame-belan",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.718771807397069,
+        "compact_similarity": 0.7185725871857258,
+        "token_dice": 0.7425742574257426,
+        "reference_token_coverage": 0.7894736842105263,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "daab6378-f94b-46e8-bab3-b2731ae2d654",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.roypowtech.com/lifepo4-forklift-batteries-page/"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "daabef29-8b58-49cf-aab0-d67616eb05a6",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://tt.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00037.parquet:24554",
+        "url": "",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8682417741701696,
+        "compact_similarity": 0.8672330501415959,
+        "token_dice": 0.799554565701559,
+        "reference_token_coverage": 0.8671497584541062,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00001.parquet:25180",
+        "url": "http://www.quickiwiki.com/tt/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%91%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6841473178542834,
+        "compact_similarity": 0.6849000229832223,
+        "token_dice": 0.6800618238021638,
+        "reference_token_coverage": 0.5314009661835749,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "e3348512-25e2-418f-8407-8bc9884ef5a2",
+    "category": "weak_only",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A8%D3%99%D1%85%D0%B5%D1%81%D0%BB%D3%99%D1%80"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00009.parquet:19098",
+        "url": "http://www.questpedia.org/tt/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A8%D3%99%D1%85%D0%B5%D1%81%D0%BB%D3%99%D1%80",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8324730173627405,
+        "compact_similarity": 0.8312958435207825,
+        "token_dice": 0.8370497427101201,
+        "reference_token_coverage": 0.7218934911242604,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "e550f8ef-1fe5-446b-a076-398bcb001dfc",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/Elvira_N%C3%A4biullina"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:154794",
+        "url": "https://tt.wikipedia.org/wiki/%D0%AD%D0%BB%D1%8C%D0%B2%D0%B8%D1%80%D0%B0_%D0%9D%D3%99%D0%B1%D0%B8%D1%83%D0%BB%D0%BB%D0%B8%D0%BD%D0%B0",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.7028073572120038,
+        "compact_similarity": 0.7037451089994411,
+        "token_dice": 0.6762589928057554,
+        "reference_token_coverage": 0.5222222222222223,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00036.parquet:42596",
+        "url": "https://tt.ruwiki.ru/wiki/%D0%AD%D0%BB%D1%8C%D0%B2%D0%B8%D1%80%D0%B0_%D0%9D%D3%99%D0%B1%D0%B8%D1%83%D0%BB%D0%BB%D0%B8%D0%BD%D0%B0",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6413671776828349,
+        "compact_similarity": 0.641323273360418,
+        "token_dice": 0.5869158878504673,
+        "reference_token_coverage": 0.4361111111111111,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "e61e94ae-e13a-4fdb-9676-7dd2e89ca348",
+    "category": "weak_only",
+    "original_urls": [
+      "http://syuyumbike.ru/news/brendlar/elvin-grey-vsil-fttakhovany-quottugan-yakquot-yryn-bashkarmayachak"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00039.parquet:14",
+        "url": "http://syuyumbike.ru/news/yanalyklar/sankt-peterburg-tatarcha-kitaplarga-baedy",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7068741893644617,
+        "compact_similarity": 0.694206549118388,
+        "token_dice": 0.5683890577507599,
+        "reference_token_coverage": 0.5771604938271605,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00017.parquet:12499",
+        "url": "http://syuyumbike.ru/news/yanalyklar/v-uraza-bayram-avtobusy-i-trolleybusy-kazani-nachnut-ezdit-s-430-utra",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6542293830824677,
+        "compact_similarity": 0.6465903434544549,
+        "token_dice": 0.5106990014265336,
+        "reference_token_coverage": 0.5524691358024691,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00029.parquet:25671",
+        "url": "https://intertat.tatar/news/elvin-grey-v-sil-f-ttahovany-tugan-yak-yryn-bashkarmayachak-4842313",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5699911216336194,
+        "compact_similarity": 0.5717248530936744,
+        "token_dice": 0.5737704918032787,
+        "reference_token_coverage": 0.43209876543209874,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "e88f9793-5146-41ad-9da9-c5e256526e8e",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://edudocs.info/prezentaciya-na-temu-balyk-bistm-tugan-yagym.html"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00000.parquet:18247",
+        "url": "https://infourok.ru/material.html?mid=8670",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8838709677419355,
+        "compact_similarity": 0.8857677902621723,
+        "token_dice": 0.8439306358381503,
+        "reference_token_coverage": 0.9668874172185431,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "ebcb6c44-218b-4f85-a6a5-24ed5586c242",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tatar-inform.tatar/news/incident/16-11-2020/putin-covid-19-s-b-ple-rossiyad-narkotiklar-kontrabandasy-kimede-5785962"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00026.parquet:19801",
+        "url": "https://tatvestnik-t.ru/articles/k-n-z-k/2020-11-18/koronavirus-narkotik-taraluga-chik-kuya-922767",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8749418874941888,
+        "compact_similarity": 0.8681260010678057,
+        "token_dice": 0.8071428571428572,
+        "reference_token_coverage": 0.8071428571428572,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:245063",
+        "url": "https://tatar-inform.tatar/news/putin-covid-19-s-b-ple-rossiyad-narkotiklar-kontrabandasy-kimede-5785962",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8120805369127517,
+        "compact_similarity": 0.8099173553719008,
+        "token_dice": 0.7765567765567766,
+        "reference_token_coverage": 0.7571428571428571,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "ec36ec08-fa89-4383-a761-293003b62a47",
+    "category": "weak_only",
+    "original_urls": [
+      "http://tatarlarsamara.org/index.php?id=40&page=3"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00025.parquet:302382",
+        "url": "http://tatarlarsamara.org/index.php?id=35&page=3",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.8375586854460094,
+        "compact_similarity": 0.8390386016023307,
+        "token_dice": 0.8292682926829268,
+        "reference_token_coverage": 0.7083333333333334,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "ecbed885-df23-4840-84e7-6f2df64912db",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8B%D0%BF:%D0%91%D0%B0%D1%88%D0%B1%D0%B8%D1%82/%D0%A1%D0%B0%D0%B9%D0%BB%D0%B0%D0%BD%D0%B3%D0%B0%D0%BD_%D0%BC%D3%99%D0%BA%D0%B0%D0%BB%D3%99"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00016.parquet:1206",
+        "url": "http://www.gpedia.com/tt/gpedia/%d0%91%d0%b0%d1%88_%d0%b1%d0%b8%d1%82",
+        "method": "partial_lexical_review",
+        "character_similarity": 0.394919168591224,
+        "compact_similarity": 0.39219609804902456,
+        "token_dice": 0.40728831725616294,
+        "reference_token_coverage": 0.9844559585492227,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "eef5257f-a888-48bb-a471-9cb0277626b2",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/7105"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:67766",
+        "url": "https://tatar-inform.tatar/news/kazanda-lm-nd-r-varislary-balalar-teatr-i-aty-festival-b-ygese-t-ch-k-5505012",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8786610878661087,
+        "compact_similarity": 0.87828418230563,
+        "token_dice": 0.8680555555555556,
+        "reference_token_coverage": 0.9259259259259259,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00029.parquet:128401",
+        "url": "https://kazanutlary.ru/news/yanaliklar/bashkalabyzda-sheuket-biktimerov-isemendege-elmender-varislary-halykara-balalar-teatr-ijaty-festival-bejgese-uzachak",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.6850629874025195,
+        "compact_similarity": 0.6882758620689655,
+        "token_dice": 0.6757990867579908,
+        "reference_token_coverage": 0.5481481481481482,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00023.parquet:12170",
+        "url": "https://belem.ru/print/8152",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.596705308114704,
+        "compact_similarity": 0.5952380952380952,
+        "token_dice": 0.6197183098591549,
+        "reference_token_coverage": 0.4888888888888889,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00027.parquet:161805",
+        "url": "https://yashel-uzan.ru/news/yashәesh/bezne-balalar-artistlardan-kimen-kuymyiy",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.5892116182572614,
+        "compact_similarity": 0.5933014354066986,
+        "token_dice": 0.5663716814159292,
+        "reference_token_coverage": 0.4740740740740741,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "ef908fba-fad3-43b8-b958-acd9563a3422",
+    "category": "no_candidate",
+    "original_urls": [
+      "http://simpleoffline.website/kazino-i-yahshi-aktrisa-nominaciyase.html"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "f42f3196-e37e-4828-a964-15c4a88b6038",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9A%D1%8B%D0%B7%D1%8B%D0%BA%D1%81%D1%8B%D0%BD%D1%83_%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D0%B8%D0%BA%D1%82%D1%8B"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "f5a0f8f0-71d0-4a41-a704-fdfc1d77af5b",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://kazanutlary.ru/news/yanaliklar/kazanda-chiklersez-radio-halykara-festivale-bashlandy"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:38273",
+        "url": "https://tatar-inform.tatar/news/tatarstanda-chikl-rsez-radio-halykara-festivale-bashlandy-5452741",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8565287479849544,
+        "compact_similarity": 0.8573178199632578,
+        "token_dice": 0.8434782608695652,
+        "reference_token_coverage": 0.941747572815534,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "f62abce3-a112-47b9-be21-cc0745b5d672",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8-%D0%BA%D0%BB%D1%83%D0%B1"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "f63ed7a3-9483-4192-a930-e7ac2c9f2bf0",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%97%D0%B0%D1%8F%D1%82%D2%AF%D0%BB%D3%99%D0%BA_%D0%B1%D0%B5%D0%BB%D3%99%D0%BD_%D0%A1%D1%83%D1%81%D1%8B%D0%BB%D1%83"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00047.parquet:29358",
+        "url": "https://tt.wikipedia.org/wiki/%D0%A2%D2%AF%D0%BB%D3%99%D0%BA_%D2%BB%D3%99%D0%BC_%D0%A1%D1%83%D1%81%D1%8B%D0%BB%D1%83",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.5084889643463497,
+        "compact_similarity": 0.5072391412880679,
+        "token_dice": 0.4689265536723164,
+        "reference_token_coverage": 0.7545454545454545,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "f669ae6d-40a4-4e21-99a2-17837bd4e5f9",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "http://tulachi.ru/news/glavnyie-novosti/balalarga-posobie-bilgel-kagyydlrend-zgreshlr"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:256372",
+        "url": "https://tatar-inform.tatar/news/rossiyad-ch-yasht-n-ide-yashk-kad-rge-balalarga-posobie-bilgel-kagyyd-l-re-zg-r-5837699",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8701341184167485,
+        "compact_similarity": 0.8698292220113852,
+        "token_dice": 0.8867924528301887,
+        "reference_token_coverage": 0.9543147208121827,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "f77b0a88-5952-481e-9b7d-d4adce93b03a",
+    "category": "page_identity_review",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%93%D0%B0%D0%BC%D0%B8%D1%80_%D0%B8%D0%B1%D0%BD%D0%B5_%D2%96%D3%99%D1%80%D1%80%D0%B0%D1%85"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00046.parquet:92769",
+        "url": "https://tt.wikipedia.org/wiki/%D3%98%D0%B1%D1%83_%D0%93%D1%83%D0%B1%D3%99%D0%B9%D0%B4%D3%99_%D0%B8%D0%B1%D0%BD%D0%B5%D0%BB-%D2%96%D3%99%D1%80%D1%80%D0%B0%D1%85",
+        "method": "wikipedia_page_identity_review",
+        "character_similarity": 0.8922291548496879,
+        "compact_similarity": 0.8925016589250165,
+        "token_dice": 0.8910505836575876,
+        "reference_token_coverage": 1.0,
+        "wikipedia_page_id_match": true,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "fa35b953-3da7-4ed5-ac84-1c83f2920317",
+    "category": "near_reordered_or_partial_review",
+    "original_urls": [
+      "https://belem.ru/node/6510"
+    ],
+    "candidates": [
+      {
+        "crawl_key": "data/000_00028.parquet:44799",
+        "url": "https://tatar-inform.tatar/news/kfuda-uyatmakchy-bulsa-halyk-k-ell-ren-respublika-vuzara-shig-riyat-b-yr-me-tk-rel-5246430",
+        "method": "near_lexical_review",
+        "character_similarity": 0.8685714285714287,
+        "compact_similarity": 0.8710852148579753,
+        "token_dice": 0.8333333333333334,
+        "reference_token_coverage": 0.8854166666666666,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      },
+      {
+        "crawl_key": "data/000_00028.parquet:31095",
+        "url": "https://tatar-inform.tatar/news/g-tukayga-bagyshlap-uyatmakchy-bulsa-halyk-k-ell-ren-respublika-vuzara-shig-riyat-b-yr-me-uzdyryla-5243138",
+        "method": "weak_lexical_candidate",
+        "character_similarity": 0.7783505154639175,
+        "compact_similarity": 0.7724240177909563,
+        "token_dice": 0.7414634146341463,
+        "reference_token_coverage": 0.7916666666666666,
+        "wikipedia_page_id_match": false,
+        "label_transfer_allowed": false
+      }
+    ]
+  },
+  {
+    "reference_id": "ff014422-d254-48bf-8eb6-28cc49b9d7e0",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://belem.ru/node/774"
+    ],
+    "candidates": []
+  },
+  {
+    "reference_id": "ff54dba2-54a2-4c74-a083-195cfdd0a232",
+    "category": "no_candidate",
+    "original_urls": [
+      "https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F_%D0%B1%D3%99%D1%85%D3%99%D1%81%D0%B5:%D0%AE%D0%90%D0%A8/%D0%9C%D3%A9%D1%80%D3%99%D2%97%D3%99%D0%B3%D0%B0%D1%82%D1%8C%D0%BB%D3%99%D1%80"
+    ],
+    "candidates": []
+  }
+]

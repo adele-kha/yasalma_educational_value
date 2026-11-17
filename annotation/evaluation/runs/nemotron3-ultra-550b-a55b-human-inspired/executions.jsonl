@@ -1,0 +1,2 @@
+{"timestamp": "2026-11-02T14:51:28.502042+00:00", "pending": 3, "workers": 8, "limit": 3, "max_tokens": 4096, "retry_max_tokens": null}
+{"timestamp": "2026-11-02T14:52:31.686466+00:00", "pending": 1554, "workers": 8, "limit": null, "max_tokens": 4096, "retry_max_tokens": null}

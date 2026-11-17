@@ -1,0 +1,25 @@
+{
+  "reference_path": "annotation/data/tat_Cyrl-train.parquet",
+  "reference_repo": "data-is-better-together/fineweb-c",
+  "reference_revision": "913fc6250ca94f032bce31a6e5fa9363ea27ba73",
+  "metadata_path": "with_metadata/train-00000-of-00001.parquet",
+  "fineweb_repo": "HuggingFaceFW/fineweb-2",
+  "fineweb_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+  "fineweb_paths": [
+    "data/tat_Cyrl/test/000_00000.parquet",
+    "data/tat_Cyrl/train/000_00000.parquet",
+    "data/tat_Cyrl_removed/train/000_00000.parquet"
+  ],
+  "crawl_repo": "yasalma/crawl-res",
+  "crawl_revision": "dc8f0d22c2287e5f8214b26992d87a176aa454a4",
+  "reserve_fineweb_test": true,
+  "seed": 42,
+  "workers": 4,
+  "batch_size": 512,
+  "reference_near_similarity": 0.9,
+  "reference_anchor_chars": 80,
+  "reference_anchor_count": 4,
+  "review_similarity": 0.95,
+  "review_length_ratio": 0.9,
+  "audit_per_status_per_file": 20
+}

@@ -1,0 +1,297 @@
+{
+  "groups": {
+    "None": [
+      "None"
+    ],
+    "Minimal–Basic": [
+      "Minimal",
+      "Basic"
+    ],
+    "Good–Excellent": [
+      "Good",
+      "Excellent"
+    ],
+    "Problematic Content": [
+      "Problematic Content"
+    ]
+  },
+  "allow_different_prompts": false,
+  "shared_successful_documents": 1557,
+  "scored_documents": 1554,
+  "excluded_after_merging": 3,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "annotation/evaluation/runs/qwen38-27b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1554,
+        "accuracy": 0.648005148005148,
+        "micro_precision": 0.648005148005148,
+        "macro_precision": 0.5763091250908727,
+        "macro_recall": 0.5337080223002001,
+        "macro_f1": 0.5272563651920852,
+        "weighted_f1": 0.6513913459922643,
+        "cohens_kappa": 0.36280730055260874,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 386,
+            "tp": 291,
+            "fp": 95,
+            "fn": 278,
+            "tn": 890,
+            "precision": 0.7538860103626943,
+            "recall": 0.5114235500878734,
+            "f1": 0.6094240837696335,
+            "one_vs_rest_accuracy": 0.7599742599742599
+          },
+          "Minimal–Basic": {
+            "support": 866,
+            "predicted": 978,
+            "tp": 662,
+            "fp": 316,
+            "fn": 204,
+            "tn": 372,
+            "precision": 0.6768916155419223,
+            "recall": 0.7644341801385681,
+            "f1": 0.718004338394794,
+            "one_vs_rest_accuracy": 0.6653796653796654
+          },
+          "Good–Excellent": {
+            "support": 80,
+            "predicted": 168,
+            "tp": 40,
+            "fp": 128,
+            "fn": 40,
+            "tn": 1346,
+            "precision": 0.23809523809523808,
+            "recall": 0.5,
+            "f1": 0.3225806451612903,
+            "one_vs_rest_accuracy": 0.8918918918918919
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 22,
+            "tp": 14,
+            "fp": 8,
+            "fn": 25,
+            "tn": 1507,
+            "precision": 0.6363636363636364,
+            "recall": 0.358974358974359,
+            "f1": 0.459016393442623,
+            "one_vs_rest_accuracy": 0.9787644787644788
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 291,
+            "Minimal–Basic": 269,
+            "Good–Excellent": 6,
+            "Problematic Content": 3
+          },
+          "Minimal–Basic": {
+            "None": 80,
+            "Minimal–Basic": 662,
+            "Good–Excellent": 119,
+            "Problematic Content": 5
+          },
+          "Good–Excellent": {
+            "None": 5,
+            "Minimal–Basic": 35,
+            "Good–Excellent": 40,
+            "Problematic Content": 0
+          },
+          "Problematic Content": {
+            "None": 10,
+            "Minimal–Basic": 12,
+            "Good–Excellent": 3,
+            "Problematic Content": 14
+          }
+        }
+      }
+    },
+    {
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "run": "annotation/evaluation/runs/nemotron3-ultra-550b-a55b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1554,
+        "accuracy": 0.6190476190476191,
+        "micro_precision": 0.6190476190476191,
+        "macro_precision": 0.5854330709738342,
+        "macro_recall": 0.5351042272562696,
+        "macro_f1": 0.4865097810886176,
+        "weighted_f1": 0.6358071677837356,
+        "cohens_kappa": 0.38425374982430544,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 667,
+            "tp": 442,
+            "fp": 225,
+            "fn": 127,
+            "tn": 760,
+            "precision": 0.6626686656671664,
+            "recall": 0.7768014059753954,
+            "f1": 0.7152103559870551,
+            "one_vs_rest_accuracy": 0.7734877734877735
+          },
+          "Minimal–Basic": {
+            "support": 866,
+            "predicted": 599,
+            "tp": 462,
+            "fp": 137,
+            "fn": 404,
+            "tn": 551,
+            "precision": 0.7712854757929883,
+            "recall": 0.5334872979214781,
+            "f1": 0.630716723549488,
+            "one_vs_rest_accuracy": 0.6518661518661518
+          },
+          "Good–Excellent": {
+            "support": 80,
+            "predicted": 277,
+            "tp": 50,
+            "fp": 227,
+            "fn": 30,
+            "tn": 1247,
+            "precision": 0.18050541516245489,
+            "recall": 0.625,
+            "f1": 0.2801120448179272,
+            "one_vs_rest_accuracy": 0.8346203346203346
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 11,
+            "tp": 8,
+            "fp": 3,
+            "fn": 31,
+            "tn": 1512,
+            "precision": 0.7272727272727273,
+            "recall": 0.20512820512820512,
+            "f1": 0.32,
+            "one_vs_rest_accuracy": 0.9781209781209781
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 442,
+            "Minimal–Basic": 106,
+            "Good–Excellent": 20,
+            "Problematic Content": 1
+          },
+          "Minimal–Basic": {
+            "None": 198,
+            "Minimal–Basic": 462,
+            "Good–Excellent": 205,
+            "Problematic Content": 1
+          },
+          "Good–Excellent": {
+            "None": 9,
+            "Minimal–Basic": 20,
+            "Good–Excellent": 50,
+            "Problematic Content": 1
+          },
+          "Problematic Content": {
+            "None": 18,
+            "Minimal–Basic": 11,
+            "Good–Excellent": 2,
+            "Problematic Content": 8
+          }
+        }
+      }
+    },
+    {
+      "model": "meta-models/muse-spark-open",
+      "run": "annotation/evaluation/runs/muse-spark-open-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1554,
+        "accuracy": 0.6254826254826255,
+        "micro_precision": 0.6254826254826255,
+        "macro_precision": 0.577205282399162,
+        "macro_recall": 0.5827773981956774,
+        "macro_f1": 0.5283695882799337,
+        "weighted_f1": 0.6461262207102813,
+        "cohens_kappa": 0.39918090777739024,
+        "per_class": {
+          "None": {
+            "support": 569,
+            "predicted": 640,
+            "tp": 439,
+            "fp": 201,
+            "fn": 130,
+            "tn": 784,
+            "precision": 0.6859375,
+            "recall": 0.7715289982425307,
+            "f1": 0.7262200165425972,
+            "one_vs_rest_accuracy": 0.787001287001287
+          },
+          "Minimal–Basic": {
+            "support": 866,
+            "predicted": 602,
+            "tp": 466,
+            "fp": 136,
+            "fn": 400,
+            "tn": 552,
+            "precision": 0.7740863787375415,
+            "recall": 0.5381062355658198,
+            "f1": 0.6348773841961852,
+            "one_vs_rest_accuracy": 0.6550836550836551
+          },
+          "Good–Excellent": {
+            "support": 80,
+            "predicted": 291,
+            "tp": 53,
+            "fp": 238,
+            "fn": 27,
+            "tn": 1236,
+            "precision": 0.18213058419243985,
+            "recall": 0.6625,
+            "f1": 0.2857142857142857,
+            "one_vs_rest_accuracy": 0.8294723294723295
+          },
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 21,
+            "tp": 14,
+            "fp": 7,
+            "fn": 25,
+            "tn": 1508,
+            "precision": 0.6666666666666666,
+            "recall": 0.358974358974359,
+            "f1": 0.4666666666666667,
+            "one_vs_rest_accuracy": 0.9794079794079794
+          }
+        },
+        "confusion_matrix": {
+          "None": {
+            "None": 439,
+            "Minimal–Basic": 110,
+            "Good–Excellent": 16,
+            "Problematic Content": 4
+          },
+          "Minimal–Basic": {
+            "None": 178,
+            "Minimal–Basic": 466,
+            "Good–Excellent": 219,
+            "Problematic Content": 3
+          },
+          "Good–Excellent": {
+            "None": 8,
+            "Minimal–Basic": 19,
+            "Good–Excellent": 53,
+            "Problematic Content": 0
+          },
+          "Problematic Content": {
+            "None": 15,
+            "Minimal–Basic": 7,
+            "Good–Excellent": 3,
+            "Problematic Content": 14
+          }
+        }
+      }
+    }
+  ]
+}

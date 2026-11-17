@@ -1,5 +1,16 @@
 # Nebius evaluation results — October 28, 2026
 
+Latest recount: [four groups with the human-inspired prompt](reports/human_inspired_four_classes/report.md).
+The grouping is None, Minimal–Basic, Good–Excellent, and Problematic Content.
+The three human None/Minimal conflicts are excluded, leaving 1,554 shared
+documents. Accuracy / macro F1: Qwen3.8 **64.80% / 52.73%**, Nemotron Ultra
+**61.90% / 48.65%**, and Muse Spark Open **62.55% / 52.84%**.
+
+Latest: [human-inspired prompt with merged classes, including Muse Spark Open and
+Nemotron Ultra](reports/human_inspired_merged_classes/report.md).
+Qwen3.5-397B-A17B is recorded as incomplete because Nebius removed its serving ID
+during the run. See the November 2 section below.
+
 **Qwen3.8-27B and Gemma-3-27b-it both completed all 1,557 documents with the unchanged supplied prompt and full texts.**
 
 Primary metrics use the same 1,554 documents with one distinct human label; three conflicting human cases are excluded. Source and prompt hashes match.
@@ -68,3 +79,32 @@ These are comparisons on the existing annotated dataset.
 - [New relabeled dataset](runs/qwen38-27b-human-inspired/llm_annotations.parquet)
 - [New per-document comparisons](runs/qwen38-27b-human-inspired/comparisons.csv)
 - [Exact new prompt snapshot](runs/qwen38-27b-human-inspired/prompt_snapshot.txt)
+
+## Additional models — November 2, 2026
+
+Only the unchanged human-annotation-inspired prompt was used for these runs.
+The comparison below uses the three merged classes on the same 1,557 documents.
+Source and prompt hashes match the existing human-inspired Qwen3.8 baseline.
+
+| Model | Coverage | Merged accuracy | Merged macro F1 |
+|---|---:|---:|---:|
+| Qwen3.8-27B baseline | 1,557/1,557 | 86.06% | 73.02% |
+| Muse Spark Open | 1,557/1,557 | 86.32% | 73.45% |
+| Nemotron-3-Ultra-550b-a55b | 1,557/1,557 | 85.55% | 68.12% |
+| Qwen3.5-397B-A17B | 3/1,557 | Not ranked | Not ranked |
+
+All three requested serving IDs were initially listed in the live Nebius catalog
+and passed a three-document smoke test. Qwen3.5 then returned HTTP 404
+`model_not_found` for the remaining 1,554 documents and disappeared from the
+catalog. Its three saved predictions are retained in a separate partial merged
+report, excluded from the full-cohort ranking. No substitute model was used.
+Muse and Nemotron completed without failed predictions or input truncation.
+These are agreement metrics on the existing human annotations.
+
+- [Full merged-class comparison and run coverage](reports/human_inspired_merged_classes/report.md)
+- [Machine-readable coverage and API errors](reports/human_inspired_merged_classes/coverage.json)
+- [Qwen3.5 partial results: three documents only](reports/human_inspired_merged_classes/partial/qwen35-397b-a17b-human-inspired/report.md)
+- [Availability snapshot](diagnostics/additional_models_availability.json)
+
+Rebuild the report with
+`uv run python annotation/evaluation/run_human_inspired_models.py --report-only`.

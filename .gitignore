@@ -8,3 +8,5 @@ hf_dataset/
 .vscode
 
 annotation/data/
+mapping/data/
+golden_crawlres_fineweb

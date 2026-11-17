@@ -6,5 +6,8 @@ requires-python = ">=3.10"
 dependencies = [
     "datasets>=4.0,<5",
     "huggingface-hub>=0.34,<2",
+    "markdown-it-py>=4.3.0",
+    "pyahocorasick>=2.3.1",
     "pyarrow>=21",
+    "rapidfuzz>=3.14.5",
 ]

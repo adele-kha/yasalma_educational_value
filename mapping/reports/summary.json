@@ -1,0 +1,346 @@
+{
+  "created_at": "2026-11-16T20:52:39.068416+00:00",
+  "manifest": {
+    "policy": {
+      "reference_path": "annotation/data/tat_Cyrl-train.parquet",
+      "reference_repo": "data-is-better-together/fineweb-c",
+      "reference_revision": "913fc6250ca94f032bce31a6e5fa9363ea27ba73",
+      "metadata_path": "with_metadata/train-00000-of-00001.parquet",
+      "fineweb_repo": "HuggingFaceFW/fineweb-2",
+      "fineweb_revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+      "fineweb_paths": [
+        "data/tat_Cyrl/test/000_00000.parquet",
+        "data/tat_Cyrl/train/000_00000.parquet",
+        "data/tat_Cyrl_removed/train/000_00000.parquet"
+      ],
+      "crawl_repo": "yasalma/crawl-res",
+      "crawl_revision": "dc8f0d22c2287e5f8214b26992d87a176aa454a4",
+      "reserve_fineweb_test": true,
+      "seed": 42,
+      "workers": 4,
+      "batch_size": 512,
+      "reference_near_similarity": 0.9,
+      "reference_anchor_chars": 80,
+      "reference_anchor_count": 4,
+      "review_similarity": 0.95,
+      "review_length_ratio": 0.9,
+      "audit_per_status_per_file": 20
+    },
+    "reference_sha256": "0b801f6b86cd468ef49f085257a2cff5329d354c43c6ead38f93a6807e17be14",
+    "reference_rows": 1557,
+    "repositories": {
+      "reference": {
+        "repo": "data-is-better-together/fineweb-c",
+        "revision": "913fc6250ca94f032bce31a6e5fa9363ea27ba73",
+        "files": [
+          {
+            "path": "metadata/README.md",
+            "bytes": 7216
+          },
+          {
+            "path": "metadata/source-manifest.json",
+            "bytes": 35857
+          },
+          {
+            "path": "with_metadata/train-00000-of-00001.parquet",
+            "bytes": 170341889
+          }
+        ]
+      },
+      "fineweb": {
+        "repo": "HuggingFaceFW/fineweb-2",
+        "revision": "af9c13333eb981300149d5ca60a8e9d659b276b9",
+        "files": [
+          {
+            "path": "data/tat_Cyrl/test/000_00000.parquet",
+            "bytes": 6380107
+          },
+          {
+            "path": "data/tat_Cyrl/train/000_00000.parquet",
+            "bytes": 513155438
+          },
+          {
+            "path": "data/tat_Cyrl_removed/train/000_00000.parquet",
+            "bytes": 1917806723
+          }
+        ]
+      },
+      "crawl": {
+        "repo": "yasalma/crawl-res",
+        "revision": "dc8f0d22c2287e5f8214b26992d87a176aa454a4",
+        "files": [
+          {
+            "path": "data/000_00000.parquet",
+            "bytes": 29143097
+          },
+          {
+            "path": "data/000_00001.parquet",
+            "bytes": 27510754
+          },
+          {
+            "path": "data/000_00002.parquet",
+            "bytes": 30651618
+          },
+          {
+            "path": "data/000_00003.parquet",
+            "bytes": 28419619
+          },
+          {
+            "path": "data/000_00004.parquet",
+            "bytes": 28621416
+          },
+          {
+            "path": "data/000_00005.parquet",
+            "bytes": 27142570
+          },
+          {
+            "path": "data/000_00006.parquet",
+            "bytes": 20874643
+          },
+          {
+            "path": "data/000_00007.parquet",
+            "bytes": 20580659
+          },
+          {
+            "path": "data/000_00008.parquet",
+            "bytes": 20479241
+          },
+          {
+            "path": "data/000_00009.parquet",
+            "bytes": 20066296
+          },
+          {
+            "path": "data/000_00010.parquet",
+            "bytes": 21747721
+          },
+          {
+            "path": "data/000_00011.parquet",
+            "bytes": 23551229
+          },
+          {
+            "path": "data/000_00012.parquet",
+            "bytes": 22718525
+          },
+          {
+            "path": "data/000_00013.parquet",
+            "bytes": 22978001
+          },
+          {
+            "path": "data/000_00014.parquet",
+            "bytes": 23608718
+          },
+          {
+            "path": "data/000_00015.parquet",
+            "bytes": 23380690
+          },
+          {
+            "path": "data/000_00016.parquet",
+            "bytes": 20860313
+          },
+          {
+            "path": "data/000_00017.parquet",
+            "bytes": 22468401
+          },
+          {
+            "path": "data/000_00018.parquet",
+            "bytes": 22353098
+          },
+          {
+            "path": "data/000_00019.parquet",
+            "bytes": 24386689
+          },
+          {
+            "path": "data/000_00020.parquet",
+            "bytes": 18830913
+          },
+          {
+            "path": "data/000_00021.parquet",
+            "bytes": 19540322
+          },
+          {
+            "path": "data/000_00022.parquet",
+            "bytes": 17954493
+          },
+          {
+            "path": "data/000_00023.parquet",
+            "bytes": 18151864
+          },
+          {
+            "path": "data/000_00024.parquet",
+            "bytes": 182287217
+          },
+          {
+            "path": "data/000_00025.parquet",
+            "bytes": 274290957
+          },
+          {
+            "path": "data/000_00026.parquet",
+            "bytes": 191253607
+          },
+          {
+            "path": "data/000_00027.parquet",
+            "bytes": 189255609
+          },
+          {
+            "path": "data/000_00028.parquet",
+            "bytes": 328343617
+          },
+          {
+            "path": "data/000_00029.parquet",
+            "bytes": 439672593
+          },
+          {
+            "path": "data/000_00030.parquet",
+            "bytes": 172737246
+          },
+          {
+            "path": "data/000_00031.parquet",
+            "bytes": 323674586
+          },
+          {
+            "path": "data/000_00032.parquet",
+            "bytes": 339886821
+          },
+          {
+            "path": "data/000_00033.parquet",
+            "bytes": 190304325
+          },
+          {
+            "path": "data/000_00034.parquet",
+            "bytes": 134715608
+          },
+          {
+            "path": "data/000_00035.parquet",
+            "bytes": 39712142
+          },
+          {
+            "path": "data/000_00036.parquet",
+            "bytes": 38620563
+          },
+          {
+            "path": "data/000_00037.parquet",
+            "bytes": 39424805
+          },
+          {
+            "path": "data/000_00038.parquet",
+            "bytes": 3932157
+          },
+          {
+            "path": "data/000_00039.parquet",
+            "bytes": 4052655
+          },
+          {
+            "path": "data/000_00040.parquet",
+            "bytes": 4516421
+          },
+          {
+            "path": "data/000_00041.parquet",
+            "bytes": 4599861
+          },
+          {
+            "path": "data/000_00042.parquet",
+            "bytes": 4277152
+          },
+          {
+            "path": "data/000_00043.parquet",
+            "bytes": 4937120
+          },
+          {
+            "path": "data/000_00044.parquet",
+            "bytes": 4158759
+          },
+          {
+            "path": "data/000_00045.parquet",
+            "bytes": 3967332
+          },
+          {
+            "path": "data/000_00046.parquet",
+            "bytes": 39667249
+          },
+          {
+            "path": "data/000_00047.parquet",
+            "bytes": 37090241
+          },
+          {
+            "path": "data/000_00048.parquet",
+            "bytes": 7168981
+          },
+          {
+            "path": "data/000_00049.parquet",
+            "bytes": 7097262
+          }
+        ]
+      }
+    }
+  },
+  "crawl_rows": 4265586,
+  "pair_status_counts": {
+    "no_fineweb_url_candidate": 3197631,
+    "url_content_mismatch": 700997,
+    "excluded_reference_or_test": 3994,
+    "near_requires_review": 244952,
+    "exact_visible_tokens": 118012
+  },
+  "crawl_sources": {
+    "community-oscar-tatar": 290501,
+    "hplt2": 196230,
+    "hplt3": 148683,
+    "crawl-raw": 3058862,
+    "ruwiki": 205163,
+    "culturax": 37171,
+    "fineweb2": 14337,
+    "finewiki": 314639
+  },
+  "crawl_canonical_length_groups": {
+    "2000–7999": 542920,
+    "500–1999": 1709577,
+    "<500": 1939148,
+    "8000+": 73941
+  },
+  "unique_exact_canonical_length_groups": {
+    "<500": 27953,
+    "2000–7999": 23344,
+    "500–1999": 63597,
+    "8000+": 2667
+  },
+  "exact_pair_sources": {
+    "community-oscar-tatar": 17486,
+    "hplt2": 11684,
+    "crawl-raw": 75821,
+    "fineweb2": 3541,
+    "finewiki": 234,
+    "hplt3": 9032,
+    "culturax": 214
+  },
+  "unique_exact_pair_sources": {
+    "community-oscar-tatar": 17428,
+    "hplt2": 11676,
+    "crawl-raw": 75487,
+    "fineweb2": 3537,
+    "finewiki": 234,
+    "hplt3": 8985,
+    "culturax": 214
+  },
+  "exact_pair_rows": 118012,
+  "unique_exact_content_pairs": 117561,
+  "duplicate_pair_rows": 451,
+  "exact_pair_rows_before_quarantine": 118012,
+  "post_scan_quarantine_rows": 0,
+  "exclusions": 3994,
+  "reference_documents_with_crawl_hits": 1386,
+  "reference_documents_with_equivalent_markdown": 151,
+  "reference_rows": 1557,
+  "reference_upstream_unresolved": 60,
+  "annotation_selection_status": "not_selected_awaiting_user_policy",
+  "limitations": [
+    "Only Tatar Cyrillic retained/train, retained/test and removed/train in the pinned FineWeb release were searched; historical recovery uses the pinned upstream metadata export.",
+    "Training acceptance requires identical normalized visible word/number sequences, not just a URL match. Punctuation/casing/Unicode presentation are normalized; images and their semantics are not evaluated.",
+    "Near-equivalent pairs are audit candidates only and are not included in the exact-pair inventory.",
+    "Reference near-duplicate screening uses a finite anchor set and similarity threshold; it is approximate and cannot prove absence of every transformed duplicate.",
+    "The inventory groups exact canonical-content duplicates only; near-duplicate and sampling policies between candidates have not been chosen.",
+    "The exact-pair inventory is an intersection, not a representative sample of crawl-res. No annotation subset has been selected.",
+    "All-crawl length bands use the cheap Markdown screen; paired/sample bands use fully parsed visible text. The bands are approximate screening diagnostics, not tokenizer lengths.",
+    "The existing reference set has informed model/prompt development; it is a development benchmark, not a pristine final test set.",
+    "No annotation set was selected and no LLM labels were generated."
+  ]
+}

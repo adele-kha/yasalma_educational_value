@@ -1,0 +1,36 @@
+[
+  {
+    "model": "Qwen/Qwen3.8-27B",
+    "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/qwen38-27b-human-inspired",
+    "successful": 1557,
+    "total": 1557,
+    "complete": true,
+    "errors": []
+  },
+  {
+    "model": "meta-models/muse-spark-open",
+    "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/muse-spark-open-human-inspired",
+    "successful": 1557,
+    "total": 1557,
+    "complete": true,
+    "errors": []
+  },
+  {
+    "model": "Qwen/Qwen3.5-397B-A17B",
+    "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/qwen35-397b-a17b-human-inspired",
+    "successful": 3,
+    "total": 1557,
+    "complete": false,
+    "errors": [
+      "HTTP 404: {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"The model `Qwen/Qwen3.5-397B-A17B` does not exist.\",\"param\":\"model\",\"code\":\"model_not_found\"},\"detail\":\"Invalid request. Please check the parameters and try again. Details: The model `Qwen/Qwen3.5-397B-A17B` does not exist.\"}"
+    ]
+  },
+  {
+    "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+    "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/nemotron3-ultra-550b-a55b-human-inspired",
+    "successful": 1557,
+    "total": 1557,
+    "complete": true,
+    "errors": []
+  }
+]

@@ -1,0 +1,143 @@
+You are an expert annotator evaluating the educational value of Tatar-language web content.
+
+Your task is to reproduce the judgments of human annotators who classified Tatar web documents according to their educational usefulness.
+
+Read the extract carefully and assign exactly ONE label:
+
+None, Minimal, Basic, Good, Excellent, or Problematic Content.
+
+The labels reflect how much meaningful knowledge a reader can acquire from the text, how well that knowledge is explained, and how useful the text is for learning.
+
+Educational content does not need to be a formal lesson. Encyclopedia articles, historical accounts, scientific explanations, cultural information, recipes, practical guides, and literary material may all have educational value.
+
+However, merely mentioning facts, educational institutions, scientific subjects, or historical events does not automatically make a document educational.
+
+## Step 1: Identify Problematic Content
+
+Assign **Problematic Content** if the extract:
+
+- Is clearly an unnatural or defective automatic translation into Tatar, especially machine-translated advertising or product descriptions.
+- Is predominantly written in a language other than Tatar.
+- Contains severe textual corruption, broken words, mixed characters within words, encoding problems, or incoherent text.
+
+Do not penalize coherent Tatar text for Russian loanwords, occasional code-switching, specialized terminology, or unfamiliar cultural references.
+
+If the extract is problematic, assign **Problematic Content** and stop.
+
+## Step 2: Evaluate Educational Value
+
+### None — Reporting without meaningful teaching
+
+Assign **None** when the text mainly announces, reports, advertises, entertains, or expresses opinions without providing substantial explanations or knowledge.
+
+Typical examples:
+- Simple news reports about events, politics, sports, or public activities.
+- Announcements of competitions, concerts, conferences, and educational events.
+- Reports about schools, universities, or scientific conferences that do not explain the underlying subject.
+- Advertising, promotional material, product listings, and personal updates.
+- Everyday conversations and entertainment discussions.
+
+Important: A text can contain factual information and still be **None**. Reporting who, what, where, and when is not sufficient evidence of educational value.
+
+### Minimal — Mostly reporting, with some useful background
+
+Assign **Minimal** when the text is primarily non-educational but includes a small amount of meaningful factual, historical, technical, or cultural context.
+
+Typical examples:
+- News articles containing brief historical explanations.
+- Event reports describing the background of a tradition or cultural practice.
+- Travel writing containing basic facts about a location.
+- Product descriptions mentioning a few technical characteristics.
+- Institutional articles providing limited background about an industry or subject.
+
+The key distinction from None is the presence of useful background knowledge beyond the immediate event or announcement.
+
+The key distinction from Basic is that explaining the subject is not the text's primary purpose.
+
+### Basic — Primarily informative or explanatory
+
+Assign **Basic** when the main purpose of the text is to describe a subject, communicate knowledge, or explain a concept, but the treatment is relatively introductory, superficial, fragmented, or limited in depth.
+
+Typical examples:
+- Simple Wikipedia-style biographies.
+- Basic encyclopedia entries about places, people, historical events, or scientific concepts.
+- Introductory explanations of technology, religion, culture, geography, or history.
+- Short educational articles without substantial detail.
+- Informative literary narratives and cultural descriptions.
+- Simple classroom exercises or learning materials with limited explanation.
+
+A text may contain technical terminology or advanced subject matter and still be Basic if it mainly summarizes or lists facts rather than explaining them in depth.
+
+Use Basic as the default for ordinary coherent encyclopedia-style articles.
+
+### Good — Substantial and useful knowledge
+
+Assign **Good** when the text provides substantial educational or informational value through detailed, coherent explanations, organized presentation, or practical instruction.
+
+Typical examples:
+- Detailed encyclopedia or reference articles that go beyond introductory descriptions.
+- Scientific or technical articles explaining concepts, mechanisms, or processes.
+- Well-developed historical or cultural explanations.
+- Structured lessons and educational materials.
+- Detailed recipes, gardening advice, religious instructions, and practical tutorials.
+- Informative biographies that explain significant achievements, contributions, or historical context.
+
+Formal instructional features such as exercises, learning objectives, or step-by-step procedures are helpful but not required.
+
+The text must provide more than an ordinary factual summary. Look for meaningful depth, explanations, connections between ideas, detailed descriptions, or knowledge that readers can apply.
+
+Do not assign Good simply because the text is long, factual, technical, or written in an academic style.
+
+### Excellent — Exceptionally deep and comprehensive educational content
+
+Assign **Excellent** when the text is an exceptionally valuable resource for learning, with substantial depth, extensive explanations, strong organization, and comprehensive coverage of its subject.
+
+Typical examples:
+- Detailed educational lessons with clear objectives, explanations, and activities.
+- In-depth scientific, technical, or academic articles.
+- Comprehensive reference material explaining complex concepts and their relationships.
+- Expert-level guides with meaningful examples or practical applications.
+- Extensive educational treatments of history, language, literature, culture, or social science.
+
+Excellent does not require a formal classroom format. A deeply informative academic or reference article can qualify.
+
+However, advanced vocabulary, specialized terminology, and document length alone are insufficient.
+
+Reserve Excellent for texts that offer unusually substantial learning value compared with typical informative articles.
+
+## Step 3: Resolve Ambiguous Cases
+
+Apply these distinctions carefully:
+
+- **None vs. Minimal:** Does the text contain meaningful background knowledge beyond reporting an event?
+- **Minimal vs. Basic:** Is explaining or describing a subject the primary purpose of the text?
+- **Basic vs. Good:** Does the text provide substantial explanation, depth, organization, or practical usefulness beyond an introductory overview?
+- **Good vs. Excellent:** Is the educational treatment exceptionally comprehensive, detailed, and insightful rather than merely useful and well-written?
+
+Additional rules:
+
+- A simple news article is generally None, even when it concerns science, education, or culture.
+- A news article with incidental historical or contextual information may be Minimal.
+- A typical Wikipedia-style article is generally Basic.
+- A detailed encyclopedia article with substantial explanations may be Good.
+- An exceptionally comprehensive and deep reference article may be Excellent.
+- A recipe with clear, useful instructions may be Good.
+- A structured school lesson may be Good or Excellent depending on its depth and completeness.
+- Fiction and literary texts should be evaluated for the knowledge and learning value they actually provide, not automatically assigned a high score because they are literature.
+- Do not confuse the importance of a topic with the educational quality of the extract.
+- Evaluate only the supplied extract. Do not assume missing sections contain additional educational content.
+
+## Extract
+
+{example}
+
+## Output
+
+Provide a brief justification in English (maximum 100 words) explaining what the text contains and why it belongs to the selected category.
+
+Return exactly:
+
+Reason: <brief justification>
+Educational label: <None | Minimal | Basic | Good | Excellent | Problematic Content>
+
+Do not output numerical scores or additional labels.

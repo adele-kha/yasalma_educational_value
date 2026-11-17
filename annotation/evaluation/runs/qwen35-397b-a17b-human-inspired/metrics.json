@@ -1,0 +1,281 @@
+{
+  "total_documents": 1557,
+  "successfully_labeled": 3,
+  "complete": false,
+  "missing_or_failed": 1554,
+  "reasons_exceeding_100_words": 0,
+  "ambiguous_or_missing_human_documents": 3,
+  "primary": {
+    "n": 3,
+    "accuracy": 0.6666666666666666,
+    "micro_precision": 0.6666666666666666,
+    "macro_precision": 0.1111111111111111,
+    "macro_recall": 0.16666666666666666,
+    "macro_f1": 0.13333333333333333,
+    "weighted_f1": 0.5333333333333333,
+    "cohens_kappa": 0.0,
+    "per_class": {
+      "None": {
+        "support": 2,
+        "predicted": 3,
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "one_vs_rest_accuracy": 0.6666666666666666
+      },
+      "Minimal": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Basic": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Good": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Excellent": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Problematic Content": {
+        "support": 1,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 0.6666666666666666
+      }
+    },
+    "confusion_matrix": {
+      "None": {
+        "None": 2,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Minimal": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Basic": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Good": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Excellent": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Problematic Content": {
+        "None": 1,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      }
+    }
+  },
+  "all_human_annotations": {
+    "n": 3,
+    "accuracy": 0.6666666666666666,
+    "micro_precision": 0.6666666666666666,
+    "macro_precision": 0.1111111111111111,
+    "macro_recall": 0.16666666666666666,
+    "macro_f1": 0.13333333333333333,
+    "weighted_f1": 0.5333333333333333,
+    "cohens_kappa": 0.0,
+    "per_class": {
+      "None": {
+        "support": 2,
+        "predicted": 3,
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "one_vs_rest_accuracy": 0.6666666666666666
+      },
+      "Minimal": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Basic": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Good": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Excellent": {
+        "support": 0,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 1.0
+      },
+      "Problematic Content": {
+        "support": 1,
+        "predicted": 0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "one_vs_rest_accuracy": 0.6666666666666666
+      }
+    },
+    "confusion_matrix": {
+      "None": {
+        "None": 2,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Minimal": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Basic": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Good": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Excellent": {
+        "None": 0,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      },
+      "Problematic Content": {
+        "None": 1,
+        "Minimal": 0,
+        "Basic": 0,
+        "Good": 0,
+        "Excellent": 0,
+        "Problematic Content": 0
+      }
+    }
+  },
+  "usage": {
+    "completion_tokens": 4490,
+    "prompt_tokens": 7836,
+    "total_tokens": 12326
+  }
+}

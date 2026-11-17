@@ -1,0 +1,92 @@
+{
+  "groups": {
+    "Problematic Content": [
+      "Problematic Content"
+    ],
+    "None–Minimal": [
+      "None",
+      "Minimal"
+    ],
+    "Basic–Good–Excellent": [
+      "Basic",
+      "Good",
+      "Excellent"
+    ]
+  },
+  "allow_different_prompts": false,
+  "shared_successful_documents": 3,
+  "scored_documents": 3,
+  "excluded_after_merging": 0,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.5-397B-A17B",
+      "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/qwen35-397b-a17b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 3,
+        "accuracy": 0.6666666666666666,
+        "micro_precision": 0.6666666666666666,
+        "macro_precision": 0.2222222222222222,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.26666666666666666,
+        "weighted_f1": 0.5333333333333333,
+        "cohens_kappa": 0.0,
+        "per_class": {
+          "Problematic Content": {
+            "support": 1,
+            "predicted": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "tn": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "one_vs_rest_accuracy": 0.6666666666666666
+          },
+          "None–Minimal": {
+            "support": 2,
+            "predicted": 3,
+            "tp": 2,
+            "fp": 1,
+            "fn": 0,
+            "tn": 0,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8,
+            "one_vs_rest_accuracy": 0.6666666666666666
+          },
+          "Basic–Good–Excellent": {
+            "support": 0,
+            "predicted": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "one_vs_rest_accuracy": 1.0
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 0,
+            "None–Minimal": 1,
+            "Basic–Good–Excellent": 0
+          },
+          "None–Minimal": {
+            "Problematic Content": 0,
+            "None–Minimal": 2,
+            "Basic–Good–Excellent": 0
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 0,
+            "None–Minimal": 0,
+            "Basic–Good–Excellent": 0
+          }
+        }
+      }
+    }
+  ]
+}

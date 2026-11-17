@@ -1,0 +1,232 @@
+{
+  "groups": {
+    "Problematic Content": [
+      "Problematic Content"
+    ],
+    "None–Minimal": [
+      "None",
+      "Minimal"
+    ],
+    "Basic–Good–Excellent": [
+      "Basic",
+      "Good",
+      "Excellent"
+    ]
+  },
+  "allow_different_prompts": false,
+  "shared_successful_documents": 1557,
+  "scored_documents": 1557,
+  "excluded_after_merging": 0,
+  "models": [
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/qwen38-27b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.8606294155427103,
+        "micro_precision": 0.8606294155427103,
+        "macro_precision": 0.7837992570746208,
+        "macro_recall": 0.7048913140301885,
+        "macro_f1": 0.7302498611919682,
+        "weighted_f1": 0.8591381544066699,
+        "cohens_kappa": 0.7255875150762032,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 22,
+            "tp": 14,
+            "fp": 8,
+            "fn": 25,
+            "tn": 1510,
+            "precision": 0.6363636363636364,
+            "recall": 0.358974358974359,
+            "f1": 0.459016393442623,
+            "one_vs_rest_accuracy": 0.9788053949903661
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 856,
+            "tp": 781,
+            "fp": 75,
+            "fn": 131,
+            "tn": 570,
+            "precision": 0.9123831775700935,
+            "recall": 0.856359649122807,
+            "f1": 0.8834841628959277,
+            "one_vs_rest_accuracy": 0.867694283879255
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 679,
+            "tp": 545,
+            "fp": 134,
+            "fn": 61,
+            "tn": 817,
+            "precision": 0.8026509572901326,
+            "recall": 0.8993399339933993,
+            "f1": 0.8482490272373542,
+            "one_vs_rest_accuracy": 0.8747591522157996
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 14,
+            "None–Minimal": 16,
+            "Basic–Good–Excellent": 9
+          },
+          "None–Minimal": {
+            "Problematic Content": 6,
+            "None–Minimal": 781,
+            "Basic–Good–Excellent": 125
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 2,
+            "None–Minimal": 59,
+            "Basic–Good–Excellent": 545
+          }
+        }
+      }
+    },
+    {
+      "model": "meta-models/muse-spark-open",
+      "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/muse-spark-open-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.8631984585741811,
+        "micro_precision": 0.8631984585741811,
+        "macro_precision": 0.7953462466736804,
+        "macro_recall": 0.7067224181932362,
+        "macro_f1": 0.7344791171656371,
+        "weighted_f1": 0.8615383676281044,
+        "cohens_kappa": 0.7303876377365116,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 21,
+            "tp": 14,
+            "fp": 7,
+            "fn": 25,
+            "tn": 1511,
+            "precision": 0.6666666666666666,
+            "recall": 0.358974358974359,
+            "f1": 0.4666666666666667,
+            "one_vs_rest_accuracy": 0.9794476557482338
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 858,
+            "tp": 783,
+            "fp": 75,
+            "fn": 129,
+            "tn": 570,
+            "precision": 0.9125874125874126,
+            "recall": 0.8585526315789473,
+            "f1": 0.8847457627118644,
+            "one_vs_rest_accuracy": 0.8689788053949904
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 678,
+            "tp": 547,
+            "fp": 131,
+            "fn": 59,
+            "tn": 820,
+            "precision": 0.8067846607669616,
+            "recall": 0.9026402640264026,
+            "f1": 0.85202492211838,
+            "one_vs_rest_accuracy": 0.8779704560051381
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 14,
+            "None–Minimal": 17,
+            "Basic–Good–Excellent": 8
+          },
+          "None–Minimal": {
+            "Problematic Content": 6,
+            "None–Minimal": 783,
+            "Basic–Good–Excellent": 123
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 1,
+            "None–Minimal": 58,
+            "Basic–Good–Excellent": 547
+          }
+        }
+      }
+    },
+    {
+      "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "run": "/Users/adeliakhasanova/yasalma_educational_value/annotation/evaluation/runs/nemotron3-ultra-550b-a55b-human-inspired",
+      "prompt_sha256": "6a4f6956fc01e9dad42a9d4f3af10b5a7aeac3a315a3a804d1c3517015054eaa",
+      "metrics": {
+        "n": 1557,
+        "accuracy": 0.8554913294797688,
+        "micro_precision": 0.8554913294797688,
+        "macro_precision": 0.8093814825703497,
+        "macro_recall": 0.6528782685960903,
+        "macro_f1": 0.6812298096034731,
+        "weighted_f1": 0.8512035452243182,
+        "cohens_kappa": 0.7133779067198799,
+        "per_class": {
+          "Problematic Content": {
+            "support": 39,
+            "predicted": 11,
+            "tp": 8,
+            "fp": 3,
+            "fn": 31,
+            "tn": 1515,
+            "precision": 0.7272727272727273,
+            "recall": 0.20512820512820512,
+            "f1": 0.32,
+            "one_vs_rest_accuracy": 0.9781631342324983
+          },
+          "None–Minimal": {
+            "support": 912,
+            "predicted": 865,
+            "tp": 779,
+            "fp": 86,
+            "fn": 133,
+            "tn": 559,
+            "precision": 0.900578034682081,
+            "recall": 0.8541666666666666,
+            "f1": 0.8767585818795723,
+            "one_vs_rest_accuracy": 0.859344894026975
+          },
+          "Basic–Good–Excellent": {
+            "support": 606,
+            "predicted": 681,
+            "tp": 545,
+            "fp": 136,
+            "fn": 61,
+            "tn": 815,
+            "precision": 0.8002936857562408,
+            "recall": 0.8993399339933993,
+            "f1": 0.846930846930847,
+            "one_vs_rest_accuracy": 0.8734746307000643
+          }
+        },
+        "confusion_matrix": {
+          "Problematic Content": {
+            "Problematic Content": 8,
+            "None–Minimal": 26,
+            "Basic–Good–Excellent": 5
+          },
+          "None–Minimal": {
+            "Problematic Content": 2,
+            "None–Minimal": 779,
+            "Basic–Good–Excellent": 131
+          },
+          "Basic–Good–Excellent": {
+            "Problematic Content": 1,
+            "None–Minimal": 60,
+            "Basic–Good–Excellent": 545
+          }
+        }
+      }
+    }
+  ]
+}
